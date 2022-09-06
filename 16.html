@@ -41,7 +41,7 @@
 
   
   
-  <link href="../../lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
 
 
 
@@ -49,46 +49,60 @@
 
 
 
-<link href="../../lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
 
-<link href="../../css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="../../images/apple-touch-icon-next.png?v=5.1.4">
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="../../images/favicon-32x32-next.png?v=5.1.4">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="../../images/favicon-16x16-next.png?v=5.1.4">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="../../images/logo.svg?v=5.1.4" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
-
-
-
-  <meta name="keywords" content="Hexo, NexT">
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
 
 
 
 
 
-  <link rel="alternate" href="../../atom.xml" title="动漫作坊 – 分享动漫制作" type="application/atom+xml">
+  <meta name="keywords" content="blender,">
+
+
+
+
+
+  <link rel="alternate" href="atom.xml" title="动漫作坊 – 分享动漫制作" type="application/atom+xml">
 
 
 
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="动漫作坊 – 分享动漫制作">
-<meta property="og:url" content="https://acg.newban.cn/tags/2D动画/index.html">
+<meta name="description" content="前言有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度 比如以下几种方式: 添加HDRIHDRI(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:  它有点类似于全景图, 让物体置身于其中 利用HDRI 我们能得到一个非常漂亮和">
+<meta name="keywords" content="blender">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blender 3D建模之提升作品真实度的小技巧">
+<meta property="og:url" content="https://acg.newban.cn/16.html">
 <meta property="og:site_name" content="动漫作坊 – 分享动漫制作">
+<meta property="og:description" content="前言有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度 比如以下几种方式: 添加HDRIHDRI(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:  它有点类似于全景图, 让物体置身于其中 利用HDRI 我们能得到一个非常漂亮和">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143541734.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143617192.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150246960.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906152742875.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150530843.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151126199.png">
+<meta property="og:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151157135.png">
+<meta property="og:updated_time" content="2022-09-06T07:27:58.467Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="动漫作坊 – 分享动漫制作">
+<meta name="twitter:title" content="Blender 3D建模之提升作品真实度的小技巧">
+<meta name="twitter:description" content="前言有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度 比如以下几种方式: 添加HDRIHDRI(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:  它有点类似于全景图, 让物体置身于其中 利用HDRI 我们能得到一个非常漂亮和">
+<meta name="twitter:image" content="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png">
 
 
 
@@ -127,13 +141,13 @@
 
 
 
-  <link rel="canonical" href="https://acg.newban.cn/tags/2D动画/">
+  <link rel="canonical" href="https://acg.newban.cn/16.html">
 
 
 
 
 
-  <title>标签: 2D动画 | 动漫作坊 – 分享动漫制作</title>
+  <title>Blender 3D建模之提升作品真实度的小技巧 | 动漫作坊 – 分享动漫制作</title>
   
 
 
@@ -152,7 +166,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -258,52 +272,193 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>2D动画<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="../../1.html" itemprop="url">
-              
-                <span itemprop="name">Adobe Animate CC 动画制作快速上手</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">Blender 3D建模之提升作品真实度的小技巧</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2021-12-22T15:19:53+08:00" content="2021-12-22">
-          12-22
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-05T17:19:53+08:00">
+                2022-09-05
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度</p>
+<p>比如以下几种方式:</p>
+<h3 id="添加HDRI"><a href="#添加HDRI" class="headerlink" title="添加HDRI"></a>添加HDRI</h3><p><strong>HDRI</strong>(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png" alt="image-20220906144722452"></p>
+<p>它有点类似于全景图, 让物体置身于其中</p>
+<p>利用<code>HDRI</code> 我们能得到一个非常漂亮和真实的渲染效果</p>
+<p>在<code>Blender</code>中, 具体设置如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143541734.png" alt="image-20220906143541734"></p>
+<p>假如我们取消<code>HDRI</code>,  那么效果截然不同:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143617192.png" alt="image-20220906143617192"></p>
+<p>是不是差距很大</p>
+<h3 id="灯光设置"><a href="#灯光设置" class="headerlink" title="灯光设置"></a>灯光设置</h3><ol>
+<li><p><strong>开启接触阴影</strong></p>
+<p>选择灯光后在属性面板设置中将接触阴影勾选上, 然后根据实际的场景来调节相应的距离偏移参数:</p>
+<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150246960.png" alt="image-20220906150246960"></p>
+<p> 接触阴影 顾名思义 它可以增加物体与物体之间的阴影, 适量添加一些可以增加场景立体感</p>
+<p> 我们来对比一下, 首先是开启前的样子:</p>
+<p> ![image-20220906152351769](/Users/songjian/Library/Application Support/typora-user-images/image-20220906152351769.png)</p>
+<p> 开启接触阴影后的效果:</p>
+<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906152742875.png" alt="image-20220906152742875"></p>
+</li>
+</ol>
+<h3 id="渲染引擎设置"><a href="#渲染引擎设置" class="headerlink" title="渲染引擎设置"></a>渲染引擎设置</h3><p>如果你使用的是<code>Eevee</code>渲染引擎, 那么可以考虑将环境光遮蔽功能打开:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150530843.png" alt="image-20220906150530843"></p>
+<p>我们来对比看看效果, 这个开启前的样子:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151126199.png" alt="image-20220906151126199"></p>
+<p>开启后的效果:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151157135.png" alt="image-20220906151157135"></p>
+<p>我们能明显看出来 开启环境光遮蔽后, 物体暗面更加清晰了, 这使得物体更加具有立体感和真实感</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="tags/blender/" rel="tag"># blender</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="15.html" rel="next" title="Blender 3D建模之碧血剑 附工程下载">
+                <i class="fa fa-chevron-left"></i> Blender 3D建模之碧血剑 附工程下载
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="17.html" rel="prev" title="关于Blender一些实用的插件汇总">
+                关于Blender一些实用的插件汇总 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+    <!-- 有瓣音频文章内嵌广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6145016388"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+  <!-- 有瓣音频信息流广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6455528644"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
           </div>
@@ -311,6 +466,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -331,8 +490,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -370,7 +538,7 @@
 
           
             <div class="feed-link motion-element">
-              <a href="../../atom.xml" rel="alternate">
+              <a href="atom.xml" rel="alternate">
                 <i class="fa fa-rss"></i>
                 RSS
               </a>
@@ -390,6 +558,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#添加HDRI"><span class="nav-number">2.</span> <span class="nav-text">添加HDRI</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#灯光设置"><span class="nav-number">3.</span> <span class="nav-text">灯光设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#渲染引擎设置"><span class="nav-number">4.</span> <span class="nav-text">渲染引擎设置</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -501,53 +685,57 @@
 
   
   
-    <script type="text/javascript" src="../../lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="../../lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
   
 
   
   
-    <script type="text/javascript" src="../../lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
   
 
   
   
-    <script type="text/javascript" src="../../lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../../lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="../../lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
 
   
 
 
-  <script type="text/javascript" src="../../js/src/utils.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
 
-  <script type="text/javascript" src="../../js/src/motion.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="js/src/post-details.js?v=5.1.4"></script>
 
 
 
   
-  
-
-  
-
-  
 
 
-  <script type="text/javascript" src="../../js/src/bootstrap.js?v=5.1.4"></script>
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
 
 
 

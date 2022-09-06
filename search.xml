@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Adobe Animate CC 动画制作快速上手</title>
+    <url>/1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><code>Adobe Animate CC</code>简称为<code>An</code>, 前身为<code>Flash</code>, 一款2D动画制作软件, 界面简洁 , 对新手友好</p>
+<p>主界面如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211222152615479.png" alt="image-20211222152615479"></p>
+<p><strong>应用场景:</strong></p>
+<ul>
+<li>二维动画制作</li>
+<li>VR动画制作</li>
+<li>网页动画制作</li>
+<li>交互动画和游戏制作</li>
+</ul>
+<h3 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h3><p> 我们知道动画其实是由多个静态画面按照某个时间顺序依次展现所形成的</p>
+<p>比如我们可以每秒依次展现60张画面, 也可以每秒10张, 数量越多动画就越细腻, 具体每张画面或者每个动作间隔多长时间, 完全取决于创作者</p>
+<p>那么在软件中, 有以下快键键方便我们进行制作:</p>
+<ol>
+<li><p><strong>在时间线上打关键帧</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F7</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>在时间线上打空白延续帧</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F5</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
+</ol>
+<h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><ol>
+<li><p>适合新手入门的一套教程:</p>
+<iframe src="//player.bilibili.com/player.html?aid=713055289&bvid=BV1qX4y1M761&cid=264976897&page=4" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+</li>
+<li><p>国外大佬的一套系列的视频, 有兴趣可以跳转至B站观看:</p>
+<iframe src="//player.bilibili.com/player.html?aid=542900562&bvid=BV16i4y1V7df&cid=331789772&page=1" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+
+
+
+
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>2D动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gift转Mp4 文本转语音 语音生成字幕 视频创作经验分享</title>
+    <url>/11.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在公司上班时, 突然心血来潮想制作一个视频, 平常录制视频都是使用<code>OBS Studio</code>, 但是在公司吧, 一来没法录声音 二来没装<code>OBS</code></p>
+<p>此时 我们就得考虑采用一种迂回方案, 那就是图像和声音分开录制, 然后再进行合成</p>
+<p>图像的录制我采用的是<code>LICEcap</code>, 这是一个跨平台的屏幕录像工具, 关于这个工具, 可以参考《<a href="https://code.newban.cn/313.html" target="_blank" rel="noopener">一款跨平台的Gif录制工具</a>》, 当然你可以直接使用系统自带的录屏工具, 或者QQ录屏也行</p>
+<p>声音的话我采用的是文字转语音, 然后顺带将语音生成相应的字幕文件</p>
+<p>音视频合成我采用的是<code>blender</code>的视频剪辑功能, 顺带给视频添加了背景音乐</p>
+<p>最后的字幕合成我用的是<code>tipard_video_converter_ultimate</code>这款转换工具</p>
+<p>以下是制作流程和工具介绍</p>
+<h3 id="图像录制"><a href="#图像录制" class="headerlink" title="图像录制"></a>图像录制</h3><p>你可以使用以下其中一种工具:</p>
+<ul>
+<li><strong>OBS Studio</strong> : 跨平台录屏直播推流神器, 免费软件, 非常强大, 推荐使用</li>
+<li><strong>LICEcap</strong>: 跨平台<code>gif</code>录制工具</li>
+<li><strong>系统自带录屏</strong> : <code>Windows10</code>平台可以使用<code>Xbox Game Bar</code>, <code>Mac</code>平台可以使用截屏工具或者<code>QuickTime</code></li>
+<li><strong>QQ录屏</strong>: 录屏后可以导出为<code>gif, mp4,mov</code>三种格式, 非常方便</li>
+</ul>
+<h3 id="Gif转Mp4"><a href="#Gif转Mp4" class="headerlink" title="Gif转Mp4"></a>Gif转Mp4</h3><ul>
+<li><a href="https://convertio.co/" target="_blank" rel="noopener">CovertIo</a> : 非常好用的在线文件格式转换工具, 可以对图片和视频进行格式转换</li>
+</ul>
+<h3 id="文本转语音"><a href="#文本转语音" class="headerlink" title="文本转语音"></a>文本转语音</h3><ul>
+<li><p><a href="https://www.ffkuaidu.com/" target="_blank" rel="noopener">讯飞快读</a> : 1500字以内免费, 利用控台源码查看或者网络抓包可以免注册登录获取音频文件:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114143902665.png" alt="image-20220114143902665"></p>
+</li>
+<li><p><strong>音频内录工具</strong>: 有些文字转语音工具只提供试听但不提供下载, 如果你确实很满意效果, 可以考虑使用内录工具将音频一边播放一边录制, 或者使用录屏软件也可以, 录完后将音频分离出来</p>
+</li>
+</ul>
+<h3 id="语音转字幕"><a href="#语音转字幕" class="headerlink" title="语音转字幕"></a>语音转字幕</h3><ul>
+<li><a href="https://www.zimujiang.com/" target="_blank" rel="noopener">字幕酱</a>: 一分钟内的语音是免费的, 支持双语</li>
+</ul>
+<h3 id="音视频合成"><a href="#音视频合成" class="headerlink" title="音视频合成"></a>音视频合成</h3><ul>
+<li><a href="https://www.blender.org/" target="_blank" rel="noopener">Blender</a>: 非常强大的一款3D/2D制作工具, 能建模, 能做动画, 还能视频剪辑和特效, 堪称全能, 最重要的是, 它是免费的</li>
+</ul>
+<h3 id="视频添加字幕"><a href="#视频添加字幕" class="headerlink" title="视频添加字幕"></a>视频添加字幕</h3><p>你可以使用以下其中一种工具:</p>
+<ul>
+<li><a href="https://url97.ctfile.com/f/21042697-518765173-9ada39" target="_blank" rel="noopener">tipard_video_converter_ultimate</a> 提供Mac下载 （访问密码：312306）</li>
+<li><a href="https://handbrake.fr/" target="_blank" rel="noopener">HandBrake</a> 支持Windows和Mac  </li>
+</ul>
+<p>更多关于给视频添加字幕的方式, 可以参考《<a href="https://code.newban.cn/282.html" target="_blank" rel="noopener">YouTube视频和字幕下载以及合并的工具推荐</a>》</p>
+<h3 id="最后成果展示"><a href="#最后成果展示" class="headerlink" title="最后成果展示"></a>最后成果展示</h3><iframe src="//player.bilibili.com/player.html?aid=635740707&bvid=BV1hb4y1J73C&cid=483957440&page=1" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>虽然不完美, 同时流程也比较繁琐, 但是录制一个应急视频教程是完全没有问题的, 充分利用手头上现有的工具快速进行视频创作</p>
+<p>缩短创作周期, 让自己轻松一些, 才能高效产出</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>实用工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一键将图片转成动画 沙雕必备</title>
+    <url>/10.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>想让图片中的人物动起来, 如果你不擅长动画软件的使用, 那么有个工具非常适合你, 直接在线将图片转动画</p>
+<p>官网张这样:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
+<p><a href="https://sketch.metademolab.com/canvas" target="_blank" rel="noopener">点击进入工具页面</a></p>
+<h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><strong>视频教程如下:</strong></p>
+<iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+<p>只需将图片上传, 然后扫描绑定运动骨骼即可</p>
+<p><strong>个人示范案例:</strong></p>
+<iframe src="//player.bilibili.com/player.html?aid=635740707&bvid=BV1hb4y1J73C&cid=483957440&page=1" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+
+<p><strong>字幕原文:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">大家好 今天给大家介绍一个快速给图片中的物体添加骨骼动画的工具, 这是一个在线网站, 网址我已经放到了视频简介中, 有兴趣的小伙伴可以去玩一玩</span><br><span class="line">我们选取任意一张图片来试试, 它首先会扫描需要进行动画处理的范围, 然后确认骨骼位置, 这个骨骼是可以调整的, 建议大家选用手脚分离的图片, 不然出来的效果有点奇怪, 我们一会儿尝试另一个图片</span><br><span class="line">官方给我们提供了不少的动画模板, 可以直接选择套用即可, 选择好满意的后可以下载到本地, 它下载的文件格式是Mp4</span><br><span class="line">喜欢玩鬼畜的朋友, 这个工具应该是能用的上的</span><br><span class="line"></span><br><span class="line">好了 今天的视频就到这 喜欢的小伙伴 别忘了给个三连哦</span><br></pre></td></tr></table></figure>
+
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>实用工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之电脑桌 附工程下载</title>
+    <url>/12.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><code>Eevee</code>渲染引擎效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/Eevee.png" alt="Eevee"></p>
+<p><code>Cycles</code>渲染引擎效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/cycles.png" alt="cycles"></p>
+<p><code>Eevee</code>引擎添加环境灯光后渲染效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/Eevee_after_setting.png" alt="Eevee_after_setting"></p>
+<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之希腊雅典卫城 附工程下载</title>
+    <url>/13.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p>视图渲染效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/world.jpg" alt="world"></p>
+<p>建筑粉碎动画效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/boom.jpg" alt="boom"></p>
+<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之齿轮 附工程下载</title>
+    <url>/14.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/gear.png" alt="gear"></p>
+<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之碧血剑 附工程下载</title>
+    <url>/15.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p>视图预览效果图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/sword.png" alt="sword"></p>
+<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手把手教你制作像素风格人物</title>
+    <url>/3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="设计环境"><a href="#设计环境" class="headerlink" title="设计环境"></a>设计环境</h3><ul>
+<li><strong>Photoshop</strong></li>
+</ul>
+<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-1.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-2.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-3.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-4.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="像素动画制作"><a href="#像素动画制作" class="headerlink" title="像素动画制作"></a>像素动画制作</h3><p>如果我们要制作像素动画, 用于游戏使用, 我们可以考虑使用<code>Aseprite</code>这款软件</p>
+<p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
+<p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
+<p>*<em>本文转载自 *</em><a href="https://www.uisdc.com/photoshop-pixel-style-avatar" target="_blank" rel="noopener">https://www.uisdc.com/photoshop-pixel-style-avatar</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>动画基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>动画和动漫的区别</title>
+    <url>/2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>许多小伙伴动画和动漫傻傻分不清楚</p>
+<p>这里给大家简单介绍一下</p>
+<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><p>能动的画面统称为动画</p>
+<h3 id="动漫"><a href="#动漫" class="headerlink" title="动漫"></a>动漫</h3><p>动漫是动画和漫画的统称</p>
+<h3 id="什么是ACG"><a href="#什么是ACG" class="headerlink" title="什么是ACG"></a>什么是ACG</h3><p><code>ACG</code>是动画 漫画 和游戏的统称</p>
+<p>百度介绍如下:</p>
+<p><code>ACG</code>即<a href="https://baike.baidu.com/item/Animation/8726467" target="_blank" rel="noopener">Animation</a>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comics</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）与<code>Games</code>（游戏）的首字母缩写</p>
+<h3 id="什么是ACGN"><a href="#什么是ACGN" class="headerlink" title="什么是ACGN"></a>什么是ACGN</h3><p><code>ACGN</code>为英文<code>Animation</code>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comic</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）、<code>Game</code>（<a href="https://baike.baidu.com/item/游戏/33581" target="_blank" rel="noopener">游戏</a>）、<code>Novel</code>（<a href="https://baike.baidu.com/item/小说/45851" target="_blank" rel="noopener">小说</a>）的合并缩写</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>如下图:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211222150716026.png" alt="image-20211222150716026"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>动画基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender快速上手</title>
+    <url>/4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><em>Blender</em>是一款免费开源三维图形图像软件，提供从建模、动画、材质、渲染、到音频处理、视频剪辑等一系列动画短片制作解决方案</p>
+<h3 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h3><ul>
+<li><strong>免费开源</strong></li>
+<li><strong>体积小 仅一百来M</strong></li>
+<li><strong>功能强大 一站式工作流</strong></li>
+</ul>
+<h3 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h3><p>官网下载: <a href="https://www.blender.org/download/" target="_blank" rel="noopener">Blender</a></p>
+<h3 id="软件上手"><a href="#软件上手" class="headerlink" title="软件上手"></a>软件上手</h3><p>安装完毕后打开应用, 界面如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211228145312330.png" alt="image-20211228145312330"></p>
+<p><strong>接下来我们开始来搭积木</strong></p>
+<p>有些快键键我们需要提前了解一下, <code>Blender</code>非常人性化, 在左下方给了我们快键键的相应提示:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211228165419711.png" alt="image-20211228165419711"></p>
+<p>我们可以选择不同模式对物体进行操作, 比如移动, 旋转和缩放等等</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/move.gif" alt="move"></p>
+<p>当然, 你可以直接使用快捷键操作, 如果你碰上快捷键失灵的问题, 有可能是输入法冲突导致, 将输入法切换回英文输入法即可</p>
+<h3 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h3><ol>
+<li><p><strong>复制并移动物体</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+D</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>重复上一步操作</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+R</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>视图中心对齐到鼠标位置</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Alt+滚轮</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>游标快速定位</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+鼠标右键</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>快速添加物体</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+A</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>调出吸附快捷菜单</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+S</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>全选</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">A</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>反全选</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">AA</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>进入物体缩放模式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">S</span><br></pre></td></tr></table></figure>
+
+<p>默认跟随鼠标随意缩放, 我们可以按下Z, X ,Y键分别以某个轴进行缩放</p>
+</li>
+<li><p><strong>进入物体旋转模式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">R</span><br></pre></td></tr></table></figure>
+
+<p>默认跟随鼠标随意旋转, 我们 可以按下Z, X ,Y键分别以某个轴进旋转</p>
+</li>
+<li><p><strong>进入物体移动模式</strong></p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">G</span><br></pre></td></tr></table></figure>
+
+<p>默认跟随鼠标随意移动, 我们可以按下Z, X ,Y键分别以某个轴进行移动</p>
+</li>
+<li><p><strong>删除</strong></p>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">X</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>视图着色方式快速选择</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Z</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>视图切换快速选择</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">`</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>物体吸附设置</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Ctrl+Shift+TAB</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>物体模式和编辑模式之间快速切换</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">TAB</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>选择工具切换 套索or框选or鼠标直接选中</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">W</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>插入关键帧</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>调出右侧视图设置小窗口</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">N</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>物体聚集</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数字键盘 .</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>上帝视角</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Home键</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换至刷选工具</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h3 id="视图切换"><a href="#视图切换" class="headerlink" title="视图切换"></a>视图切换</h3><h4 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h4><ol>
+<li><p><strong>切换至主视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数字键盘1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换至右视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数字键盘3</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换至俯视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数字键盘7</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换至摄像机视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">数字键盘0</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>切换至四格视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Ctrl+Alt+Q</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220105102359850.png" alt="image-20220105102359850"></p>
+</li>
+<li><p><strong>切换回3D视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">鼠标中键</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>视图翻滚切换</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Alt+鼠标中间上下左右拖拽</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/12dadf9a27f2a6083b8fdb7b2e73999a157443fb.gif" alt="img"></p>
+</li>
+<li><p><strong>隔离视图</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/0e0c9dd7dbcd5073ea41503f6060a7c003e666c2.gif" alt="img"></p>
+</li>
+</ol>
+<p>当我们需要对某个物体沿着某个坐标方向进行平移时, 我们可以将视图切换到主视图, 右视图, 顶视图等, 以2D的视角对物体进行操作会更加顺手</p>
+<h3 id="编辑模式下常用快捷键"><a href="#编辑模式下常用快捷键" class="headerlink" title="编辑模式下常用快捷键"></a>编辑模式下常用快捷键</h3><ol>
+<li><p><strong>点模式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">字母键盘上方数字键 1</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>线模式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">字母键盘上方数字键 2</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>面模式</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">字母键盘上方数字键 3</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>内插面</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">I</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>倒角</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ctrl+b</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>挤出</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">E</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>环切</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ctrl+r</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>父子绑定</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ctrl+p</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>解除父子绑定</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alt+r</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>环状线选择</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">alt+鼠标左键</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>子物体选中</strong></p>
+<p>某个物体可能由多个小物体组成 我们如果想要选中某个小物体 那么可以:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">L</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>沿线条方向移动</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gg</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h3 id="关于物体模式和编辑模式"><a href="#关于物体模式和编辑模式" class="headerlink" title="关于物体模式和编辑模式"></a>关于物体模式和编辑模式</h3><ul>
+<li><strong>物体模式下</strong>: 可以对所有物体进行等操作, 面向的是整体, 无法对物体局部进行旋转位移缩放的调整</li>
+<li><strong>编辑模式下</strong>: 只能对物体模式下选中的物体进行操作, 未选中的物体不受干扰, 面向的是局部, 可以对物体局部进行旋转位移缩放的调整</li>
+</ul>
+<p>可以将编辑模式称之为物体解剖模式, 只有在该模式下才能对选中物体进行点线面的编辑</p>
+<h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><p><strong>对物体局部进行拉伸</strong></p>
+<p>选中物体后按<code>TAB</code>进入编辑模式, 选择需要拉伸的边:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/lasheng2.gif" alt="lasheng2"></p>
+<h3 id="物体合并与拆分"><a href="#物体合并与拆分" class="headerlink" title="物体合并与拆分"></a>物体合并与拆分</h3><p>这里的合并有点类似于分组, 将多个物体链接到一块, 在编辑模式下可以进行统一选中编辑</p>
+<h5 id="快捷键-1"><a href="#快捷键-1" class="headerlink" title="快捷键"></a>快捷键</h5><ol>
+<li><p><strong>物体合并</strong></p>
+<p>物体模式下使用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Ctrl+J</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>物体拆分</strong></p>
+<p>编辑模式下使用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">P</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>物体网格全选</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">L</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+<h3 id="游标的使用"><a href="#游标的使用" class="headerlink" title="游标的使用"></a>游标的使用</h3><p>有时候 我们需要将物体快速移动到某个位置, 如果按照传统的坐标拖拽模式, 显然有些费劲, 此时我们可以利用游标快速定位, 然后将需要移动的物体吸附过去</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/youbiao.gif" alt="youbiao"></p>
+<p>除此之外我们还可以将游标当做中心轴, 进行物体选中, 比如汽车玻璃雨刷的摆动</p>
+<h3 id="视频剪辑"><a href="#视频剪辑" class="headerlink" title="视频剪辑"></a>视频剪辑</h3><ol>
+<li><p><strong>素材剪辑常用快捷键</strong></p>
+<ol>
+<li><p><strong>放大选中区域</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+B</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/big.gif" alt="big"></p>
+</li>
+<li><p><strong>恢复放大</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Home</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>素材拆分</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">K</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>预览其中某一片段</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">P</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>播放指针在素材首尾快速移动</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">PgUp和PgDn</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+</ol>
+</li>
+</ol>
+<ol start="2">
+<li><p><strong>视频输出配置</strong></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231111519405.png" alt="image-20211231111519405"></p>
+</li>
+<li><p><strong>视频导出</strong></p>
+<p>渲染–&gt;渲染动画–&gt;等待渲染结束</p>
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>动画基础</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之提升作品真实度的小技巧</title>
+    <url>/16.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度</p>
+<p>比如以下几种方式:</p>
+<h3 id="添加HDRI"><a href="#添加HDRI" class="headerlink" title="添加HDRI"></a>添加HDRI</h3><p><strong>HDRI</strong>(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png" alt="image-20220906144722452"></p>
+<p>它有点类似于全景图, 让物体置身于其中</p>
+<p>利用<code>HDRI</code> 我们能得到一个非常漂亮和真实的渲染效果</p>
+<p>在<code>Blender</code>中, 具体设置如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143541734.png" alt="image-20220906143541734"></p>
+<p>假如我们取消<code>HDRI</code>,  那么效果截然不同:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143617192.png" alt="image-20220906143617192"></p>
+<p>是不是差距很大</p>
+<h3 id="灯光设置"><a href="#灯光设置" class="headerlink" title="灯光设置"></a>灯光设置</h3><ol>
+<li><p><strong>开启接触阴影</strong></p>
+<p>选择灯光后在属性面板设置中将接触阴影勾选上, 然后根据实际的场景来调节相应的距离偏移参数:</p>
+<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150246960.png" alt="image-20220906150246960"></p>
+<p> 接触阴影 顾名思义 它可以增加物体与物体之间的阴影, 适量添加一些可以增加场景立体感</p>
+<p> 我们来对比一下, 首先是开启前的样子:</p>
+<p> ![image-20220906152351769](/Users/songjian/Library/Application Support/typora-user-images/image-20220906152351769.png)</p>
+<p> 开启接触阴影后的效果:</p>
+<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906152742875.png" alt="image-20220906152742875"></p>
+</li>
+</ol>
+<h3 id="渲染引擎设置"><a href="#渲染引擎设置" class="headerlink" title="渲染引擎设置"></a>渲染引擎设置</h3><p>如果你使用的是<code>Eevee</code>渲染引擎, 那么可以考虑将环境光遮蔽功能打开:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150530843.png" alt="image-20220906150530843"></p>
+<p>我们来对比看看效果, 这个开启前的样子:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151126199.png" alt="image-20220906151126199"></p>
+<p>开启后的效果:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151157135.png" alt="image-20220906151157135"></p>
+<p>我们能明显看出来 开启环境光遮蔽后, 物体暗面更加清晰了, 这使得物体更加具有立体感和真实感</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无版权可商用的音乐下载网站汇总</title>
+    <url>/7.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我们在做视频剪辑的时候, 少不了要给视频添加背景音乐, 音乐和图片、电影、字体等一样都是有版权的, 一不留神就容易掉坑, 所以我们在配乐选择的时候, 一定要仔细斟酌</p>
+<p>那么今天就给大家介绍几个可以无版权的的音乐下载网站:</p>
+<h3 id="FreePD"><a href="#FreePD" class="headerlink" title="FreePD"></a>FreePD</h3><p><a href="https://freepd.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231143947073.png" alt="image-20211231143947073"></p>
+<p>里面的音乐无需注册, 直接就可以试听下载, 花点小钱还可以一键打包整站所有音频资源</p>
+<h3 id="Musopen"><a href="#Musopen" class="headerlink" title="Musopen"></a>Musopen</h3><p><a href="https://musopen.org/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231144959044.png" alt="image-20211231144959044"></p>
+<p>我们在搜索列表中, 但凡是带<code>CC</code>图标的, 皆可免费商用:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231145518714.png" alt="image-20211231145518714"></p>
+<p>不仅如此, 还提供乐谱下载:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231145149007.png" alt="image-20211231145149007"></p>
+<p>唯一不爽的是, 需要注册登录才能下载</p>
+<h3 id="Audionautix"><a href="#Audionautix" class="headerlink" title="Audionautix"></a>Audionautix</h3><p><a href="https://audionautix.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231150051431.png" alt="image-20211231150051431"></p>
+<p>里面的音乐全部可以免费使用, 无需注册直接下载, 商用时只需要注明音乐来源即可, 像下面这样</p>
+<p><a href="https://audionautix.com/" target="_blank" rel="noopener">Creative Commons Music by Jason Shaw on Audionautix.com</a></p>
+<h3 id="Freemusicarchive"><a href="#Freemusicarchive" class="headerlink" title="Freemusicarchive"></a>Freemusicarchive</h3><p><a href="https://freemusicarchive.org/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231154351788.png" alt="image-20211231154351788"></p>
+<h3 id="Jamendo"><a href="#Jamendo" class="headerlink" title="Jamendo"></a>Jamendo</h3><p><a href="https://www.jamendo.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231144229063.png" alt="image-20211231144229063"></p>
+<p>要注意的是, 里面的音乐只供个人免费使用, 如果要<strong>商用的话需要付费</strong></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>视频配乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于Blender一些实用的插件汇总</title>
+    <url>/17.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="LazyViewport"><a href="#LazyViewport" class="headerlink" title="LazyViewport"></a>LazyViewport</h3><p>我们对物体进行旋转 缩放 位移时, 如果想要让物体沿着某个轴进行变换, 那么需要在键盘中输入对应的X Z Y,  </p>
+<p>也就是说 我们在对物体进行变换操作的时候, 需要先确定物体当前朝向哪个轴以及哪个轴是我们需要变换的 这一系列思索下来是非常消耗脑力的,反反复复下来很容易晕头转向   </p>
+<p>通常情况下我们会把更多注意力集中在物体本身, 而不是物体的轴向, 所以为了提升变换效率, 我们可以使用插件 比如<code>lazyviewport</code></p>
+<p>这个插件是国外某位<code>Blender</code>大佬写的, 并将文件放置到了Github上:</p>
+<p><a href="https://github.com/cgfasttrack/lazyviewport" target="_blank" rel="noopener">Github</a></p>
+<p>当我们将插件安装上之后, 选择物体 输入旋转 缩放 位移三者任意快捷键 则会出现轴向标:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906155021837.png" alt="image-20220906155021837"></p>
+<p>这样一来, 我们就不用关注具体是X Y还是Z轴了, 想往哪个方向拖就往哪个方向</p>
+<h3 id="插件下载"><a href="#插件下载" class="headerlink" title="插件下载"></a>插件下载</h3><p>插件已打包上传到网盘中, 国内用户可直接下载:</p>
+<p><a href="https://url97.ctfile.com/d/21042697-51129587-761db9?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>像素游戏开发工具推荐</title>
+    <url>/5.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>现在有很多低代码游戏开发工具, 说到像素游戏开发, 最经典的应该算是<code>RPGMaker</code>了</p>
+<p>除此之外有一些其他的游戏开发工具也是很不不错, 比如:</p>
+<ul>
+<li><a href="https://box3.codemao.cn/" target="_blank" rel="noopener">神奇代码岛</a> : 主打3D联机</li>
+<li><a href="https://roblox.cn/" target="_blank" rel="noopener">ROBLOX</a> : 主打多人在线3D</li>
+<li><a href="https://www.evkworld.cn/" target="_blank" rel="noopener">唤境</a> : 主打2D</li>
+</ul>
+<h3 id="神奇代码岛"><a href="#神奇代码岛" class="headerlink" title="神奇代码岛"></a>神奇代码岛</h3><p>编程猫旗下的一款产品, 主打多人联机3D创作,提供在线建模, 在线游戏开发和游戏在线试玩</p>
+<p>官网张这样:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230161658911.png" alt="image-20211230161658911"></p>
+<p>在线建模工具我试用了一下, 还挺好用的 哈哈, 无需繁琐操作, 直接用鼠标堆积即可:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230162001906.png" alt="image-20211230162001906"></p>
+<p>创建地图相当于是创建了一个游戏工程, 脚本语言使用的是<code>JavaScript</code>:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230162759537.png" alt="image-20211230162759537"></p>
+<p>如果你是前端开发者, 想快速开发一款属于自己的在线联机游戏,那么这个工具绝对适合你 </p>
+<h3 id="ROBLOX"><a href="#ROBLOX" class="headerlink" title="ROBLOX"></a>ROBLOX</h3><p>中文名罗布乐思, 面向青少年游戏开发入门, 官网长这样:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230165610330.png" alt="image-20211230165610330"></p>
+<p>游戏开发工具需要下载软件, 支持<code>Windows</code>和<code>Mac</code>平台开发, 画风虽然是像素, 但是模型相对平滑, 观感较为舒适:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.gif" alt="图片"></p>
+<h3 id="唤境"><a href="#唤境" class="headerlink" title="唤境"></a>唤境</h3><p>一个2D像素游戏开发工具</p>
+<p>官网界面长这样:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230161532393.png" alt="image-20211230161532393"></p>
+<p>里面的成品游戏可以在线试玩</p>
+<p>我随便点了一个, 风格如下:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/game.gif" alt="game"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>好用的视频压制工具</title>
+    <url>/6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在视频制作完成后导出, 发现视频体积太大, 此时为了方便网络传输, 我们需要对视频进行压缩处理, 在保证画质的前提下, 体积自然是越小越好啦</p>
+<p>那么接下来给大家介绍几款好用的视频压制工具</p>
+<ul>
+<li><strong>HandBrake</strong></li>
+<li><strong>小丸压制工具</strong></li>
+</ul>
+<h3 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h3><p>一款非常强大的视频转码压制工具, 可以将任意格式视频文件转码成MP4, WebM或者MKV格式</p>
+<p><strong>工具优点:</strong></p>
+<ul>
+<li><strong>体积小 安装包也就几十兆大小</strong></li>
+<li><strong>免费开源</strong> <a href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener">点击进入GitHub源码仓库</a></li>
+<li><strong>跨平台 支持Windows, Mac和Linux</strong></li>
+<li><strong>支持压制预览, 快速对比压制前后差距</strong></li>
+<li><strong>支持给视频添加字幕</strong></li>
+</ul>
+<p>官网长这样:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231140529245.png" alt="image-20211231140529245"></p>
+<p> <a href="https://handbrake.fr/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p>给视频添加字幕:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231142212789.png" alt="image-20211231142212789"></p>
+<h3 id="小丸工具箱"><a href="#小丸工具箱" class="headerlink" title="小丸工具箱"></a>小丸工具箱</h3><p>小丸工具箱是一款用于处理音视频等多媒体文件的软件。是一款x264、ffmpeg等命令行程序的图形界面。它的目标是让视频压制变得简单、轻松。</p>
+<p>主要功能：</p>
+<ul>
+<li><strong>高质量的H264+AAC视频压制</strong></li>
+<li><strong>ASS/SRT字幕内嵌到视频</strong></li>
+<li><strong>AAC/WAV/FLAC/ALAC音频转换</strong></li>
+<li><strong>MP4/MKV/FLV的无损抽取和封装</strong></li>
+</ul>
+<p>缺点:</p>
+<p>目前只支持<code>Windows</code>平台</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231142900086.png" alt="image-20211231142900086"></p>
+<p><a href="https://maruko.appinn.me/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p>如果你刚好是Windows用户, 可以直接去B站下载B站优化版本</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231143033438.png" alt="image-20211231143033438"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>视频制作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>可商用的免费视频素材下载网站汇总</title>
+    <url>/8.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><strong>素材用的好，热门上的早。</strong></p>
+<p>如果你是我的老“芃友”，就一定知道小芃一般很少说废话，都是直接上福利。</p>
+<p>今天也不例外。<strong>直接给大家20个CC0素材网站。</strong></p>
+<p>关于CC0的定义，有一连串专业术语，但你可以简单理解为<strong>免费的正版素材。</strong></p>
+<p>换句话说，<strong>只要标记为CC0素材，无论是视频、音乐还是图片，都不需要付钱，可以直接用，100%不会侵权。</strong></p>
+<p>对于视频创作者、新媒体运营者来说，这都是非常值得收藏的。</p>
+<p>OK，不废话，直接上东西吧~</p>
+<h3 id="1、Coverr"><a href="#1、Coverr" class="headerlink" title="1、Coverr"></a>1、Coverr</h3><p>（<a href="https://coverr.co）*很好很强大的免费视频素材网站，海量库存，每周持续更新7条精美视频。" target="_blank" rel="noopener">https://coverr.co）*很好很强大的免费视频素材网站，海量库存，每周持续更新7条精美视频。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.png" alt="图片"></p>
+<h3 id="2、Pexels"><a href="#2、Pexels" class="headerlink" title="2、Pexels"></a>2、Pexels</h3><p><a href="https://www.pexels.com）*这是我自己最常用的视频/图片素材网站，*支持中文搜索*，视频质量高，免注册一键下载。" target="_blank" rel="noopener">https://www.pexels.com）*这是我自己最常用的视频/图片素材网站，*支持中文搜索*，视频质量高，免注册一键下载。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152453962.png" alt="图片"></p>
+<h3 id="3、Vimeo"><a href="#3、Vimeo" class="headerlink" title="3、Vimeo"></a>3、Vimeo</h3><p>（<a href="https://vimeo.com/creativecommons/cc0）*简单好用，用户分享的CC0视频精选，画风很接地气。" target="_blank" rel="noopener">https://vimeo.com/creativecommons/cc0）*简单好用，用户分享的CC0视频精选，画风很接地气。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152500991.png" alt="图片"></p>
+<h3 id="4、wedistill"><a href="#4、wedistill" class="headerlink" title="4、wedistill"></a>4、wedistill</h3><p>（<a href="https://www.wedistill.io/）*每天更新10条免费HD视频素材，完全免费，可以商用。" target="_blank" rel="noopener">https://www.wedistill.io/）*每天更新10条免费HD视频素材，完全免费，可以商用。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152512493.png" alt="图片"></p>
+<h3 id="5、lifeofvids"><a href="#5、lifeofvids" class="headerlink" title="5、lifeofvids"></a>5、lifeofvids</h3><p>（<a href="https://lifeofvids.com/）*完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。" target="_blank" rel="noopener">https://lifeofvids.com/）*完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152529164.png" alt="图片"></p>
+<h3 id="6、pond5"><a href="#6、pond5" class="headerlink" title="6、pond5"></a>6、pond5</h3><p>（<a href="https://www.pond5.com/）*全球最大的开放版权视频合集，不仅有视频，还有音乐、动态图片，用这些世界级的好素材，让你的视频如虎添翼！" target="_blank" rel="noopener">https://www.pond5.com/）*全球最大的开放版权视频合集，不仅有视频，还有音乐、动态图片，用这些世界级的好素材，让你的视频如虎添翼！</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152541954.png" alt="图片"></p>
+<h3 id="7、splashbase"><a href="#7、splashbase" class="headerlink" title="7、splashbase"></a>7、splashbase</h3><p>（<a href="http://www.splashbase.co/）*在这里搜索和发现免费的高分辨率照片和视频。同样都是CC0素材，随意使用" target="_blank" rel="noopener">http://www.splashbase.co/）*在这里搜索和发现免费的高分辨率照片和视频。同样都是CC0素材，随意使用</a>~*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152552426.png" alt="图片"></p>
+<h3 id="8、isorepublic"><a href="#8、isorepublic" class="headerlink" title="8、isorepublic"></a>8、isorepublic</h3><p>（<a href="https://isorepublic.com/）*大量的免费高分辨率" target="_blank" rel="noopener">https://isorepublic.com/）*大量的免费高分辨率</a> CC0照片和视频，让你的素材库永不枯竭。*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152603041.png" alt="图片"></p>
+<h3 id="9、Videezy"><a href="#9、Videezy" class="headerlink" title="9、Videezy"></a>9、Videezy</h3><p>（<a href="https://www.videezy.com/）**大量的**提供大量免费的HD&amp;4K视频素材，让人想舔屏的好网站。" target="_blank" rel="noopener">https://www.videezy.com/）**大量的**提供大量免费的HD&amp;4K视频素材，让人想舔屏的好网站。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152610810.png" alt="图片"></p>
+<h3 id="10、mazwai"><a href="#10、mazwai" class="headerlink" title="10、mazwai"></a>10、mazwai</h3><p>（<a href="https://mazwai.com/）*由视频专业团队精心挑选的免费影视素材视频。良心素材网站！" target="_blank" rel="noopener">https://mazwai.com/）*由视频专业团队精心挑选的免费影视素材视频。良心素材网站！</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152622341.png" alt="图片"></p>
+<h3 id="11、videvo"><a href="#11、videvo" class="headerlink" title="11、videvo"></a>11、videvo</h3><p>（<a href="https://www.videvo.net/）*只需要注册一个免费账户，就能一站式免费获取数以千计的免费视频、动图、音效素材！" target="_blank" rel="noopener">https://www.videvo.net/）*只需要注册一个免费账户，就能一站式免费获取数以千计的免费视频、动图、音效素材！</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152630192.png" alt="图片"></p>
+<h3 id="12、vidlery"><a href="#12、vidlery" class="headerlink" title="12、vidlery"></a>12、vidlery</h3><p>（<a href="http://vidlery.com/）*这是一个特殊的视频素材网站，*里面提供的都是动画视频素材，同样是100%免费的，而且免注册一键下载哦" target="_blank" rel="noopener">http://vidlery.com/）*这是一个特殊的视频素材网站，*里面提供的都是动画视频素材，同样是100%免费的，而且免注册一键下载哦</a>~*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152639968.png" alt="图片"></p>
+<h3 id="13、beachfrontbroll"><a href="#13、beachfrontbroll" class="headerlink" title="13、beachfrontbroll"></a>13、beachfrontbroll</h3><p>（<a href="http://www.beachfrontbroll.com/）免费下载高清视频和动画素材，完全免费使用的，下载只需一个简单的“右键单击保存”即可。" target="_blank" rel="noopener">http://www.beachfrontbroll.com/）免费下载高清视频和动画素材，完全免费使用的，下载只需一个简单的“右键单击保存”即可。</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152652394.png" alt="图片"></p>
+<h3 id="14、vidsplay"><a href="#14、vidsplay" class="headerlink" title="14、vidsplay"></a>14、vidsplay</h3><p>（<a href="https://www.vidsplay.com/）*质感很好的视频素材网站，搜关键字就能找到几乎任何你想要的视频素材。" target="_blank" rel="noopener">https://www.vidsplay.com/）*质感很好的视频素材网站，搜关键字就能找到几乎任何你想要的视频素材。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152701450.png" alt="图片"></p>
+<h3 id="15、dreamstime"><a href="#15、dreamstime" class="headerlink" title="15、dreamstime"></a>15、dreamstime</h3><p><em>（<a href="https://www.dreamstime.com/stock-footage/cc0-license.html）" target="_blank" rel="noopener">https://www.dreamstime.com/stock-footage/cc0-license.html）</a></em>Dreamstime是全球最大的素材社区，你可以在CC0许可下找到理想的照片和视频素材。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152708481.png" alt="图片"></p>
+<h3 id="16、focastock"><a href="#16、focastock" class="headerlink" title="16、focastock"></a>16、focastock</h3><p><em>（<a href="https://focastock.com/video/）" target="_blank" rel="noopener">https://focastock.com/video/）</a></em>全站素材均为CC0许可，你可以免费使用于任何你想要的视频项目，包括但不限于商用。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152719251.png" alt="图片"></p>
+<h3 id="17、footage123"><a href="#17、footage123" class="headerlink" title="17、footage123"></a>17、footage123</h3><p><em>（<a href="https://footage123.com/）又是一个神一般的素材网站，它的素材主打来自全球的" target="_blank" rel="noopener">https://footage123.com/）又是一个神一般的素材网站，它的素材主打来自全球的</a></em>无人机的免费高清和4k航拍视频，想要大景别宏大叙事的盆友赶紧收藏起来。</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152727029.png" alt="图片"></p>
+<h3 id="18、Burst"><a href="#18、Burst" class="headerlink" title="18、Burst"></a>18<strong>、Burst</strong></h3><p>（<a href="https://burst.shopify.com/）*这个网站主要提供高清图片，而且专门用于商用的，基本上都是CC0的许可，有这方面需求的可以收藏起来哦。" target="_blank" rel="noopener">https://burst.shopify.com/）*这个网站主要提供高清图片，而且专门用于商用的，基本上都是CC0的许可，有这方面需求的可以收藏起来哦。</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152735210.png" alt="图片"></p>
+<h3 id="19、Skitterphoto"><a href="#19、Skitterphoto" class="headerlink" title="19、Skitterphoto"></a>19、Skitterphoto</h3><p>（<a href="https://skitterphoto.com/）*全站均为CC0图片，都是高清的质感好图，爱怎么用就怎么用，完全免费哈" target="_blank" rel="noopener">https://skitterphoto.com/）*全站均为CC0图片，都是高清的质感好图，爱怎么用就怎么用，完全免费哈</a>~*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231153137397.png" alt="图片"></p>
+<h3 id="20、foodiesfeed："><a href="#20、foodiesfeed：" class="headerlink" title="20、foodiesfeed："></a>20、foodiesfeed：</h3><p><strong>（<a href="https://www.foodiesfeed.com/）" target="_blank" rel="noopener">https://www.foodiesfeed.com/）</a></strong>这个网站所有的图片都和<em>美食相关，各位美食博主赶紧收藏起来吧~</em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152742978.png" alt="图片"></p>
+<p>OK，暂时先说到这里，但相信有了这20个网站，以后再也不会缺素材啦~</p>
+<h3 id="说明一下"><a href="#说明一下" class="headerlink" title="说明一下"></a>说明一下</h3><ol>
+<li>上面的20个网站我都亲自打开过，到我发布这篇文章为止，依然是可用的。</li>
+<li>我是在使用梯子的前提下打开的这些网站，我不确定不用梯子能不能看。以及我不推荐梯子的哈，不要再问我了…</li>
+<li>还有还有，姐姐我整理这些东西颇熬了几个大夜，收藏起来的同时，是不是也给我点个“在看”什么的~</li>
+</ol>
+<p><strong>本文转载自</strong>:<a href="https://mp.weixin.qq.com/s/B5C5JQVMmu2RN-1TTd013w" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/B5C5JQVMmu2RN-1TTd013w</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>视频素材</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视频创作者必备！10个CC0音乐素材网站合集</title>
+    <url>/9.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p><em>本文为转载文章</em></p>
+<p><strong>做过视频的都知道，BGM是一个视频的灵魂。</strong></p>
+<p>如何找到正版、免费、不侵权的音乐素材，是很多视频创作新手苦苦思考的问题。今天小芃就为大家介绍<strong>10个CC0的音乐素材网站。</strong></p>
+<p>关于CC0的定义，有一连串专业术语，但你可以简单理解为<strong>免费的正版素材。</strong></p>
+<p>换句话说，<strong>只要标记为CC0素材，无论是视频、音乐还是图片，都不需要付钱，可以直接用，100%不会侵权。</strong></p>
+<p>OK，不废话，直接上东西吧~</p>
+<p><strong><em>1、***</em></strong>FreePD：***</p>
+<p><em>（<a href="https://freepd.com）**我自己常用的音乐网站。汇集了互联网海量免版税的公共领域音乐资源，提供了许多不同类型的音乐资源，你可以不花钱就能免费下载任意一首音乐，花个14美元可以一键下载全部内容。" target="_blank" rel="noopener">https://freepd.com）**我自己常用的音乐网站。汇集了互联网海量免版税的公共领域音乐资源，提供了许多不同类型的音乐资源，你可以不花钱就能免费下载任意一首音乐，花个14美元可以一键下载全部内容。</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.jpeg" alt="图片"></p>
+<p><strong><em>2、Free Music Archive：\</em></strong></p>
+<p><em>（<a href="https://freemusicarchive.org/）**一个强大的免费音乐网站，免注册下载全球开放好音乐。" target="_blank" rel="noopener">https://freemusicarchive.org/）**一个强大的免费音乐网站，免注册下载全球开放好音乐。</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154821573.png" alt="图片"></p>
+<p><strong><em>3、 Incompetech：\</em></strong></p>
+<p><em>（<a href="https://incompetech.com/music/royalty-free/music.html）\" target="_blank" rel="noopener">https://incompetech.com/music/royalty-free/music.html）\</a></em>简单直接，免费好用，一键下载，无需注册。**</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154816489.png" alt="图片"></p>
+<p><strong><em>4、Envato Market：\</em></strong></p>
+<p><em>（<a href="https://audiojungle.net/）**这个是Envato" target="_blank" rel="noopener">https://audiojungle.net/）**这个是Envato</a> Market旗下的一个免费音乐素材网站，*Envato Market*做视频的应该都很熟悉吧，主要是做各种片头模板的，现在淘宝上卖的各种AE模板，一大半来自*Envato Market*。</em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154809979.png" alt="图片"></p>
+<p><strong><em>5、MUSOPEN：\</em></strong></p>
+<p><em>（<a href="https://musopen.org/）**免费的古典音乐大全，可按照作曲家，年代，演奏家搜索。完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。" target="_blank" rel="noopener">https://musopen.org/）**免费的古典音乐大全，可按照作曲家，年代，演奏家搜索。完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154803278.png" alt="图片"></p>
+<p><strong><em>6、Audioblocks：\</em></strong></p>
+<p><em>（<a href="https://www.audioblocks.com/）**全球提供无线版权的音乐和循环音效，只需简单注册一下就能解锁大量免费素材！" target="_blank" rel="noopener">https://www.audioblocks.com/）**全球提供无线版权的音乐和循环音效，只需简单注册一下就能解锁大量免费素材！</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154752222.png" alt="图片"></p>
+<p><strong><em>7、ccMixter：\</em></strong></p>
+<p><em>（<a href="http://ccmixter.org/）**一个托管艺术家作品社区的站点，里面有很多的免费共享音乐素材，还能看到很多技术不是那么高潮的作曲家的作品，很有意思。" target="_blank" rel="noopener">http://ccmixter.org/）**一个托管艺术家作品社区的站点，里面有很多的免费共享音乐素材，还能看到很多技术不是那么高潮的作曲家的作品，很有意思。</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154744300.png" alt="图片"></p>
+<p><strong><em>8、Jamendo：\</em></strong></p>
+<p><em>（<a href="https://licensing.jamendo.com/en/royalty-free-music/project/advertising）**营销汪的福音！这是一个专门为广告商和营销人员创建的免费音乐网站，里面的音乐可以直接用在你的TVC里！" target="_blank" rel="noopener">https://licensing.jamendo.com/en/royalty-free-music/project/advertising）**营销汪的福音！这是一个专门为广告商和营销人员创建的免费音乐网站，里面的音乐可以直接用在你的TVC里！</a></em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154738741.png" alt="图片"></p>
+<p><strong><em>9、Netlabels：\</em></strong></p>
+<p><em>（<a href="https://archive.org/details/netlabels）**超好用的免费音乐合集，完全CC0的免费正版素材，随意使用" target="_blank" rel="noopener">https://archive.org/details/netlabels）**超好用的免费音乐合集，完全CC0的免费正版素材，随意使用</a>~</em></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154734201.png" alt="图片"></p>
+<p><strong><em>10、 Audionautix：*</em></strong>（<a href="https://audionautix.com/）**由视频专业团队精心挑选的免费影视素材视频。良心素材网站！" target="_blank" rel="noopener">https://audionautix.com/）**由视频专业团队精心挑选的免费影视素材视频。良心素材网站！</a>*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154723453.png" alt="图片"></p>
+<p><strong><em>PS、***</em></strong>YOUTUBE AUDIO LIBRAR*<strong>***Y：</strong></p>
+<p><strong>（**</strong><a href="https://www.youtube.com/audiolibrary/music?nv=1）**当然，油管的小伙伴可以直接在油管自带的AUDIO" target="_blank" rel="noopener">https://www.youtube.com/audiolibrary/music?nv=1）**当然，油管的小伙伴可以直接在油管自带的AUDIO</a> LIBRARY上找到你要的音乐素材。*</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154716007.png" alt="图片"></p>
+<p>OK，暂时先说到这里。有了这些个网站，以后做视频就不要~</p>
+<p><strong>说明一下：</strong></p>
+<p>1、上面的10个网站我都亲自打开过，到我发布这篇文章为止，依然是可用的。</p>
+<p>2、我是在使用梯子的前提下打开的这些网站，我不确定不用梯子能不能看。以及我不推荐梯子的哈，不要再问我了…</p>
+<p><strong>本文转载自</strong>:<a href="https://mp.weixin.qq.com/s/CnNNbLr3hgYXa_FFnB464A" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/CnNNbLr3hgYXa_FFnB464A</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>视频配乐</tag>
+      </tags>
+  </entry>
+</search>
