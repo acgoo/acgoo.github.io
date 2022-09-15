@@ -107,7 +107,7 @@
 <p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
 <p><a href="https://sketch.metademolab.com/canvas" target="_blank" rel="noopener">点击进入工具页面</a></p>
 <h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><strong>视频教程如下:</strong></p>
-<iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
+<iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" autoplay="false" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
 
 <p>只需将图片上传, 然后扫描绑定运动骨骼即可</p>
 <p><strong>个人示范案例:</strong></p>
@@ -263,6 +263,9 @@
 <li><p><strong>调出吸附快捷菜单</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+S</span><br></pre></td></tr></table></figure>
 </li>
+<li><p><strong>调用物体应用菜单</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ctrl+A</span><br></pre></td></tr></table></figure>
+</li>
 <li><p><strong>全选</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">A</span><br></pre></td></tr></table></figure>
 </li>
@@ -275,14 +278,14 @@
 <p>默认跟随鼠标随意缩放, 我们可以按下Z, X ,Y键分别以某个轴进行缩放</p>
 </li>
 <li><p><strong>进入物体旋转模式</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">R</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">R</span><br></pre></td></tr></table></figure>
 
-<p>默认跟随鼠标随意旋转, 我们 可以按下Z, X ,Y键分别以某个轴进旋转</p>
+<p>   默认跟随鼠标随意旋转, 我们 可以按下Z, X ,Y键分别以某个轴进旋转</p>
 </li>
 <li><p><strong>进入物体移动模式</strong></p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">G</span><br></pre></td></tr></table></figure>
 
-<p>默认跟随鼠标随意移动, 我们可以按下Z, X ,Y键分别以某个轴进行移动</p>
+<p>   默认跟随鼠标随意移动, 我们可以按下Z, X ,Y键分别以某个轴进行移动</p>
 </li>
 <li><p><strong>删除</strong></p>
  <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">X</span><br></pre></td></tr></table></figure>
@@ -746,6 +749,127 @@
 ]]></content>
       <tags>
         <tag>视频配乐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2.5D游戏是怎么个回事</title>
+    <url>/21.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我们知道2D游戏和3D游戏, 这个很好区分, 近些年突然出现了一个新词叫2.5D, 这到底指的是什么呢</p>
+<p>首先 本质上并不存在2.5D这个东西, 2.5维是不存在的, 只是从视觉角度上我们可以得到一种介于2D和3D之间的效果, 这种视觉效果 我们称之为2.5D</p>
+<h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>比如以下几种方式搭建起来的效果:</p>
+<ol>
+<li><p>2D 角色 + 2D 场景，摄像机以斜 45度或则60度视角拍摄 形成一种视觉类3D效果</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914145122951.png" alt="image-20220914145122951"></p>
+</li>
+<li><p>2D 角色 + 3D 场景: 摄像机视角固定 形成特别的3D效果 比如HD-2D像素风采用的就是这种:</p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914154843706.png" alt="image-20220914154843706"></p>
+<p>截图来源<a href="https://www.bilibili.com/video/BV1rQ4y1z78X" target="_blank" rel="noopener">B站</a></p>
+</li>
+<li><p>3D 角色 + 2D 场景 特别的3D效果  </p>
+</li>
+<li><p>2D 角色 + 2D 场景，但角色可以存在上下移动</p>
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>游戏</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费可商用的建模和游戏资产网站汇总</title>
+    <url>/22.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="kenney"><a href="#kenney" class="headerlink" title="kenney"></a>kenney</h3><p>里面包含了2D和3D的游戏资产, 免费可商用 无需注册 一键下载</p>
+<p><a href="https://kenney.nl/assets" target="_blank" rel="noopener">点击进入网站</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914174044761.png" alt="image-20220914174044761"></p>
+<h3 id="itch-io"><a href="#itch-io" class="headerlink" title="itch.io"></a>itch.io</h3><p><code>itch.io</code>是一个专注于独立游戏内容的数字商店网站, 类似于<code>strem</code> ,里面不仅有各种免费和收费的游戏 还有免费可商用的游戏素材, 免登陆一键下载</p>
+<p><a href="https://itch.io" target="_blank" rel="noopener">点击进入网站</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915151221588.png" alt="image-20220915151221588"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>免费资产</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>16个简单高效在线抠图网站分享</title>
+    <url>/18.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天推荐16个超使用的在线抠图网站，都是只需要导入图片，AI就可以自动识别进行抠图，真的非常方便！</p>
+<h3 id="No1-佐糖"><a href="#No1-佐糖" class="headerlink" title="No1.佐糖"></a>No1.佐糖</h3><p><a href="https://picwish.cn/" target="_blank" rel="noopener">https://picwish.cn/</a></p>
+<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/32fa828ba61ea8d3b4f20a93c93ef044241f5817.jpeg" alt="img"></p>
+<p>AI智能图片处理平台，网站免费抠图，还能在线去水印、模糊照片变清晰、无损放大和图片裁剪压缩能功能。</p>
+<h3 id="No2-Removebg"><a href="#No2-Removebg" class="headerlink" title="No2.Removebg"></a>No2.Removebg</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/eaf81a4c510fd9f931c52e387f1914202934a454.jpeg" alt="img"><br>图片背景消除，100% 全自动且免费，上传图片后5秒就可以获得没有背景的主体图片。</p>
+<h3 id="No3-Depositphotos"><a href="#No3-Depositphotos" class="headerlink" title="No3.Depositphotos"></a>No3.Depositphotos</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/d1a20cf431adcbef6fa50aa0f59beed7a2cc9f45-20220906164701285.jpeg" alt="img">Depositphotos 是一款免费在线的由 AI 驱动的简易背景移除工具，就算你不是一个熟练的设计师，只要将图片上传，背景就可以自动去除，不管你的照片有多么细致，大约只需要一秒钟都可以完成。</p>
+<h3 id="No4-Hama"><a href="#No4-Hama" class="headerlink" title="No4.Hama"></a>No4.Hama</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/810a19d8bc3eb135c15d1cf6f82a68d9fc1f44a0.jpeg" alt="img"><br>Hama 目前支持上传任何尺寸大小的原始图片，不过下载时会将处理后的图片大小限制为 720px，依照网站说明他们正在准备付费 Pro 版本，未来需要付费才能下载高分辨率的图片成果，但好处是没有限制单一图片编辑次数。</p>
+<h3 id="No5-Clipdrop"><a href="#No5-Clipdrop" class="headerlink" title="No5.Clipdrop"></a>No5.Clipdrop</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/10dfa9ec8a136327217e3c49ccbb60e609fac7fc.jpeg" alt="img"><br>ClipDrop Remove Background 也是一款免费的在线 AI 背景扣除神器，它的背景移除功能非常强大。</p>
+<h3 id="No6-Erase-bg"><a href="#No6-Erase-bg" class="headerlink" title="No6.Erase.bg"></a>No6.Erase.bg</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/77c6a7efce1b9d16e0bafce1adea74858d5464eb.jpeg" alt="img"></p>
+<p>任何人都可以在几秒钟时间快速从任何图片去除背景，并且以原始分辨率下载，没有额外的设定选项，这些工作都能在浏览器完成。处理最大 5000 x 5000px 相片，而且效果极佳。</p>
+<h3 id="No6-PIXLR"><a href="#No6-PIXLR" class="headerlink" title="No6.PIXLR"></a>No6.PIXLR</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/9922720e0cf3d7ca531df077ad2b7e036a63a983-20220906164839141.jpeg" alt="img"></p>
+<p>「Pixlr Remove Bg」免费在线抠图工具，最值得一提的是 Pixlr 支持批处理，可以一次上传多张相片、批量抠图，是个非常讲求效率的服务。</p>
+<h3 id="No7-Pure-Photos"><a href="#No7-Pure-Photos" class="headerlink" title="No7.Pure Photos"></a>No7.Pure Photos</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/ae51f3deb48f8c5454bc45ff641dedffe1fe7fb6.jpeg" alt="img"><br>PurePhotos 支持批量抠图，免费方案每月有 100 张相片的处理额度，可依照需求付费购买更多配额，购买越多单价更低。比较特別的是 PurePhotos 在抠图时可选择是否要导出为 PSD 图层，PSD 文件包含原始图片和处理过的相片图层，用于编辑来说应该会更方便。下载的文件会包含 PSD 格式和 PNG 抠图结果。</p>
+<h3 id="No-8-BACKGROUND-REMOVER"><a href="#No-8-BACKGROUND-REMOVER" class="headerlink" title="No.8 BACKGROUND REMOVER"></a>No.8 BACKGROUND REMOVER</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/34fae6cd7b899e517bde5c421c931939c9950dd6.jpeg" alt="img"><br>「AI Background Remover」是 Icons8 新推出的免费去背工具，一样是透过 AI 人工智能技术，让程序自动处理用户上传的图片，将原有背景去除、调整为透明背景后只保留主体，达到近似人工去背的效果。这项服务支持 JPG 和 PNG 图片格式，无需注册只要上传就能使用，图片最大不超过 5 Mb 大小。</p>
+<h3 id="No-9-Slazzer"><a href="#No-9-Slazzer" class="headerlink" title="No.9 Slazzer"></a>No.9 Slazzer</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/f7246b600c338744a154f81c0f3b19f3d62aa0f8.jpeg" alt="img">Slazzer 编辑功能主要分为背景选择和手动清除背景两部分，例如可以将背景模糊处理，或是加入其他图片和颜色，当然也可以选择自己的图片上传，直接在线上合成其他效果。</p>
+<h3 id="No-10-Unscreen"><a href="#No-10-Unscreen" class="headerlink" title="No.10 Unscreen"></a>No.10 Unscreen</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/b03533fa828ba61e604f345021005700314e59ef-20220906165139910.jpeg" alt="img">Unscreen是一个 100% 全自动、免费移除影片背景的在线工具，上传文件即可去除背景，只保留画面中的主体部分，使用者可选择让背景变成透明，加入其他影片、图片或单一颜色做为新的影片背景。<br>Unscreen 除了支持mp4、webm 和 ogg 影片格式，也能去除 gif 动画图文件，无论是影片或动态图，要进行去背的难度都比静态图来得更为复杂，而这个影片去背工具的特色是只要将文件上传就能直接去背。</p>
+<h3 id="No11-Magiceraser"><a href="#No11-Magiceraser" class="headerlink" title="No11. Magiceraser"></a>No11. Magiceraser</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/00e93901213fb80e37214ec86ee5ef24b83894ff-20220906165251352.jpeg" alt="img"><br>用画笔涂抹想要去掉的地方，还可以调整画笔的大小实现更加精确的涂抹消除，最后等处理。</p>
+<h3 id="No12-改图鸭"><a href="#No12-改图鸭" class="headerlink" title="No12.改图鸭"></a>No12.改图鸭</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/b999a9014c086e069882762f5c3cbbfe0ad1cb6f-20220906165239887.jpeg" alt="img">这款也是在线工具类网站，但是下载的话需要付费2元而且图片大小不能超过5M。】，其他的照片变漫画功能也很有趣。</p>
+<h3 id="No13-阿里妈妈"><a href="#No13-阿里妈妈" class="headerlink" title="No13.阿里妈妈"></a>No13.阿里妈妈</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/3b292df5e0fe99253fdea4cb6a9c9ed58cb1711e.jpeg" alt="img"><br>阿里巴巴旗下的抠图网站，网站面向淘宝研发，为「全自动高精度抠图，支持快速交互调整，擅长处理人物和电商商品」而生，只需要登陆淘宝账号既可免费使用。</p>
+<h3 id="No-14-inpixio"><a href="#No-14-inpixio" class="headerlink" title="No.14 inpixio"></a>No.14 inpixio</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/a686c9177f3e6709cce1f5df48f35f37f9dc55ef.jpeg" alt="img"><br>在线抠图工具，自动抠图后会进入在线编辑器，可让你针对抠图后的细节进行手动调整，完成后可免费下载高清图片。</p>
+<h3 id="No15-Cutout-Pro"><a href="#No15-Cutout-Pro" class="headerlink" title="No15.Cutout Pro"></a>No15.Cutout Pro</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/7a899e510fb30f24fcbcdaa8aea11149ad4b0331.jpeg" alt="img"><br>除了图片外还支持视频抠图，上传你的视频后即可自动抠图，而且不需要绿幕。普通视频都可以直接在线去背景，完成后可免费下载透明背景的小尺寸视频（高清需付费）。</p>
+<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1740310078117278410&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1740310078117278410&amp;wfr=spider&amp;for=pc</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么Blender中对物体进行变换操作后需要应用变换</title>
+    <url>/20.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>为什么<code>Blender</code>中对物体进行变换操作后需要应用变换?</p>
+<h3 id="解答"><a href="#解答" class="headerlink" title="解答"></a>解答</h3><p>当我们给物体添加修改器时 假如物体已经做了旋转 缩放 位移的变换, 那么修改器的效果会出现不符合预期的现象</p>
+<p>这是因为 修改器是以物体创建那一刻的属性值当做参考进行处理的, 比如物体在世界原点创建 然后我们对物体进行了位移处理,  那么修改器依然以为物体还在原点位置, 那么效果自然就会出偏</p>
+<p>解决办法就是 更新物体当前最新的位置信息 也就是我们所说的 <strong>应用变换</strong>, <code>blender</code>中快捷键为:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ctrl+ A</span><br></pre></td></tr></table></figure>
+
+<p>这就相当于是通知了修改器 物体已经变换了 要以当前变换属性进行处理</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>适合虚幻引擎的电脑配置参考</title>
+    <url>/19.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="处理器-CPU"><a href="#处理器-CPU" class="headerlink" title="处理器 (CPU)"></a>处理器 (CPU)</h3><p>处理器（或 CPU）是虚幻引擎开发工作站中最重要的部分之一。虽然系统的许多其他部分会在一定程度上影响性能，但 CPU 是硬件的核心部分，它绝对是您所做的任何事情的一部分。该列表已从数百个可用 CPU 缩小到仅几个在 Unreal 中进行开发的最佳选择。</p>
+<p>对于大多数用户来说，AMD Ryzen 9 5900X 12 核心是一个很不错的选择。这款 CPU 拥有 12 核 24 线程，足以为大多数用户提供良好的性能。如果预算允许，更多内核总是有帮助的，Ryzen 9 5950X 16 内核被证明是值得升级的<strong>。</strong></p>
+<h3 id="显卡-GPU"><a href="#显卡-GPU" class="headerlink" title="显卡 (GPU)"></a>显卡 (GPU)</h3><p>目前，虚幻引擎仅使用显卡在屏幕上显示图形。其他领域的许多应用程序也开始使用 GPU 执行其他任务，但这还没有在虚幻编辑器中实现。因此，更快的视频卡将在视口或独立游戏中为您提供更高的 FPS，但可能不会提高您在其他任务中的工作效率。</p>
+<p>根据您的预算以及您是否计划开发 VR 内容，您可以在虚幻引擎工作站上考虑这<strong>3 款显卡：</strong></p>
+<ul>
+<li><strong>NVIDIA GeForce RTX 3070 8GB</strong> – 这款 GPU 以其价格提供了出色的性能，并且具有足够的能力来毫无问题地处理多个显示器。</li>
+<li><strong>NVIDIA RTX A6000 48GB</strong> – Nvidia 的专业图形产品线提供将多个系统与视频墙和某些摄像机同步的能力。这是某些虚拟制作工作流程非常需要的功能，并且适用于多个 RTX A 系列型号。</li>
+<li><strong>NVIDIA GeForce RTX 3090 24GB</strong> – RTX 3090 具有 24GB 的 VRAM 和出色的性能价格，是用于游戏开发、虚拟制作和建筑可视化的最佳 GPU 之一，如果您计划开发 VR 内容，我们建议您使用它。大量的 VRAM 使其适用于具有三个甚至四个 4K 显示器的工作站，并且额外的功率非常适合尚未优化的游戏。</li>
+</ul>
+<h3 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 (RAM)"></a>内存 (RAM)</h3><p>您需要的 RAM 量将取决于您的特定项目以及您是否执行 RAM 密集型任务，例如建筑照明。但是，作为一般经验法则，我们建议</p>
+<ul>
+<li>大多数用户需要 32GB 的 RAM</li>
+<li>如果您构建的照明需要几个小时以上，则需要 64GB 以上的 RAM</li>
+</ul>
+<p>请记住，这些只是基本建议，仅涵盖虚幻编辑器本身所需的 RAM 量。如果您经常同时使用除 Unreal 之外的其他程序，您可能希望在系统中拥有更多 RAM，因为每个程序都需要自己的 RAM 块。</p>
+<h3 id="存储（硬盘）"><a href="#存储（硬盘）" class="headerlink" title="存储（硬盘）"></a>存储（硬盘）</h3><p>根据您的特定需求和要求，强烈建议使用三种不同类型的存储驱动器：</p>
+<ul>
+<li><strong>标准 SSD</strong> – SSD 是现代工作站的主要部件，尤其是作为包含操作系统和程序安装的主驱动器。它们比传统的盘片硬盘更贵，但速度也快很多倍，让您可以更快地启动 Windows 和程序。</li>
+<li><strong>NVMe SSD</strong> – 这些驱动器比标准 SSD 贵约 30%，但速度快约五倍！但是，在大多数情况下，您不会看到太大的性能差异，因为现代标准 SSD 已经如此之快，以至于它很少成为性能瓶颈。但是，您可以使用 NVMe 驱动器更快地打开某些项目，这可以使它们用作项目驱动器。</li>
+<li><strong>传统盘片驱动器</strong>——这些驱动器可能比我们提供的 SSD 慢，但它们更实惠且容量更大。虽然我们不建议直接使用这些驱动器，但它们可以制作出极好的长期存储驱动器。</li>
+</ul>
+<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>工具</tag>
       </tags>
   </entry>
 </search>
