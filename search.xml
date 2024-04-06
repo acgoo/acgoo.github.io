@@ -5,7 +5,7 @@
     <url>/1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><code>Adobe Animate CC</code>简称为<code>An</code>, 前身为<code>Flash</code>, 一款2D动画制作软件, 界面简洁 , 对新手友好</p>
 <p>主界面如下:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211222152615479.png" alt="image-20211222152615479"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211222152615479.png" alt="image-20211222152615479"></p>
 <p><strong>应用场景:</strong></p>
 <ul>
 <li>二维动画制作</li>
@@ -31,7 +31,7 @@
 </ol>
 <h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><ol>
 <li><p>适合新手入门的一套教程:</p>
-<iframe src="//player.bilibili.com/player.html?aid=713055289&bvid=BV1qX4y1M761&cid=264976897&page=4" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=713055289&bvid=BV1qX4y1M761&cid=264976897&page=4&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
 </li>
 <li><p>国外大佬的一套系列的视频, 有兴趣可以跳转至B站观看:</p>
 <iframe src="//player.bilibili.com/player.html?aid=542900562&bvid=BV16i4y1V7df&cid=331789772&page=1&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
@@ -71,9 +71,14 @@
 </ul>
 <h3 id="文本转语音"><a href="#文本转语音" class="headerlink" title="文本转语音"></a>文本转语音</h3><ul>
 <li><p><a href="https://www.ffkuaidu.com/" target="_blank" rel="noopener">讯飞快读</a> : 1500字以内免费, 利用控台源码查看或者网络抓包可以免注册登录获取音频文件:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114143902665.png" alt="image-20220114143902665"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220114143902665.png" alt="image-20220114143902665"></p>
 </li>
 <li><p><strong>音频内录工具</strong>: 有些文字转语音工具只提供试听但不提供下载, 如果你确实很满意效果, 可以考虑使用内录工具将音频一边播放一边录制, 或者使用录屏软件也可以, 录完后将音频分离出来</p>
+</li>
+<li><p>微软语言合成助手 : 目前短视频大部分配音解说用的都是这个</p>
+</li>
+<li><p><a href="https://ttsmaker.cn/" target="_blank" rel="noopener">TTSmaker</a> : 每周30000字符免费额度</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/image-20240404204557232.png" alt="image-20240404204557232"></p>
 </li>
 </ul>
 <h3 id="语音转字幕"><a href="#语音转字幕" class="headerlink" title="语音转字幕"></a>语音转字幕</h3><ul>
@@ -104,7 +109,7 @@
     <url>/10.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>想让图片中的人物动起来, 如果你不擅长动画软件的使用, 那么有个工具非常适合你, 直接在线将图片转动画</p>
 <p>官网张这样:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
 <p><a href="https://sketch.metademolab.com/canvas" target="_blank" rel="noopener">点击进入工具页面</a></p>
 <h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><strong>视频教程如下:</strong></p>
 <iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" autoplay="false" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
@@ -128,11 +133,11 @@
     <title>Blender 3D建模之电脑桌 附工程下载</title>
     <url>/12.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><code>Eevee</code>渲染引擎效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/Eevee.png" alt="Eevee"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/Eevee.png" alt="Eevee"></p>
 <p><code>Cycles</code>渲染引擎效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/cycles.png" alt="cycles"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/cycles.png" alt="cycles"></p>
 <p><code>Eevee</code>引擎添加环境灯光后渲染效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/Eevee_after_setting.png" alt="Eevee_after_setting"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/Eevee_after_setting.png" alt="Eevee_after_setting"></p>
 <h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
 <p>(访问密码: 312306)</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -146,9 +151,9 @@
     <title>Blender 3D建模之希腊雅典卫城 附工程下载</title>
     <url>/13.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p>视图渲染效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/world.jpg" alt="world"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/world.jpg" alt="world"></p>
 <p>建筑粉碎动画效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/boom.jpg" alt="boom"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/boom.jpg" alt="boom"></p>
 <h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
 <p>(访问密码: 312306)</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -161,7 +166,7 @@
   <entry>
     <title>Blender 3D建模之齿轮 附工程下载</title>
     <url>/14.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/gear.png" alt="gear"></p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/gear.png" alt="gear"></p>
 <h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
 <p>(访问密码: 312306)</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -175,7 +180,7 @@
     <title>Blender 3D建模之碧血剑 附工程下载</title>
     <url>/15.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p>视图预览效果图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/sword.png" alt="sword"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/sword.png" alt="sword"></p>
 <h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
 <p>(访问密码: 312306)</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -191,14 +196,14 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="设计环境"><a href="#设计环境" class="headerlink" title="设计环境"></a>设计环境</h3><ul>
 <li><strong>Photoshop</strong></li>
 </ul>
-<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-1.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<h3 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-2.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-3.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-4.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-1.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-2.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-3.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/uisdc-course-20170127-4.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
 <h3 id="像素动画制作"><a href="#像素动画制作" class="headerlink" title="像素动画制作"></a>像素动画制作</h3><p>如果我们要制作像素动画, 用于游戏使用, 我们可以考虑使用<code>Aseprite</code>这款软件</p>
 <p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
 <p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
 <p>*<em>本文转载自 *</em><a href="https://www.uisdc.com/photoshop-pixel-style-avatar" target="_blank" rel="noopener">https://www.uisdc.com/photoshop-pixel-style-avatar</a></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -218,7 +223,7 @@
 <p><code>ACG</code>即<a href="https://baike.baidu.com/item/Animation/8726467" target="_blank" rel="noopener">Animation</a>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comics</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）与<code>Games</code>（游戏）的首字母缩写</p>
 <h3 id="什么是ACGN"><a href="#什么是ACGN" class="headerlink" title="什么是ACGN"></a>什么是ACGN</h3><p><code>ACGN</code>为英文<code>Animation</code>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comic</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）、<code>Game</code>（<a href="https://baike.baidu.com/item/游戏/33581" target="_blank" rel="noopener">游戏</a>）、<code>Novel</code>（<a href="https://baike.baidu.com/item/小说/45851" target="_blank" rel="noopener">小说</a>）的合并缩写</p>
 <h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>如下图:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211222150716026.png" alt="image-20211222150716026"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211222150716026.png" alt="image-20211222150716026"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -237,12 +242,12 @@
 </ul>
 <h3 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h3><p>官网下载: <a href="https://www.blender.org/download/" target="_blank" rel="noopener">Blender</a></p>
 <h3 id="软件上手"><a href="#软件上手" class="headerlink" title="软件上手"></a>软件上手</h3><p>安装完毕后打开应用, 界面如下:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211228145312330.png" alt="image-20211228145312330"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211228145312330.png" alt="image-20211228145312330"></p>
 <p><strong>接下来我们开始来搭积木</strong></p>
 <p>有些快键键我们需要提前了解一下, <code>Blender</code>非常人性化, 在左下方给了我们快键键的相应提示:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211228165419711.png" alt="image-20211228165419711"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211228165419711.png" alt="image-20211228165419711"></p>
 <p>我们可以选择不同模式对物体进行操作, 比如移动, 旋转和缩放等等</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/move.gif" alt="move"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/move.gif" alt="move"></p>
 <p>当然, 你可以直接使用快捷键操作, 如果你碰上快捷键失灵的问题, 有可能是输入法冲突导致, 将输入法切换回英文输入法即可</p>
 <h3 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h3><ol>
 <li><p><strong>复制并移动物体</strong></p>
@@ -340,7 +345,7 @@
 <li><p><strong>切换至四格视图</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Ctrl+Alt+Q</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220105102359850.png" alt="image-20220105102359850"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220105102359850.png" alt="image-20220105102359850"></p>
 </li>
 <li><p><strong>切换回3D视图</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">鼠标中键</span><br></pre></td></tr></table></figure>
@@ -348,12 +353,12 @@
 <li><p><strong>视图翻滚切换</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Alt+鼠标中间上下左右拖拽</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/12dadf9a27f2a6083b8fdb7b2e73999a157443fb.gif" alt="img"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/12dadf9a27f2a6083b8fdb7b2e73999a157443fb.gif" alt="img"></p>
 </li>
 <li><p><strong>隔离视图</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/0e0c9dd7dbcd5073ea41503f6060a7c003e666c2.gif" alt="img"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/0e0c9dd7dbcd5073ea41503f6060a7c003e666c2.gif" alt="img"></p>
 </li>
 </ol>
 <p>当我们需要对某个物体沿着某个坐标方向进行平移时, 我们可以将视图切换到主视图, 右视图, 顶视图等, 以2D的视角对物体进行操作会更加顺手</p>
@@ -404,7 +409,7 @@
 <p>可以将编辑模式称之为物体解剖模式, 只有在该模式下才能对选中物体进行点线面的编辑</p>
 <h4 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h4><p><strong>对物体局部进行拉伸</strong></p>
 <p>选中物体后按<code>TAB</code>进入编辑模式, 选择需要拉伸的边:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/lasheng2.gif" alt="lasheng2"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/lasheng2.gif" alt="lasheng2"></p>
 <h3 id="物体合并与拆分"><a href="#物体合并与拆分" class="headerlink" title="物体合并与拆分"></a>物体合并与拆分</h3><p>这里的合并有点类似于分组, 将多个物体链接到一块, 在编辑模式下可以进行统一选中编辑</p>
 <h5 id="快捷键-1"><a href="#快捷键-1" class="headerlink" title="快捷键"></a>快捷键</h5><ol>
 <li><p><strong>物体合并</strong></p>
@@ -423,7 +428,7 @@
 </li>
 </ol>
 <h3 id="游标的使用"><a href="#游标的使用" class="headerlink" title="游标的使用"></a>游标的使用</h3><p>有时候 我们需要将物体快速移动到某个位置, 如果按照传统的坐标拖拽模式, 显然有些费劲, 此时我们可以利用游标快速定位, 然后将需要移动的物体吸附过去</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/youbiao.gif" alt="youbiao"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/youbiao.gif" alt="youbiao"></p>
 <p>除此之外我们还可以将游标当做中心轴, 进行物体选中, 比如汽车玻璃雨刷的摆动</p>
 <h3 id="视频剪辑"><a href="#视频剪辑" class="headerlink" title="视频剪辑"></a>视频剪辑</h3><ol>
 <li><p><strong>素材剪辑常用快捷键</strong></p>
@@ -431,7 +436,7 @@
 <li><p><strong>放大选中区域</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">shift+B</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/big.gif" alt="big"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/big.gif" alt="big"></p>
 </li>
 <li><p><strong>恢复放大</strong></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Home</span><br></pre></td></tr></table></figure>
@@ -453,7 +458,7 @@
 </ol>
 <ol start="2">
 <li><p><strong>视频输出配置</strong></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231111519405.png" alt="image-20211231111519405"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231111519405.png" alt="image-20211231111519405"></p>
 </li>
 <li><p><strong>视频导出</strong></p>
 <p>渲染–&gt;渲染动画–&gt;等待渲染结束</p>
@@ -472,31 +477,31 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>有时候 我们可能需要使3D建模的物体或者场景更加逼真一些, 那么可以通过一些参数的设置来提升一定的真实度</p>
 <p>比如以下几种方式:</p>
 <h3 id="添加HDRI"><a href="#添加HDRI" class="headerlink" title="添加HDRI"></a>添加HDRI</h3><p><strong>HDRI</strong>(High-Dynamic Range Image) 高动态范围图像, 这种图像相比正常的RGB图像拥有更大的亮度范围, 我们可以利用它充当背景图照亮整个场景, 如下:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png" alt="image-20220906144722452"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906144722452.png" alt="image-20220906144722452"></p>
 <p>它有点类似于全景图, 让物体置身于其中</p>
 <p>利用<code>HDRI</code> 我们能得到一个非常漂亮和真实的渲染效果</p>
 <p>在<code>Blender</code>中, 具体设置如下:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143541734.png" alt="image-20220906143541734"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906143541734.png" alt="image-20220906143541734"></p>
 <p>假如我们取消<code>HDRI</code>,  那么效果截然不同:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906143617192.png" alt="image-20220906143617192"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906143617192.png" alt="image-20220906143617192"></p>
 <p>是不是差距很大</p>
 <h3 id="灯光设置"><a href="#灯光设置" class="headerlink" title="灯光设置"></a>灯光设置</h3><ol>
 <li><p><strong>开启接触阴影</strong></p>
 <p>选择灯光后在属性面板设置中将接触阴影勾选上, 然后根据实际的场景来调节相应的距离偏移参数:</p>
-<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150246960.png" alt="image-20220906150246960"></p>
+<p> <img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906150246960.png" alt="image-20220906150246960"></p>
 <p> 接触阴影 顾名思义 它可以增加物体与物体之间的阴影, 适量添加一些可以增加场景立体感</p>
 <p> 我们来对比一下, 首先是开启前的样子:</p>
 <p> ![image-20220906152351769](/Users/songjian/Library/Application Support/typora-user-images/image-20220906152351769.png)</p>
 <p> 开启接触阴影后的效果:</p>
-<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906152742875.png" alt="image-20220906152742875"></p>
+<p> <img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906152742875.png" alt="image-20220906152742875"></p>
 </li>
 </ol>
 <h3 id="渲染引擎设置"><a href="#渲染引擎设置" class="headerlink" title="渲染引擎设置"></a>渲染引擎设置</h3><p>如果你使用的是<code>Eevee</code>渲染引擎, 那么可以考虑将环境光遮蔽功能打开:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906150530843.png" alt="image-20220906150530843"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906150530843.png" alt="image-20220906150530843"></p>
 <p>我们来对比看看效果, 这个开启前的样子:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151126199.png" alt="image-20220906151126199"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906151126199.png" alt="image-20220906151126199"></p>
 <p>开启后的效果:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906151157135.png" alt="image-20220906151157135"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906151157135.png" alt="image-20220906151157135"></p>
 <p>我们能明显看出来 开启环境光遮蔽后, 物体暗面更加清晰了, 这使得物体更加具有立体感和真实感</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
@@ -511,23 +516,23 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>我们在做视频剪辑的时候, 少不了要给视频添加背景音乐, 音乐和图片、电影、字体等一样都是有版权的, 一不留神就容易掉坑, 所以我们在配乐选择的时候, 一定要仔细斟酌</p>
 <p>那么今天就给大家介绍几个可以无版权的的音乐下载网站:</p>
 <h3 id="FreePD"><a href="#FreePD" class="headerlink" title="FreePD"></a>FreePD</h3><p><a href="https://freepd.com/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231143947073.png" alt="image-20211231143947073"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231143947073.png" alt="image-20211231143947073"></p>
 <p>里面的音乐无需注册, 直接就可以试听下载, 花点小钱还可以一键打包整站所有音频资源</p>
 <h3 id="Musopen"><a href="#Musopen" class="headerlink" title="Musopen"></a>Musopen</h3><p><a href="https://musopen.org/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231144959044.png" alt="image-20211231144959044"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231144959044.png" alt="image-20211231144959044"></p>
 <p>我们在搜索列表中, 但凡是带<code>CC</code>图标的, 皆可免费商用:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231145518714.png" alt="image-20211231145518714"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231145518714.png" alt="image-20211231145518714"></p>
 <p>不仅如此, 还提供乐谱下载:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231145149007.png" alt="image-20211231145149007"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231145149007.png" alt="image-20211231145149007"></p>
 <p>唯一不爽的是, 需要注册登录才能下载</p>
 <h3 id="Audionautix"><a href="#Audionautix" class="headerlink" title="Audionautix"></a>Audionautix</h3><p><a href="https://audionautix.com/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231150051431.png" alt="image-20211231150051431"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231150051431.png" alt="image-20211231150051431"></p>
 <p>里面的音乐全部可以免费使用, 无需注册直接下载, 商用时只需要注明音乐来源即可, 像下面这样</p>
 <p><a href="https://audionautix.com/" target="_blank" rel="noopener">Creative Commons Music by Jason Shaw on Audionautix.com</a></p>
 <h3 id="Freemusicarchive"><a href="#Freemusicarchive" class="headerlink" title="Freemusicarchive"></a>Freemusicarchive</h3><p><a href="https://freemusicarchive.org/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231154351788.png" alt="image-20211231154351788"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231154351788.png" alt="image-20211231154351788"></p>
 <h3 id="Jamendo"><a href="#Jamendo" class="headerlink" title="Jamendo"></a>Jamendo</h3><p><a href="https://www.jamendo.com/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231144229063.png" alt="image-20211231144229063"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231144229063.png" alt="image-20211231144229063"></p>
 <p>要注意的是, 里面的音乐只供个人免费使用, 如果要<strong>商用的话需要付费</strong></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
@@ -545,7 +550,7 @@
 <p>这个插件是国外某位<code>Blender</code>大佬写的, 并将文件放置到了Github上:</p>
 <p><a href="https://github.com/cgfasttrack/lazyviewport" target="_blank" rel="noopener">Github</a></p>
 <p>当我们将插件安装上之后, 选择物体 输入旋转 缩放 位移三者任意快捷键 则会出现轴向标:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220906155021837.png" alt="image-20220906155021837"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220906155021837.png" alt="image-20220906155021837"></p>
 <p>这样一来, 我们就不用关注具体是X Y还是Z轴了, 想往哪个方向拖就往哪个方向</p>
 <h3 id="插件下载"><a href="#插件下载" class="headerlink" title="插件下载"></a>插件下载</h3><p>插件已打包上传到网盘中, 国内用户可直接下载:</p>
 <p><a href="https://url97.ctfile.com/d/21042697-51129587-761db9?p=312306" target="_blank" rel="noopener">点击下载</a></p>
@@ -569,22 +574,22 @@
 </ul>
 <h3 id="神奇代码岛"><a href="#神奇代码岛" class="headerlink" title="神奇代码岛"></a>神奇代码岛</h3><p>编程猫旗下的一款产品, 主打多人联机3D创作,提供在线建模, 在线游戏开发和游戏在线试玩</p>
 <p>官网张这样:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230161658911.png" alt="image-20211230161658911"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211230161658911.png" alt="image-20211230161658911"></p>
 <p>在线建模工具我试用了一下, 还挺好用的 哈哈, 无需繁琐操作, 直接用鼠标堆积即可:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230162001906.png" alt="image-20211230162001906"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211230162001906.png" alt="image-20211230162001906"></p>
 <p>创建地图相当于是创建了一个游戏工程, 脚本语言使用的是<code>JavaScript</code>:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230162759537.png" alt="image-20211230162759537"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211230162759537.png" alt="image-20211230162759537"></p>
 <p>如果你是前端开发者, 想快速开发一款属于自己的在线联机游戏,那么这个工具绝对适合你 </p>
 <h3 id="ROBLOX"><a href="#ROBLOX" class="headerlink" title="ROBLOX"></a>ROBLOX</h3><p>中文名罗布乐思, 面向青少年游戏开发入门, 官网长这样:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230165610330.png" alt="image-20211230165610330"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211230165610330.png" alt="image-20211230165610330"></p>
 <p>游戏开发工具需要下载软件, 支持<code>Windows</code>和<code>Mac</code>平台开发, 画风虽然是像素, 但是模型相对平滑, 观感较为舒适:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.gif" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640.gif" alt="图片"></p>
 <h3 id="唤境"><a href="#唤境" class="headerlink" title="唤境"></a>唤境</h3><p>一个2D像素游戏开发工具</p>
 <p>官网界面长这样:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211230161532393.png" alt="image-20211230161532393"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211230161532393.png" alt="image-20211230161532393"></p>
 <p>里面的成品游戏可以在线试玩</p>
 <p>我随便点了一个, 风格如下:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/game.gif" alt="game"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/game.gif" alt="game"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -611,10 +616,10 @@
 <li><strong>支持给视频添加字幕</strong></li>
 </ul>
 <p>官网长这样:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231140529245.png" alt="image-20211231140529245"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231140529245.png" alt="image-20211231140529245"></p>
 <p> <a href="https://handbrake.fr/" target="_blank" rel="noopener">点击进入官网</a></p>
 <p>给视频添加字幕:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231142212789.png" alt="image-20211231142212789"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231142212789.png" alt="image-20211231142212789"></p>
 <h3 id="小丸工具箱"><a href="#小丸工具箱" class="headerlink" title="小丸工具箱"></a>小丸工具箱</h3><p>小丸工具箱是一款用于处理音视频等多媒体文件的软件。是一款x264、ffmpeg等命令行程序的图形界面。它的目标是让视频压制变得简单、轻松。</p>
 <p>主要功能：</p>
 <ul>
@@ -625,10 +630,10 @@
 </ul>
 <p>缺点:</p>
 <p>目前只支持<code>Windows</code>平台</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231142900086.png" alt="image-20211231142900086"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231142900086.png" alt="image-20211231142900086"></p>
 <p><a href="https://maruko.appinn.me/" target="_blank" rel="noopener">点击进入官网</a></p>
 <p>如果你刚好是Windows用户, 可以直接去B站下载B站优化版本</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20211231143033438.png" alt="image-20211231143033438"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20211231143033438.png" alt="image-20211231143033438"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -647,45 +652,45 @@
 <p>对于视频创作者、新媒体运营者来说，这都是非常值得收藏的。</p>
 <p>OK，不废话，直接上东西吧~</p>
 <h3 id="1、Coverr"><a href="#1、Coverr" class="headerlink" title="1、Coverr"></a>1、Coverr</h3><p>（<a href="https://coverr.co）*很好很强大的免费视频素材网站，海量库存，每周持续更新7条精美视频。" target="_blank" rel="noopener">https://coverr.co）*很好很强大的免费视频素材网站，海量库存，每周持续更新7条精美视频。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640.png" alt="图片"></p>
 <h3 id="2、Pexels"><a href="#2、Pexels" class="headerlink" title="2、Pexels"></a>2、Pexels</h3><p><a href="https://www.pexels.com）*这是我自己最常用的视频/图片素材网站，*支持中文搜索*，视频质量高，免注册一键下载。" target="_blank" rel="noopener">https://www.pexels.com）*这是我自己最常用的视频/图片素材网站，*支持中文搜索*，视频质量高，免注册一键下载。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152453962.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152453962.png" alt="图片"></p>
 <h3 id="3、Vimeo"><a href="#3、Vimeo" class="headerlink" title="3、Vimeo"></a>3、Vimeo</h3><p>（<a href="https://vimeo.com/creativecommons/cc0）*简单好用，用户分享的CC0视频精选，画风很接地气。" target="_blank" rel="noopener">https://vimeo.com/creativecommons/cc0）*简单好用，用户分享的CC0视频精选，画风很接地气。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152500991.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152500991.png" alt="图片"></p>
 <h3 id="4、wedistill"><a href="#4、wedistill" class="headerlink" title="4、wedistill"></a>4、wedistill</h3><p>（<a href="https://www.wedistill.io/）*每天更新10条免费HD视频素材，完全免费，可以商用。" target="_blank" rel="noopener">https://www.wedistill.io/）*每天更新10条免费HD视频素材，完全免费，可以商用。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152512493.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152512493.png" alt="图片"></p>
 <h3 id="5、lifeofvids"><a href="#5、lifeofvids" class="headerlink" title="5、lifeofvids"></a>5、lifeofvids</h3><p>（<a href="https://lifeofvids.com/）*完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。" target="_blank" rel="noopener">https://lifeofvids.com/）*完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152529164.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152529164.png" alt="图片"></p>
 <h3 id="6、pond5"><a href="#6、pond5" class="headerlink" title="6、pond5"></a>6、pond5</h3><p>（<a href="https://www.pond5.com/）*全球最大的开放版权视频合集，不仅有视频，还有音乐、动态图片，用这些世界级的好素材，让你的视频如虎添翼！" target="_blank" rel="noopener">https://www.pond5.com/）*全球最大的开放版权视频合集，不仅有视频，还有音乐、动态图片，用这些世界级的好素材，让你的视频如虎添翼！</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152541954.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152541954.png" alt="图片"></p>
 <h3 id="7、splashbase"><a href="#7、splashbase" class="headerlink" title="7、splashbase"></a>7、splashbase</h3><p>（<a href="http://www.splashbase.co/）*在这里搜索和发现免费的高分辨率照片和视频。同样都是CC0素材，随意使用" target="_blank" rel="noopener">http://www.splashbase.co/）*在这里搜索和发现免费的高分辨率照片和视频。同样都是CC0素材，随意使用</a>~*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152552426.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152552426.png" alt="图片"></p>
 <h3 id="8、isorepublic"><a href="#8、isorepublic" class="headerlink" title="8、isorepublic"></a>8、isorepublic</h3><p>（<a href="https://isorepublic.com/）*大量的免费高分辨率" target="_blank" rel="noopener">https://isorepublic.com/）*大量的免费高分辨率</a> CC0照片和视频，让你的素材库永不枯竭。*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152603041.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152603041.png" alt="图片"></p>
 <h3 id="9、Videezy"><a href="#9、Videezy" class="headerlink" title="9、Videezy"></a>9、Videezy</h3><p>（<a href="https://www.videezy.com/）**大量的**提供大量免费的HD&amp;4K视频素材，让人想舔屏的好网站。" target="_blank" rel="noopener">https://www.videezy.com/）**大量的**提供大量免费的HD&amp;4K视频素材，让人想舔屏的好网站。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152610810.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152610810.png" alt="图片"></p>
 <h3 id="10、mazwai"><a href="#10、mazwai" class="headerlink" title="10、mazwai"></a>10、mazwai</h3><p>（<a href="https://mazwai.com/）*由视频专业团队精心挑选的免费影视素材视频。良心素材网站！" target="_blank" rel="noopener">https://mazwai.com/）*由视频专业团队精心挑选的免费影视素材视频。良心素材网站！</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152622341.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152622341.png" alt="图片"></p>
 <h3 id="11、videvo"><a href="#11、videvo" class="headerlink" title="11、videvo"></a>11、videvo</h3><p>（<a href="https://www.videvo.net/）*只需要注册一个免费账户，就能一站式免费获取数以千计的免费视频、动图、音效素材！" target="_blank" rel="noopener">https://www.videvo.net/）*只需要注册一个免费账户，就能一站式免费获取数以千计的免费视频、动图、音效素材！</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152630192.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152630192.png" alt="图片"></p>
 <h3 id="12、vidlery"><a href="#12、vidlery" class="headerlink" title="12、vidlery"></a>12、vidlery</h3><p>（<a href="http://vidlery.com/）*这是一个特殊的视频素材网站，*里面提供的都是动画视频素材，同样是100%免费的，而且免注册一键下载哦" target="_blank" rel="noopener">http://vidlery.com/）*这是一个特殊的视频素材网站，*里面提供的都是动画视频素材，同样是100%免费的，而且免注册一键下载哦</a>~*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152639968.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152639968.png" alt="图片"></p>
 <h3 id="13、beachfrontbroll"><a href="#13、beachfrontbroll" class="headerlink" title="13、beachfrontbroll"></a>13、beachfrontbroll</h3><p>（<a href="http://www.beachfrontbroll.com/）免费下载高清视频和动画素材，完全免费使用的，下载只需一个简单的“右键单击保存”即可。" target="_blank" rel="noopener">http://www.beachfrontbroll.com/）免费下载高清视频和动画素材，完全免费使用的，下载只需一个简单的“右键单击保存”即可。</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152652394.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152652394.png" alt="图片"></p>
 <h3 id="14、vidsplay"><a href="#14、vidsplay" class="headerlink" title="14、vidsplay"></a>14、vidsplay</h3><p>（<a href="https://www.vidsplay.com/）*质感很好的视频素材网站，搜关键字就能找到几乎任何你想要的视频素材。" target="_blank" rel="noopener">https://www.vidsplay.com/）*质感很好的视频素材网站，搜关键字就能找到几乎任何你想要的视频素材。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152701450.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152701450.png" alt="图片"></p>
 <h3 id="15、dreamstime"><a href="#15、dreamstime" class="headerlink" title="15、dreamstime"></a>15、dreamstime</h3><p><em>（<a href="https://www.dreamstime.com/stock-footage/cc0-license.html）" target="_blank" rel="noopener">https://www.dreamstime.com/stock-footage/cc0-license.html）</a></em>Dreamstime是全球最大的素材社区，你可以在CC0许可下找到理想的照片和视频素材。</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152708481.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152708481.png" alt="图片"></p>
 <h3 id="16、focastock"><a href="#16、focastock" class="headerlink" title="16、focastock"></a>16、focastock</h3><p><em>（<a href="https://focastock.com/video/）" target="_blank" rel="noopener">https://focastock.com/video/）</a></em>全站素材均为CC0许可，你可以免费使用于任何你想要的视频项目，包括但不限于商用。</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152719251.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152719251.png" alt="图片"></p>
 <h3 id="17、footage123"><a href="#17、footage123" class="headerlink" title="17、footage123"></a>17、footage123</h3><p><em>（<a href="https://footage123.com/）又是一个神一般的素材网站，它的素材主打来自全球的" target="_blank" rel="noopener">https://footage123.com/）又是一个神一般的素材网站，它的素材主打来自全球的</a></em>无人机的免费高清和4k航拍视频，想要大景别宏大叙事的盆友赶紧收藏起来。</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152727029.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152727029.png" alt="图片"></p>
 <h3 id="18、Burst"><a href="#18、Burst" class="headerlink" title="18、Burst"></a>18<strong>、Burst</strong></h3><p>（<a href="https://burst.shopify.com/）*这个网站主要提供高清图片，而且专门用于商用的，基本上都是CC0的许可，有这方面需求的可以收藏起来哦。" target="_blank" rel="noopener">https://burst.shopify.com/）*这个网站主要提供高清图片，而且专门用于商用的，基本上都是CC0的许可，有这方面需求的可以收藏起来哦。</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152735210.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152735210.png" alt="图片"></p>
 <h3 id="19、Skitterphoto"><a href="#19、Skitterphoto" class="headerlink" title="19、Skitterphoto"></a>19、Skitterphoto</h3><p>（<a href="https://skitterphoto.com/）*全站均为CC0图片，都是高清的质感好图，爱怎么用就怎么用，完全免费哈" target="_blank" rel="noopener">https://skitterphoto.com/）*全站均为CC0图片，都是高清的质感好图，爱怎么用就怎么用，完全免费哈</a>~*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231153137397.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231153137397.png" alt="图片"></p>
 <h3 id="20、foodiesfeed："><a href="#20、foodiesfeed：" class="headerlink" title="20、foodiesfeed："></a>20、foodiesfeed：</h3><p><strong>（<a href="https://www.foodiesfeed.com/）" target="_blank" rel="noopener">https://www.foodiesfeed.com/）</a></strong>这个网站所有的图片都和<em>美食相关，各位美食博主赶紧收藏起来吧~</em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231152742978.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231152742978.png" alt="图片"></p>
 <p>OK，暂时先说到这里，但相信有了这20个网站，以后再也不会缺素材啦~</p>
 <h3 id="说明一下"><a href="#说明一下" class="headerlink" title="说明一下"></a>说明一下</h3><ol>
 <li>上面的20个网站我都亲自打开过，到我发布这篇文章为止，依然是可用的。</li>
@@ -710,36 +715,36 @@
 <p>OK，不废话，直接上东西吧~</p>
 <p><strong><em>1、***</em></strong>FreePD：***</p>
 <p><em>（<a href="https://freepd.com）**我自己常用的音乐网站。汇集了互联网海量免版税的公共领域音乐资源，提供了许多不同类型的音乐资源，你可以不花钱就能免费下载任意一首音乐，花个14美元可以一键下载全部内容。" target="_blank" rel="noopener">https://freepd.com）**我自己常用的音乐网站。汇集了互联网海量免版税的公共领域音乐资源，提供了许多不同类型的音乐资源，你可以不花钱就能免费下载任意一首音乐，花个14美元可以一键下载全部内容。</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640.jpeg" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640.jpeg" alt="图片"></p>
 <p><strong><em>2、Free Music Archive：\</em></strong></p>
 <p><em>（<a href="https://freemusicarchive.org/）**一个强大的免费音乐网站，免注册下载全球开放好音乐。" target="_blank" rel="noopener">https://freemusicarchive.org/）**一个强大的免费音乐网站，免注册下载全球开放好音乐。</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154821573.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154821573.png" alt="图片"></p>
 <p><strong><em>3、 Incompetech：\</em></strong></p>
 <p><em>（<a href="https://incompetech.com/music/royalty-free/music.html）\" target="_blank" rel="noopener">https://incompetech.com/music/royalty-free/music.html）\</a></em>简单直接，免费好用，一键下载，无需注册。**</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154816489.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154816489.png" alt="图片"></p>
 <p><strong><em>4、Envato Market：\</em></strong></p>
 <p><em>（<a href="https://audiojungle.net/）**这个是Envato" target="_blank" rel="noopener">https://audiojungle.net/）**这个是Envato</a> Market旗下的一个免费音乐素材网站，*Envato Market*做视频的应该都很熟悉吧，主要是做各种片头模板的，现在淘宝上卖的各种AE模板，一大半来自*Envato Market*。</em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154809979.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154809979.png" alt="图片"></p>
 <p><strong><em>5、MUSOPEN：\</em></strong></p>
 <p><em>（<a href="https://musopen.org/）**免费的古典音乐大全，可按照作曲家，年代，演奏家搜索。完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。" target="_blank" rel="noopener">https://musopen.org/）**免费的古典音乐大全，可按照作曲家，年代，演奏家搜索。完全免费，没有版权限制（个人和商业），对于这样的网站运营者，只想说一声好人一生平安。</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154803278.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154803278.png" alt="图片"></p>
 <p><strong><em>6、Audioblocks：\</em></strong></p>
 <p><em>（<a href="https://www.audioblocks.com/）**全球提供无线版权的音乐和循环音效，只需简单注册一下就能解锁大量免费素材！" target="_blank" rel="noopener">https://www.audioblocks.com/）**全球提供无线版权的音乐和循环音效，只需简单注册一下就能解锁大量免费素材！</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154752222.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154752222.png" alt="图片"></p>
 <p><strong><em>7、ccMixter：\</em></strong></p>
 <p><em>（<a href="http://ccmixter.org/）**一个托管艺术家作品社区的站点，里面有很多的免费共享音乐素材，还能看到很多技术不是那么高潮的作曲家的作品，很有意思。" target="_blank" rel="noopener">http://ccmixter.org/）**一个托管艺术家作品社区的站点，里面有很多的免费共享音乐素材，还能看到很多技术不是那么高潮的作曲家的作品，很有意思。</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154744300.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154744300.png" alt="图片"></p>
 <p><strong><em>8、Jamendo：\</em></strong></p>
 <p><em>（<a href="https://licensing.jamendo.com/en/royalty-free-music/project/advertising）**营销汪的福音！这是一个专门为广告商和营销人员创建的免费音乐网站，里面的音乐可以直接用在你的TVC里！" target="_blank" rel="noopener">https://licensing.jamendo.com/en/royalty-free-music/project/advertising）**营销汪的福音！这是一个专门为广告商和营销人员创建的免费音乐网站，里面的音乐可以直接用在你的TVC里！</a></em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154738741.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154738741.png" alt="图片"></p>
 <p><strong><em>9、Netlabels：\</em></strong></p>
 <p><em>（<a href="https://archive.org/details/netlabels）**超好用的免费音乐合集，完全CC0的免费正版素材，随意使用" target="_blank" rel="noopener">https://archive.org/details/netlabels）**超好用的免费音乐合集，完全CC0的免费正版素材，随意使用</a>~</em></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154734201.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154734201.png" alt="图片"></p>
 <p><strong><em>10、 Audionautix：*</em></strong>（<a href="https://audionautix.com/）**由视频专业团队精心挑选的免费影视素材视频。良心素材网站！" target="_blank" rel="noopener">https://audionautix.com/）**由视频专业团队精心挑选的免费影视素材视频。良心素材网站！</a>*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154723453.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154723453.png" alt="图片"></p>
 <p><strong><em>PS、***</em></strong>YOUTUBE AUDIO LIBRAR*<strong>***Y：</strong></p>
 <p><strong>（**</strong><a href="https://www.youtube.com/audiolibrary/music?nv=1）**当然，油管的小伙伴可以直接在油管自带的AUDIO" target="_blank" rel="noopener">https://www.youtube.com/audiolibrary/music?nv=1）**当然，油管的小伙伴可以直接在油管自带的AUDIO</a> LIBRARY上找到你要的音乐素材。*</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/640-20211231154716007.png" alt="图片"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/640-20211231154716007.png" alt="图片"></p>
 <p>OK，暂时先说到这里。有了这些个网站，以后做视频就不要~</p>
 <p><strong>说明一下：</strong></p>
 <p>1、上面的10个网站我都亲自打开过，到我发布这篇文章为止，依然是可用的。</p>
@@ -759,10 +764,10 @@
 <h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><p>比如以下几种方式搭建起来的效果:</p>
 <ol>
 <li><p>2D 角色 + 2D 场景，摄像机以斜 45度或则60度视角拍摄 形成一种视觉类3D效果</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914145122951.png" alt="image-20220914145122951"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220914145122951.png" alt="image-20220914145122951"></p>
 </li>
 <li><p>2D 角色 + 3D 场景: 摄像机视角固定 形成特别的3D效果 比如HD-2D像素风采用的就是这种:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914154843706.png" alt="image-20220914154843706"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220914154843706.png" alt="image-20220914154843706"></p>
 <p>截图来源<a href="https://www.bilibili.com/video/BV1rQ4y1z78X" target="_blank" rel="noopener">B站</a></p>
 </li>
 <li><p>3D 角色 + 2D 场景 特别的3D效果  </p>
@@ -782,10 +787,10 @@
     <url>/22.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="kenney"><a href="#kenney" class="headerlink" title="kenney"></a>kenney</h3><p>里面包含了2D和3D的游戏资产, 免费可商用 无需注册 一键下载</p>
 <p><a href="https://kenney.nl/assets" target="_blank" rel="noopener">点击进入网站</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220914174044761.png" alt="image-20220914174044761"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220914174044761.png" alt="image-20220914174044761"></p>
 <h3 id="itch-io"><a href="#itch-io" class="headerlink" title="itch.io"></a>itch.io</h3><p><code>itch.io</code>是一个专注于独立游戏内容的数字商店网站, 类似于<code>strem</code> ,里面不仅有各种免费和收费的游戏 还有免费可商用的游戏素材, 免登陆一键下载</p>
 <p><a href="https://itch.io" target="_blank" rel="noopener">点击进入网站</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915151221588.png" alt="image-20220915151221588"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220915151221588.png" alt="image-20220915151221588"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -798,25 +803,25 @@
     <url>/18.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天推荐16个超使用的在线抠图网站，都是只需要导入图片，AI就可以自动识别进行抠图，真的非常方便！</p>
 <h3 id="No1-佐糖"><a href="#No1-佐糖" class="headerlink" title="No1.佐糖"></a>No1.佐糖</h3><p><a href="https://picwish.cn/" target="_blank" rel="noopener">https://picwish.cn/</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/32fa828ba61ea8d3b4f20a93c93ef044241f5817.jpeg" alt="img"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/32fa828ba61ea8d3b4f20a93c93ef044241f5817.jpeg" alt="img"></p>
 <p>AI智能图片处理平台，网站免费抠图，还能在线去水印、模糊照片变清晰、无损放大和图片裁剪压缩能功能。</p>
-<h3 id="No2-Removebg"><a href="#No2-Removebg" class="headerlink" title="No2.Removebg"></a>No2.Removebg</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/eaf81a4c510fd9f931c52e387f1914202934a454.jpeg" alt="img"><br>图片背景消除，100% 全自动且免费，上传图片后5秒就可以获得没有背景的主体图片。</p>
-<h3 id="No3-Depositphotos"><a href="#No3-Depositphotos" class="headerlink" title="No3.Depositphotos"></a>No3.Depositphotos</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/d1a20cf431adcbef6fa50aa0f59beed7a2cc9f45-20220906164701285.jpeg" alt="img">Depositphotos 是一款免费在线的由 AI 驱动的简易背景移除工具，就算你不是一个熟练的设计师，只要将图片上传，背景就可以自动去除，不管你的照片有多么细致，大约只需要一秒钟都可以完成。</p>
-<h3 id="No4-Hama"><a href="#No4-Hama" class="headerlink" title="No4.Hama"></a>No4.Hama</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/810a19d8bc3eb135c15d1cf6f82a68d9fc1f44a0.jpeg" alt="img"><br>Hama 目前支持上传任何尺寸大小的原始图片，不过下载时会将处理后的图片大小限制为 720px，依照网站说明他们正在准备付费 Pro 版本，未来需要付费才能下载高分辨率的图片成果，但好处是没有限制单一图片编辑次数。</p>
-<h3 id="No5-Clipdrop"><a href="#No5-Clipdrop" class="headerlink" title="No5.Clipdrop"></a>No5.Clipdrop</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/10dfa9ec8a136327217e3c49ccbb60e609fac7fc.jpeg" alt="img"><br>ClipDrop Remove Background 也是一款免费的在线 AI 背景扣除神器，它的背景移除功能非常强大。</p>
-<h3 id="No6-Erase-bg"><a href="#No6-Erase-bg" class="headerlink" title="No6.Erase.bg"></a>No6.Erase.bg</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/77c6a7efce1b9d16e0bafce1adea74858d5464eb.jpeg" alt="img"></p>
+<h3 id="No2-Removebg"><a href="#No2-Removebg" class="headerlink" title="No2.Removebg"></a>No2.Removebg</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/eaf81a4c510fd9f931c52e387f1914202934a454.jpeg" alt="img"><br>图片背景消除，100% 全自动且免费，上传图片后5秒就可以获得没有背景的主体图片。</p>
+<h3 id="No3-Depositphotos"><a href="#No3-Depositphotos" class="headerlink" title="No3.Depositphotos"></a>No3.Depositphotos</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/d1a20cf431adcbef6fa50aa0f59beed7a2cc9f45-20220906164701285.jpeg" alt="img">Depositphotos 是一款免费在线的由 AI 驱动的简易背景移除工具，就算你不是一个熟练的设计师，只要将图片上传，背景就可以自动去除，不管你的照片有多么细致，大约只需要一秒钟都可以完成。</p>
+<h3 id="No4-Hama"><a href="#No4-Hama" class="headerlink" title="No4.Hama"></a>No4.Hama</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/810a19d8bc3eb135c15d1cf6f82a68d9fc1f44a0.jpeg" alt="img"><br>Hama 目前支持上传任何尺寸大小的原始图片，不过下载时会将处理后的图片大小限制为 720px，依照网站说明他们正在准备付费 Pro 版本，未来需要付费才能下载高分辨率的图片成果，但好处是没有限制单一图片编辑次数。</p>
+<h3 id="No5-Clipdrop"><a href="#No5-Clipdrop" class="headerlink" title="No5.Clipdrop"></a>No5.Clipdrop</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/10dfa9ec8a136327217e3c49ccbb60e609fac7fc.jpeg" alt="img"><br>ClipDrop Remove Background 也是一款免费的在线 AI 背景扣除神器，它的背景移除功能非常强大。</p>
+<h3 id="No6-Erase-bg"><a href="#No6-Erase-bg" class="headerlink" title="No6.Erase.bg"></a>No6.Erase.bg</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/77c6a7efce1b9d16e0bafce1adea74858d5464eb.jpeg" alt="img"></p>
 <p>任何人都可以在几秒钟时间快速从任何图片去除背景，并且以原始分辨率下载，没有额外的设定选项，这些工作都能在浏览器完成。处理最大 5000 x 5000px 相片，而且效果极佳。</p>
-<h3 id="No6-PIXLR"><a href="#No6-PIXLR" class="headerlink" title="No6.PIXLR"></a>No6.PIXLR</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/9922720e0cf3d7ca531df077ad2b7e036a63a983-20220906164839141.jpeg" alt="img"></p>
+<h3 id="No6-PIXLR"><a href="#No6-PIXLR" class="headerlink" title="No6.PIXLR"></a>No6.PIXLR</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/9922720e0cf3d7ca531df077ad2b7e036a63a983-20220906164839141.jpeg" alt="img"></p>
 <p>「Pixlr Remove Bg」免费在线抠图工具，最值得一提的是 Pixlr 支持批处理，可以一次上传多张相片、批量抠图，是个非常讲求效率的服务。</p>
-<h3 id="No7-Pure-Photos"><a href="#No7-Pure-Photos" class="headerlink" title="No7.Pure Photos"></a>No7.Pure Photos</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/ae51f3deb48f8c5454bc45ff641dedffe1fe7fb6.jpeg" alt="img"><br>PurePhotos 支持批量抠图，免费方案每月有 100 张相片的处理额度，可依照需求付费购买更多配额，购买越多单价更低。比较特別的是 PurePhotos 在抠图时可选择是否要导出为 PSD 图层，PSD 文件包含原始图片和处理过的相片图层，用于编辑来说应该会更方便。下载的文件会包含 PSD 格式和 PNG 抠图结果。</p>
-<h3 id="No-8-BACKGROUND-REMOVER"><a href="#No-8-BACKGROUND-REMOVER" class="headerlink" title="No.8 BACKGROUND REMOVER"></a>No.8 BACKGROUND REMOVER</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/34fae6cd7b899e517bde5c421c931939c9950dd6.jpeg" alt="img"><br>「AI Background Remover」是 Icons8 新推出的免费去背工具，一样是透过 AI 人工智能技术，让程序自动处理用户上传的图片，将原有背景去除、调整为透明背景后只保留主体，达到近似人工去背的效果。这项服务支持 JPG 和 PNG 图片格式，无需注册只要上传就能使用，图片最大不超过 5 Mb 大小。</p>
-<h3 id="No-9-Slazzer"><a href="#No-9-Slazzer" class="headerlink" title="No.9 Slazzer"></a>No.9 Slazzer</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/f7246b600c338744a154f81c0f3b19f3d62aa0f8.jpeg" alt="img">Slazzer 编辑功能主要分为背景选择和手动清除背景两部分，例如可以将背景模糊处理，或是加入其他图片和颜色，当然也可以选择自己的图片上传，直接在线上合成其他效果。</p>
-<h3 id="No-10-Unscreen"><a href="#No-10-Unscreen" class="headerlink" title="No.10 Unscreen"></a>No.10 Unscreen</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/b03533fa828ba61e604f345021005700314e59ef-20220906165139910.jpeg" alt="img">Unscreen是一个 100% 全自动、免费移除影片背景的在线工具，上传文件即可去除背景，只保留画面中的主体部分，使用者可选择让背景变成透明，加入其他影片、图片或单一颜色做为新的影片背景。<br>Unscreen 除了支持mp4、webm 和 ogg 影片格式，也能去除 gif 动画图文件，无论是影片或动态图，要进行去背的难度都比静态图来得更为复杂，而这个影片去背工具的特色是只要将文件上传就能直接去背。</p>
-<h3 id="No11-Magiceraser"><a href="#No11-Magiceraser" class="headerlink" title="No11. Magiceraser"></a>No11. Magiceraser</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/00e93901213fb80e37214ec86ee5ef24b83894ff-20220906165251352.jpeg" alt="img"><br>用画笔涂抹想要去掉的地方，还可以调整画笔的大小实现更加精确的涂抹消除，最后等处理。</p>
-<h3 id="No12-改图鸭"><a href="#No12-改图鸭" class="headerlink" title="No12.改图鸭"></a>No12.改图鸭</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/b999a9014c086e069882762f5c3cbbfe0ad1cb6f-20220906165239887.jpeg" alt="img">这款也是在线工具类网站，但是下载的话需要付费2元而且图片大小不能超过5M。】，其他的照片变漫画功能也很有趣。</p>
-<h3 id="No13-阿里妈妈"><a href="#No13-阿里妈妈" class="headerlink" title="No13.阿里妈妈"></a>No13.阿里妈妈</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/3b292df5e0fe99253fdea4cb6a9c9ed58cb1711e.jpeg" alt="img"><br>阿里巴巴旗下的抠图网站，网站面向淘宝研发，为「全自动高精度抠图，支持快速交互调整，擅长处理人物和电商商品」而生，只需要登陆淘宝账号既可免费使用。</p>
-<h3 id="No-14-inpixio"><a href="#No-14-inpixio" class="headerlink" title="No.14 inpixio"></a>No.14 inpixio</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/a686c9177f3e6709cce1f5df48f35f37f9dc55ef.jpeg" alt="img"><br>在线抠图工具，自动抠图后会进入在线编辑器，可让你针对抠图后的细节进行手动调整，完成后可免费下载高清图片。</p>
-<h3 id="No15-Cutout-Pro"><a href="#No15-Cutout-Pro" class="headerlink" title="No15.Cutout Pro"></a>No15.Cutout Pro</h3><p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/7a899e510fb30f24fcbcdaa8aea11149ad4b0331.jpeg" alt="img"><br>除了图片外还支持视频抠图，上传你的视频后即可自动抠图，而且不需要绿幕。普通视频都可以直接在线去背景，完成后可免费下载透明背景的小尺寸视频（高清需付费）。</p>
+<h3 id="No7-Pure-Photos"><a href="#No7-Pure-Photos" class="headerlink" title="No7.Pure Photos"></a>No7.Pure Photos</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/ae51f3deb48f8c5454bc45ff641dedffe1fe7fb6.jpeg" alt="img"><br>PurePhotos 支持批量抠图，免费方案每月有 100 张相片的处理额度，可依照需求付费购买更多配额，购买越多单价更低。比较特別的是 PurePhotos 在抠图时可选择是否要导出为 PSD 图层，PSD 文件包含原始图片和处理过的相片图层，用于编辑来说应该会更方便。下载的文件会包含 PSD 格式和 PNG 抠图结果。</p>
+<h3 id="No-8-BACKGROUND-REMOVER"><a href="#No-8-BACKGROUND-REMOVER" class="headerlink" title="No.8 BACKGROUND REMOVER"></a>No.8 BACKGROUND REMOVER</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/34fae6cd7b899e517bde5c421c931939c9950dd6.jpeg" alt="img"><br>「AI Background Remover」是 Icons8 新推出的免费去背工具，一样是透过 AI 人工智能技术，让程序自动处理用户上传的图片，将原有背景去除、调整为透明背景后只保留主体，达到近似人工去背的效果。这项服务支持 JPG 和 PNG 图片格式，无需注册只要上传就能使用，图片最大不超过 5 Mb 大小。</p>
+<h3 id="No-9-Slazzer"><a href="#No-9-Slazzer" class="headerlink" title="No.9 Slazzer"></a>No.9 Slazzer</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/f7246b600c338744a154f81c0f3b19f3d62aa0f8.jpeg" alt="img">Slazzer 编辑功能主要分为背景选择和手动清除背景两部分，例如可以将背景模糊处理，或是加入其他图片和颜色，当然也可以选择自己的图片上传，直接在线上合成其他效果。</p>
+<h3 id="No-10-Unscreen"><a href="#No-10-Unscreen" class="headerlink" title="No.10 Unscreen"></a>No.10 Unscreen</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/b03533fa828ba61e604f345021005700314e59ef-20220906165139910.jpeg" alt="img">Unscreen是一个 100% 全自动、免费移除影片背景的在线工具，上传文件即可去除背景，只保留画面中的主体部分，使用者可选择让背景变成透明，加入其他影片、图片或单一颜色做为新的影片背景。<br>Unscreen 除了支持mp4、webm 和 ogg 影片格式，也能去除 gif 动画图文件，无论是影片或动态图，要进行去背的难度都比静态图来得更为复杂，而这个影片去背工具的特色是只要将文件上传就能直接去背。</p>
+<h3 id="No11-Magiceraser"><a href="#No11-Magiceraser" class="headerlink" title="No11. Magiceraser"></a>No11. Magiceraser</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/00e93901213fb80e37214ec86ee5ef24b83894ff-20220906165251352.jpeg" alt="img"><br>用画笔涂抹想要去掉的地方，还可以调整画笔的大小实现更加精确的涂抹消除，最后等处理。</p>
+<h3 id="No12-改图鸭"><a href="#No12-改图鸭" class="headerlink" title="No12.改图鸭"></a>No12.改图鸭</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/b999a9014c086e069882762f5c3cbbfe0ad1cb6f-20220906165239887.jpeg" alt="img">这款也是在线工具类网站，但是下载的话需要付费2元而且图片大小不能超过5M。】，其他的照片变漫画功能也很有趣。</p>
+<h3 id="No13-阿里妈妈"><a href="#No13-阿里妈妈" class="headerlink" title="No13.阿里妈妈"></a>No13.阿里妈妈</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/3b292df5e0fe99253fdea4cb6a9c9ed58cb1711e.jpeg" alt="img"><br>阿里巴巴旗下的抠图网站，网站面向淘宝研发，为「全自动高精度抠图，支持快速交互调整，擅长处理人物和电商商品」而生，只需要登陆淘宝账号既可免费使用。</p>
+<h3 id="No-14-inpixio"><a href="#No-14-inpixio" class="headerlink" title="No.14 inpixio"></a>No.14 inpixio</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/a686c9177f3e6709cce1f5df48f35f37f9dc55ef.jpeg" alt="img"><br>在线抠图工具，自动抠图后会进入在线编辑器，可让你针对抠图后的细节进行手动调整，完成后可免费下载高清图片。</p>
+<h3 id="No15-Cutout-Pro"><a href="#No15-Cutout-Pro" class="headerlink" title="No15.Cutout Pro"></a>No15.Cutout Pro</h3><p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/7a899e510fb30f24fcbcdaa8aea11149ad4b0331.jpeg" alt="img"><br>除了图片外还支持视频抠图，上传你的视频后即可自动抠图，而且不需要绿幕。普通视频都可以直接在线去背景，完成后可免费下载透明背景的小尺寸视频（高清需付费）。</p>
 <p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1740310078117278410&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1740310078117278410&amp;wfr=spider&amp;for=pc</a></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -881,29 +886,29 @@
 <p>知名度非常高的一款软件, 很多人都在用, 官网或者<code>stream</code>下载收费, 不过已经在<code>Github</code>开源, 自行编译的话可免费使用</p>
 <p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
 <p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
 </li>
 <li><p><strong>piskelapp</strong></p>
 <p>这是一款像素画在线编辑工具, 支持逐帧动画, 可将工程导出至本地, 只有有浏览器就能随时随地作画</p>
 <p><a href="https://www.piskelapp.com/" target="_blank" rel="noopener">点击进入网站</a></p>
 </li>
 </ol>
-<p>   <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915152850821.png" alt="image-20220915152850821"></p>
+<p>   <img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220915152850821.png" alt="image-20220915152850821"></p>
 <ol start="3">
 <li><p><strong>Pixelorama</strong> </p>
 <p>也是一款开源免费的工具, 基于<code>Godot</code>引擎的<code>GDScript</code>语言编写, 功能强大 软件跨平台, 可以说是<code>Godot</code>的完美搭档, 我猜想未来可能会将该工具直接集成进<code>Godot</code>内部</p>
 <p><a href="https://github.com/Orama-Interactive/Pixelorama" target="_blank" rel="noopener">Github</a></p>
 <p><a href="https://orama-interactive.itch.io/pixelorama" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915155142976.png" alt="image-20220915155142976"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220915155142976.png" alt="image-20220915155142976"></p>
 <p>有<code>Web</code>在线版 也可以下载到本地使用:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915155311899.png" alt="image-20220915155311899"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220915155311899.png" alt="image-20220915155311899"></p>
 </li>
 </ol>
 <ol start="4">
 <li><p><strong>GraphicsGale</strong></p>
 <p>它是日本 <code>HUMANBALANCE</code> 旗下的一款免费像素级动画制作软件, 界面偏复古, 遗憾的是只支持<code>Windows</code>系统</p>
 <p><a href="https://graphicsgale.com/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220915160111771.png" alt="image-20220915160111771"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220915160111771.png" alt="image-20220915160111771"></p>
 </li>
 </ol>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -922,7 +927,7 @@
 <li>第三方的图标如果是图片形式的话 还需要占用网络资源</li>
 </ul>
 <p>而今天我们要说的是输入法图标, 比如我们用搜狗输入法打<code>蚊子</code>, 二字, 会出现蚊子的图标:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220926151953791.png" alt="image-20220926151953791"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220926151953791.png" alt="image-20220926151953791"></p>
 <p>而且还是彩色的, 这种图标可以说几乎全平台通用, 也就是能显示文字的地方就能显示它, 我们可以将它看成是一个文字</p>
 <p>这里收集了一些平常积累的图标, 供大家参考使用</p>
 <h3 id="图标汇总"><a href="#图标汇总" class="headerlink" title="图标汇总"></a>图标汇总</h3><p>以下是图标和输入文字对应关系部分示例:</p>
@@ -987,7 +992,7 @@
 <p>表情符号与人物篇</p>
 <p>🥰😋😎🥳😤🤗🤔🥱😴🤧🤒👾😽🙀✌🏻🦷👩🏻‍🌾🧑🏻‍🌾👩🏻‍🔬🧑🏻‍🔬👩🏻‍🎨🧑🏻‍🎨👩🏻‍🚀🧑🏻‍🚀🎅🏻🧙🏻‍♀️🧙🏻‍♂️🧝🏻‍♀️🧝🏻🧚🏻‍♀️🧚🏻🧖🏻‍♀️🧖🏻🧶🩴🧦👟👒👛🥽</p>
 <h3 id="使用输入法快速检索"><a href="#使用输入法快速检索" class="headerlink" title="使用输入法快速检索"></a>使用输入法快速检索</h3><p>上面列举的图标可以直接复制粘贴使用, 如果你设备上刚好安装了搜狗输入法, 那么可以在输入法设置窗口中找到所有的图标:</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20220926153449661.png" alt="image-20220926153449661"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20220926153449661.png" alt="image-20220926153449661"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
@@ -1006,7 +1011,7 @@
 <h3 id="体素编辑软件"><a href="#体素编辑软件" class="headerlink" title="体素编辑软件"></a>体素编辑软件</h3><ol>
 <li><p><strong>MagicaVoxel</strong></p>
 <p><code>Magicavoxel</code>是一个由<code>gltracy</code>独立开发的轻量级体素编辑器，它的渲染效果也极为出色，自带的渲染工具，可以呈现不同的光线条件、光照度、明暗度和锐度。这使得全球不少体素爱好者都用它来创造自己的体素模型</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/c30592d77bf8a70f3a9a11b0897d3515.png" alt="img"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/c30592d77bf8a70f3a9a11b0897d3515.png" alt="img"></p>
 <p><strong>软件优点:</strong></p>
 <ul>
 <li><p>免费开源</p>
@@ -1022,7 +1027,7 @@
 <p>   <a href="https://github.com/ephtracy/voxel-model" target="_blank" rel="noopener">Github</a></p>
 <ol start="2">
 <li><p><strong>Goxel</strong></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/68747470733a2f2f676f78656c2e78797a2f67616c6c6572792f7468696261756c742d6669736865726d616e2d686f7573652e6a7067.jpeg" alt="goxel screenshot 0"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/68747470733a2f2f676f78656c2e78797a2f67616c6c6572792f7468696261756c742d6669736865726d616e2d686f7573652e6a7067.jpeg" alt="goxel screenshot 0"></p>
 <p><strong>软件优点:</strong></p>
 <ul>
 <li>免费开源</li>
@@ -1046,8 +1051,8 @@
 <p>总之 到处都得花钱   坑~</p>
 <p>为了避免陷入版权纠纷, 如果有特殊字体需求的话, 那么有必要考虑自己制作一款可商用的字体</p>
 <p>以手写字体为例,网上有很多手写字体制作平台, 比如<a href="http://www.flexifont.com/" target="_blank" rel="noopener">flexifont</a>, <a href="http://www.woziku.com/" target="_blank" rel="noopener">我字酷</a>等等, 制作起来确实比较方便, 但是<strong>不允许商用</strong></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025160216659.png" alt="image-20221025160216659"></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025163318215.png" alt="image-20221025163318215"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025160216659.png" alt="image-20221025160216659"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025163318215.png" alt="image-20221025163318215"></p>
 <p>自己的字体无法商用, 这就相当于不是自己的, 弄着玩玩还行, 一旦投入创作中, 有可能会出大问题</p>
 <p>所以 我推荐使用单独的软件进行制作, 比如<code>PS</code>,  <code>FontCreator</code>, <code>FontLab</code>,<code>Glyphs 3</code>, <code>FontForge</code>等等</p>
 <p>这里我推荐大家使用<code>FontForge</code>, 因为它免费开源, 这就相当于在保险之外再加了一层保险</p>
@@ -1061,31 +1066,31 @@
 <p><a href="https://github.com/fontforge/fontforge" target="_blank" rel="noopener">Github</a></p>
 <h3 id="FontForge使用"><a href="#FontForge使用" class="headerlink" title="FontForge使用"></a>FontForge使用</h3><ol>
 <li><p><strong>配置编码 选择<code>ISO-10646 基础集</code>即可</strong></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025165343367.png" alt="image-20221025165343367"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025165343367.png" alt="image-20221025165343367"></p>
 </li>
 <li><p><strong>选择需要设计的字体语言</strong></p>
 <p>点击元素–&gt;字体信息–&gt;字符集</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025165534169.png" alt="image-20221025165534169"></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025165654525.png" alt="image-20221025165654525"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025165534169.png" alt="image-20221025165534169"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025165654525.png" alt="image-20221025165654525"></p>
 </li>
 <li><p><strong>开始设计字体</strong></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025170119859.png" alt="image-20221025170119859"></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025170647566.png" alt="image-20221025170647566"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025170119859.png" alt="image-20221025170119859"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025170647566.png" alt="image-20221025170647566"></p>
 <p>我们可以直接在窗口中进行字体编辑, 也可以从外部导入已经设计好的图形文件</p>
-<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025165017215.png" alt="image-20221025165017215"></p>
+<p> <img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025165017215.png" alt="image-20221025165017215"></p>
 <p> 如果你采用的是鼠标自由绘制模式, 那么需要进行一个线条加粗设置</p>
 <p> 双击手绘曲线工具, 此时会弹出一个设置窗口, 我们勾选上<code>Circular</code>即可:</p>
-<p> <img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025173929682.png" alt="image-20221025173929682"></p>
+<p> <img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025173929682.png" alt="image-20221025173929682"></p>
 </li>
 <li><p><strong>导出字体</strong></p>
 <p>设计完成后点击文件–&gt;导出即可 , 这里我们可以选择<code>OpenType</code>格式</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20221025171152252.png" alt="image-20221025171152252"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20221025171152252.png" alt="image-20221025171152252"></p>
 </li>
 </ol>
 <p>视频教程参考: <a href="https://haokan.baidu.com/v?vid=1001656710595726107&pd=pcshare" target="_blank" rel="noopener">点击观看视频</a></p>
 <p>中文文档参考: <a href="https://www.bootwiki.com/fontforge/fontforge-and-font-design-fontforge-and-font-design.html" target="_blank" rel="noopener">点击进入</a></p>
 <h3 id="附加"><a href="#附加" class="headerlink" title="附加"></a>附加</h3><p>如果你使用的是<code>windows</code>系统, 那么还有一款软件也不错, 名为<a href="http://www.eduoffice.com.cn/resource.htm" target="_blank" rel="noopener"><strong>eduoffice我的字</strong></a>, 适合手写字体制作, 支持数位板和鼠标书写, 内置中文字体模板</p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/1(11).jpg" alt="EduOffice我的字"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/1(11).jpg" alt="EduOffice我的字"></p>
 <p>不过这款软件优点老了 而且仅支持<code>windows</code>系统, 有兴趣的可以尝试一下</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
@@ -1100,11 +1105,11 @@
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ol>
 <li><p><strong>照片转卡通画</strong></p>
 <p>官网: <a href="https://toonme.com/" target="_blank" rel="noopener">点击进入</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418154028886.png" alt="image-20230418154028886"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418154028886.png" alt="image-20230418154028886"></p>
 </li>
 <li><p><strong>照片转<code>ascii</code>码显示</strong></p>
 <p>官网: <a href="https://www.text-image.com/" target="_blank" rel="noopener">点击进入</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418154001043.png" alt="image-20230418154001043"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418154001043.png" alt="image-20230418154001043"></p>
 <p>示例:</p>
 <pre id="tiresult" style="font-size: 9px; background-color: rgb(0, 0, 0); font-weight: bold; padding: 4px 5px; --fs: 9px; --darkreader-inline-bgcolor:#191919;" data-darkreader-inline-bgcolor><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>101010111110100110011111011001101000010110001111000001110</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(251, 251, 251); --darkreader-inline-color:#b5b4b2;" data-darkreader-inline-color>1</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(250, 250, 250); --darkreader-inline-color:#b5b4b1;" data-darkreader-inline-color>1</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>10</b><b style="color: rgb(250, 250, 250); --darkreader-inline-color:#b5b4b1;" data-darkreader-inline-color>0</b><b style="color: rgb(248, 248, 248); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(244, 244, 244); --darkreader-inline-color:#b3b0ae;" data-darkreader-inline-color>00000101</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>00</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(244, 244, 244); --darkreader-inline-color:#b3b0ae;" data-darkreader-inline-color>0</b><b style="color: rgb(243, 243, 243); --darkreader-inline-color:#b2b0ae;" data-darkreader-inline-color>1</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(248, 248, 248); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(245, 245, 245); --darkreader-inline-color:#b3b1ae;" data-darkreader-inline-color>0</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>1</b><b style="color: rgb(234, 234, 234); --darkreader-inline-color:#aeaca9;" data-darkreader-inline-color>1</b><b style="color: rgb(232, 232, 232); --darkreader-inline-color:#adaba8;" data-darkreader-inline-color>1</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>0</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(249, 250, 250); --darkreader-inline-color:#b5b3b1;" data-darkreader-inline-color>0</b><b style="color: rgb(251, 251, 251); --darkreader-inline-color:#b5b4b2;" data-darkreader-inline-color>1</b><b style="color: rgb(246, 246, 246); --darkreader-inline-color:#b3b2af;" data-darkreader-inline-color>0</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>0</b><b style="color: rgb(238, 238, 238); --darkreader-inline-color:#b0aeab;" data-darkreader-inline-color>0</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>1</b><b style="color: rgb(238, 238, 238); --darkreader-inline-color:#b0aeab;" data-darkreader-inline-color>0</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(251, 251, 251); --darkreader-inline-color:#b5b4b2;" data-darkreader-inline-color>0</b><b style="color: rgb(255, 255, 255); --darkreader-inline-color:#b7b6b4;" data-darkreader-inline-color>001</b><b style="color: rgb(254, 254, 254); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(248, 248, 248); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>1</b><b style="color: rgb(242, 242, 242); --darkreader-inline-color:#b2b0ad;" data-darkreader-inline-color>1</b><b style="color: rgb(243, 243, 243); --darkreader-inline-color:#b2b0ae;" data-darkreader-inline-color>1</b><b style="color: rgb(245, 245, 245); --darkreader-inline-color:#b3b1ae;" data-darkreader-inline-color>0</b><b style="color: rgb(238, 238, 238); --darkreader-inline-color:#b0aeab;" data-darkreader-inline-color>1</b><b style="color: rgb(237, 237, 237); --darkreader-inline-color:#b0aeaa;" data-darkreader-inline-color>0</b><b style="color: rgb(241, 241, 241); --darkreader-inline-color:#b1afac;" data-darkreader-inline-color>1</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>1</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>00</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>1</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>1</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>1101000</b>
 <b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>011010110101100000001001100011101101011111111001111111001</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(250, 250, 250); --darkreader-inline-color:#b5b4b1;" data-darkreader-inline-color>1</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(248, 248, 248); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>11010</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>001010100</b><b style="color: rgb(248, 248, 248); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>00</b><b style="color: rgb(249, 249, 249); --darkreader-inline-color:#b5b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>1</b><b style="color: rgb(244, 244, 244); --darkreader-inline-color:#b3b0ae;" data-darkreader-inline-color>000</b><b style="color: rgb(245, 245, 245); --darkreader-inline-color:#b3b1ae;" data-darkreader-inline-color>1</b><b style="color: rgb(238, 238, 238); --darkreader-inline-color:#b0aeab;" data-darkreader-inline-color>1</b><b style="color: rgb(240, 240, 241); --darkreader-inline-color:#b1afac;" data-darkreader-inline-color>0</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(240, 240, 240); --darkreader-inline-color:#b1afac;" data-darkreader-inline-color>1</b><b style="color: rgb(226, 226, 226); --darkreader-inline-color:#aba8a5;" data-darkreader-inline-color>0</b><b style="color: rgb(201, 201, 201); --darkreader-inline-color:#a09d97;" data-darkreader-inline-color>1</b><b style="color: rgb(181, 180, 181); --darkreader-inline-color:#97938d;" data-darkreader-inline-color>1</b><b style="color: rgb(176, 176, 176); --darkreader-inline-color:#95918a;" data-darkreader-inline-color>1</b><b style="color: rgb(160, 160, 160); --darkreader-inline-color:#8e8a82;" data-darkreader-inline-color>1</b><b style="color: rgb(142, 141, 142); --darkreader-inline-color:#868179;" data-darkreader-inline-color>1</b><b style="color: rgb(144, 143, 144); --darkreader-inline-color:#888279;" data-darkreader-inline-color>0</b><b style="color: rgb(147, 146, 147); --darkreader-inline-color:#88847b;" data-darkreader-inline-color>1</b><b style="color: rgb(157, 157, 157); --darkreader-inline-color:#8d8881;" data-darkreader-inline-color>1</b><b style="color: rgb(179, 178, 179); --darkreader-inline-color:#97938c;" data-darkreader-inline-color>1</b><b style="color: rgb(193, 193, 193); --darkreader-inline-color:#9d9993;" data-darkreader-inline-color>1</b><b style="color: rgb(200, 200, 200); --darkreader-inline-color:#9f9c97;" data-darkreader-inline-color>0</b><b style="color: rgb(210, 209, 210); --darkreader-inline-color:#a4a19c;" data-darkreader-inline-color>0</b><b style="color: rgb(239, 239, 239); --darkreader-inline-color:#b0aeac;" data-darkreader-inline-color>1</b><b style="color: rgb(234, 234, 234); --darkreader-inline-color:#aeaca9;" data-darkreader-inline-color>0</b><b style="color: rgb(241, 241, 241); --darkreader-inline-color:#b1afac;" data-darkreader-inline-color>1</b><b style="color: rgb(240, 240, 240); --darkreader-inline-color:#b1afac;" data-darkreader-inline-color>0</b><b style="color: rgb(242, 242, 242); --darkreader-inline-color:#b2b0ad;" data-darkreader-inline-color>0</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(244, 244, 244); --darkreader-inline-color:#b3b0ae;" data-darkreader-inline-color>1</b><b style="color: rgb(247, 247, 247); --darkreader-inline-color:#b4b3b0;" data-darkreader-inline-color>0</b><b style="color: rgb(244, 244, 244); --darkreader-inline-color:#b3b0ae;" data-darkreader-inline-color>0</b><b style="color: rgb(246, 246, 246); --darkreader-inline-color:#b3b2af;" data-darkreader-inline-color>1</b><b style="color: rgb(250, 250, 250); --darkreader-inline-color:#b5b4b1;" data-darkreader-inline-color>0</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>10</b><b style="color: rgb(251, 251, 251); --darkreader-inline-color:#b5b4b2;" data-darkreader-inline-color>1</b><b style="color: rgb(246, 246, 246); --darkreader-inline-color:#b3b2af;" data-darkreader-inline-color>10</b><b style="color: rgb(253, 253, 253); --darkreader-inline-color:#b7b5b3;" data-darkreader-inline-color>0</b><b style="color: rgb(252, 252, 252); --darkreader-inline-color:#b6b5b3;" data-darkreader-inline-color>1011100</b>
@@ -1171,27 +1176,123 @@
 </li>
 <li><p><strong>图片转字符</strong></p>
 <p>官网: <a href="http://www.glassgiant.com/ascii/" target="_blank" rel="noopener">点击进入</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418172144358.png" alt="image-20230418172144358"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418172144358.png" alt="image-20230418172144358"></p>
 </li>
 <li><p><strong>文字转字符</strong></p>
 <p>官网: <a href="http://www.network-science.de/ascii/" target="_blank" rel="noopener">点击进入</a></p>
 <p>示例:</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">                             dP                         </span><br><span class="line">                             88                         </span><br><span class="line">88d888b. .d8888b. dP  dP  dP 88d888b. .d8888b. 88d888b. </span><br><span class="line">88&apos;  `88 88ooood8 88  88  88 88&apos;  `88 88&apos;  `88 88&apos;  `88 </span><br><span class="line">88    88 88.  ... 88.88b.88&apos; 88.  .88 88.  .88 88    88 </span><br><span class="line">dP    dP `88888P&apos; 8888P Y8P  88Y8888&apos; `88888P8 dP    dP </span><br><span class="line">oooooooooooooooooooooooooooooooooooooooooooooooooooooooo</span><br></pre></td></tr></table></figure>
 
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418171552270.png" alt="image-20230418171552270"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418171552270.png" alt="image-20230418171552270"></p>
 </li>
 <li><p><strong>文字转字符图形</strong></p>
 <p>官网: <a href="http://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20" target="_blank" rel="noopener">点击进入</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418171842495.png" alt="image-20230418171842495"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418171842495.png" alt="image-20230418171842495"></p>
 </li>
 <li><p><strong>字符图合集网站</strong></p>
 <p>官网: <a href="http://www.asciiworld.com/" target="_blank" rel="noopener">点击进入</a></p>
-<p><img src="https://raw.fastgit.org/songjianzaina/lunanzb_img/master/img/image-20230418171737809.png" alt="image-20230418171737809"></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/lunanzb_img/master/img/image-20230418171737809.png" alt="image-20230418171737809"></p>
 </li>
 </ol>
 <h3 id="欣赏"><a href="#欣赏" class="headerlink" title="欣赏"></a>欣赏</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">/***                                                                          </span><br><span class="line"> *          .,:,,,                                        .::,,,::.          </span><br><span class="line"> *        .::::,,;;,                                  .,;;:,,....:i:         </span><br><span class="line"> *        :i,.::::,;i:.      ....,,:::::::::,....   .;i:,.  ......;i.        </span><br><span class="line"> *        :;..:::;::::i;,,:::;:,,,,,,,,,,..,.,,:::iri:. .,:irsr:,.;i.        </span><br><span class="line"> *        ;;..,::::;;;;ri,,,.                    ..,,:;s1s1ssrr;,.;r,        </span><br><span class="line"> *        :;. ,::;ii;:,     . ...................     .;iirri;;;,,;i,        </span><br><span class="line"> *        ,i. .;ri:.   ... ............................  .,,:;:,,,;i:        </span><br><span class="line"> *        :s,.;r:... ....................................... .::;::s;        </span><br><span class="line"> *        ,1r::. .............,,,.,,:,,........................,;iir;        </span><br><span class="line"> *        ,s;...........     ..::.,;:,,.          ...............,;1s        </span><br><span class="line"> *       :i,..,.              .,:,,::,.          .......... .......;1,       </span><br><span class="line"> *      ir,....:rrssr;:,       ,,.,::.     .r5S9989398G95hr;. ....,.:s,      </span><br><span class="line"> *     ;r,..,s9855513XHAG3i   .,,,,,,,.  ,S931,.,,.;s;s&amp;BHHA8s.,..,..:r:     </span><br><span class="line"> *    :r;..rGGh,  :SAG;;G@BS:.,,,,,,,,,.r83:      hHH1sXMBHHHM3..,,,,.ir.    </span><br><span class="line"> *   ,si,.1GS,   sBMAAX&amp;MBMB5,,,,,,:,,.:&amp;8       3@HXHBMBHBBH#X,.,,,,,,rr    </span><br><span class="line"> *   ;1:,,SH:   .A@&amp;&amp;B#&amp;8H#BS,,,,,,,,,.,5XS,     3@MHABM&amp;59M#As..,,,,:,is,   </span><br><span class="line"> *  .rr,,,;9&amp;1   hBHHBB&amp;8AMGr,,,,,,,,,,,:h&amp;&amp;9s;   r9&amp;BMHBHMB9:  . .,,,,;ri.  </span><br><span class="line"> *  :1:....:5&amp;XSi;r8BMBHHA9r:,......,,,,:ii19GG88899XHHH&amp;GSr.      ...,:rs.  </span><br><span class="line"> *  ;s.     .:sS8G8GG889hi.        ....,,:;:,.:irssrriii:,.        ...,,i1,  </span><br><span class="line"> *  ;1,         ..,....,,isssi;,        .,,.                      ....,.i1,  </span><br><span class="line"> *  ;h:               i9HHBMBBHAX9:         .                     ...,,,rs,  </span><br><span class="line"> *  ,1i..            :A#MBBBBMHB##s                             ....,,,;si.  </span><br><span class="line"> *  .r1,..        ,..;3BMBBBHBB#Bh.     ..                    ....,,,,,i1;   </span><br><span class="line"> *   :h;..       .,..;,1XBMMMMBXs,.,, .. :: ,.               ....,,,,,,ss.   </span><br><span class="line"> *    ih: ..    .;;;, ;;:s58A3i,..    ,. ,.:,,.             ...,,,,,:,s1,    </span><br><span class="line"> *    .s1,....   .,;sh,  ,iSAXs;.    ,.  ,,.i85            ...,,,,,,:i1;     </span><br><span class="line"> *     .rh: ...     rXG9XBBM#M#MHAX3hss13&amp;&amp;HHXr         .....,,,,,,,ih;      </span><br><span class="line"> *      .s5: .....    i598X&amp;&amp;A&amp;AAAAAA&amp;XG851r:       ........,,,,:,,sh;       </span><br><span class="line"> *      . ihr, ...  .         ..                    ........,,,,,;11:.       </span><br><span class="line"> *         ,s1i. ...  ..,,,..,,,.,,.,,.,..       ........,,.,,.;s5i.         </span><br><span class="line"> *          .:s1r,......................       ..............;shs,           </span><br><span class="line"> *          . .:shr:.  ....                 ..............,ishs.             </span><br><span class="line"> *              .,issr;,... ...........................,is1s;.               </span><br><span class="line"> *                 .,is1si;:,....................,:;ir1sr;,                  </span><br><span class="line"> *                    ..:isssssrrii;::::::;;iirsssssr;:..                    </span><br><span class="line"> *                         .,::iiirsssssssssrri;;:.                      </span><br><span class="line"> */						 </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *               ii.                                         ;9ABH,          </span><br><span class="line"> *              SA391,                                    .r9GG35&amp;G          </span><br><span class="line"> *              &amp;#ii13Gh;                               i3X31i;:,rB1         </span><br><span class="line"> *              iMs,:,i5895,                         .5G91:,:;:s1:8A         </span><br><span class="line"> *               33::::,,;5G5,                     ,58Si,,:::,sHX;iH1        </span><br><span class="line"> *                Sr.,:;rs13BBX35hh11511h5Shhh5S3GAXS:.,,::,,1AG3i,GG        </span><br><span class="line"> *                .G51S511sr;;iiiishS8G89Shsrrsh59S;.,,,,,..5A85Si,h8        </span><br><span class="line"> *               :SB9s:,............................,,,.,,,SASh53h,1G.       </span><br><span class="line"> *            .r18S;..,,,,,,,,,,,,,,,,,,,,,,,,,,,,,....,,.1H315199,rX,       </span><br><span class="line"> *          ;S89s,..,,,,,,,,,,,,,,,,,,,,,,,....,,.......,,,;r1ShS8,;Xi       </span><br><span class="line"> *        i55s:.........,,,,,,,,,,,,,,,,.,,,......,.....,,....r9&amp;5.:X1       </span><br><span class="line"> *       59;.....,.     .,,,,,,,,,,,...        .............,..:1;.:&amp;s       </span><br><span class="line"> *      s8,..;53S5S3s.   .,,,,,,,.,..      i15S5h1:.........,,,..,,:99       </span><br><span class="line"> *      93.:39s:rSGB@A;  ..,,,,.....    .SG3hhh9G&amp;BGi..,,,,,,,,,,,,.,83      </span><br><span class="line"> *      G5.G8  9#@@@@@X. .,,,,,,.....  iA9,.S&amp;B###@@Mr...,,,,,,,,..,.;Xh     </span><br><span class="line"> *      Gs.X8 S@@@@@@@B:..,,,,,,,,,,. rA1 ,A@@@@@@@@@H:........,,,,,,.iX:    </span><br><span class="line"> *     ;9. ,8A#@@@@@@#5,.,,,,,,,,,... 9A. 8@@@@@@@@@@M;    ....,,,,,,,,S8    </span><br><span class="line"> *     X3    iS8XAHH8s.,,,,,,,,,,...,..58hH@@@@@@@@@Hs       ...,,,,,,,:Gs   </span><br><span class="line"> *    r8,        ,,,...,,,,,,,,,,.....  ,h8XABMMHX3r.          .,,,,,,,.rX:  </span><br><span class="line"> *   :9, .    .:,..,:;;;::,.,,,,,..          .,,.               ..,,,,,,.59  </span><br><span class="line"> *  .Si      ,:.i8HBMMMMMB&amp;5,....                    .            .,,,,,.sMr</span><br><span class="line"> *  SS       :: h@@@@@@@@@@#; .                     ...  .         ..,,,,iM5</span><br><span class="line"> *  91  .    ;:.,1&amp;@@@@@@MXs.                            .          .,,:,:&amp;S</span><br><span class="line"> *  hS ....  .:;,,,i3MMS1;..,..... .  .     ...                     ..,:,.99</span><br><span class="line"> *  ,8; ..... .,:,..,8Ms:;,,,...                                     .,::.83</span><br><span class="line"> *   s&amp;: ....  .sS553B@@HX3s;,.    .,;13h.                            .:::&amp;1</span><br><span class="line"> *    SXr  .  ...;s3G99XA&amp;X88Shss11155hi.                             ,;:h&amp;,</span><br><span class="line"> *     iH8:  . ..   ,;iiii;,::,,,,,.                                 .;irHA  </span><br><span class="line"> *      ,8X5;   .     .......                                       ,;iihS8Gi</span><br><span class="line"> *         1831,                                                 .,;irrrrrs&amp;@</span><br><span class="line"> *           ;5A8r.                                            .:;iiiiirrss1H</span><br><span class="line"> *             :X@H3s.......                                .,:;iii;iiiiirsrh</span><br><span class="line"> *              r#h:;,...,,.. .,,:;;;;;:::,...              .:;;;;;;iiiirrss1</span><br><span class="line"> *             ,M8 ..,....,.....,,::::::,,...         .     .,;;;iiiiiirss11h</span><br><span class="line"> *             8B;.,,,,,,,.,.....          .           ..   .:;;;;iirrsss111h</span><br><span class="line"> *            i@5,:::,,,,,,,,.... .                   . .:::;;;;;irrrss111111</span><br><span class="line"> *            9Bi,:,,,,......                        ..r91;;;;;iirrsss1ss1111</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***                                                                    </span><br><span class="line"> *            .,,       .,:;;iiiiiiiii;;:,,.     .,,                   </span><br><span class="line"> *          rGB##HS,.;iirrrrriiiiiiiiiirrrrri;,s&amp;##MAS,                </span><br><span class="line"> *         r5s;:r3AH5iiiii;;;;;;;;;;;;;;;;iiirXHGSsiih1,               </span><br><span class="line"> *            .;i;;s91;;;;;;::::::::::::;;;;iS5;;;ii:                  </span><br><span class="line"> *          :rsriii;;r::::::::::::::::::::::;;,;;iiirsi,               </span><br><span class="line"> *       .,iri;;::::;;;;;;::,,,,,,,,,,,,,..,,;;;;;;;;iiri,,.           </span><br><span class="line"> *    ,9BM&amp;,            .,:;;:,,,,,,,,,,,hXA8:            ..,,,.       </span><br><span class="line"> *   ,;&amp;@@#r:;;;;;::::,,.   ,r,,,,,,,,,,iA@@@s,,:::;;;::,,.   .;.      </span><br><span class="line"> *    :ih1iii;;;;;::::;;;;;;;:,,,,,,,,,,;i55r;;;;;;;;;iiirrrr,..       </span><br><span class="line"> *   .ir;;iiiiiiiiii;;;;::::::,,,,,,,:::::,,:;;;iiiiiiiiiiiiri         </span><br><span class="line"> *   iriiiiiiiiiiiiiiii;;;::::::::::::::::;;;iiiiiiiiiiiiiiiir;        </span><br><span class="line"> *  ,riii;;;;;;;;;;;;;:::::::::::::::::::::::;;;;;;;;;;;;;;iiir.       </span><br><span class="line"> *  iri;;;::::,,,,,,,,,,:::::::::::::::::::::::::,::,,::::;;iir:       </span><br><span class="line"> * .rii;;::::,,,,,,,,,,,,:::::::::::::::::,,,,,,,,,,,,,::::;;iri       </span><br><span class="line"> * ,rii;;;::,,,,,,,,,,,,,:::::::::::,:::::,,,,,,,,,,,,,:::;;;iir.      </span><br><span class="line"> * ,rii;;i::,,,,,,,,,,,,,:::::::::::::::::,,,,,,,,,,,,,,::i;;iir.      </span><br><span class="line"> * ,rii;;r::,,,,,,,,,,,,,:,:::::,:,:::::::,,,,,,,,,,,,,::;r;;iir.      </span><br><span class="line"> * .rii;;rr,:,,,,,,,,,,,,,,:::::::::::::::,,,,,,,,,,,,,:,si;;iri       </span><br><span class="line"> *  ;rii;:1i,,,,,,,,,,,,,,,,,,:::::::::,,,,,,,,,,,,,,,:,ss:;iir:       </span><br><span class="line"> *  .rii;;;5r,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,sh:;;iri        </span><br><span class="line"> *   ;rii;:;51,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.:hh:;;iir,        </span><br><span class="line"> *    irii;::hSr,.,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.,sSs:;;iir:         </span><br><span class="line"> *     irii;;:iSSs:.,,,,,,,,,,,,,,,,,,,,,,,,,,,..:135;:;;iir:          </span><br><span class="line"> *      ;rii;;:,r535r:...,,,,,,,,,,,,,,,,,,..,;sS35i,;;iirr:           </span><br><span class="line"> *       :rrii;;:,;1S3Shs;:,............,:is533Ss:,;;;iiri,            </span><br><span class="line"> *        .;rrii;;;:,;rhS393S55hh11hh5S3393Shr:,:;;;iirr:              </span><br><span class="line"> *          .;rriii;;;::,:;is1h555555h1si;:,::;;;iirri:.               </span><br><span class="line"> *            .:irrrii;;;;;:::,,,,,,,,:::;;;;iiirrr;,                  </span><br><span class="line"> *               .:irrrriiiiii;;;;;;;;iiiiiirrrr;,.                    </span><br><span class="line"> *                  .,:;iirrrrrrrrrrrrrrrrri;:.                        </span><br><span class="line"> *                        ..,:::;;;;:::,,.                             </span><br><span class="line"> */                                                                     </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * ┌───┐   ┌───┬───┬───┬───┐ ┌───┬───┬───┬───┐ ┌───┬───┬───┬───┐ ┌───┬───┬───┐</span><br><span class="line"> * │Esc│   │ F1│ F2│ F3│ F4│ │ F5│ F6│ F7│ F8│ │ F9│F10│F11│F12│ │P/S│S L│P/B│  ┌┐    ┌┐    ┌┐</span><br><span class="line"> * └───┘   └───┴───┴───┴───┘ └───┴───┴───┴───┘ └───┴───┴───┴───┘ └───┴───┴───┘  └┘    └┘    └┘</span><br><span class="line"> * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐ ┌───┬───┬───┐ ┌───┬───┬───┬───┐</span><br><span class="line"> * │~ `│! 1│@ 2│# 3│$ 4│% 5│^ 6│&amp; 7│* 8│( 9│) 0│_ -│+ =│ BacSp │ │Ins│Hom│PUp│ │N L│ / │ * │ - │</span><br><span class="line"> * ├───┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─────┤ ├───┼───┼───┤ ├───┼───┼───┼───┤</span><br><span class="line"> * │ Tab │ Q │ W │ E │ R │ T │ Y │ U │ I │ O │ P │&#123; [│&#125; ]│ | \ │ │Del│End│PDn│ │ 7 │ 8 │ 9 │   │</span><br><span class="line"> * ├─────┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴┬──┴─────┤ └───┴───┴───┘ ├───┼───┼───┤ + │</span><br><span class="line"> * │ Caps │ A │ S │ D │ F │ G │ H │ J │ K │ L │: ;│&quot; &apos;│ Enter  │               │ 4 │ 5 │ 6 │   │</span><br><span class="line"> * ├──────┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴─┬─┴────────┤     ┌───┐     ├───┼───┼───┼───┤</span><br><span class="line"> * │ Shift  │ Z │ X │ C │ V │ B │ N │ M │&lt; ,│&gt; .│? /│  Shift   │     │ ↑ │     │ 1 │ 2 │ 3 │   │</span><br><span class="line"> * ├─────┬──┴─┬─┴──┬┴───┴───┴───┴───┴───┴──┬┴───┼───┴┬────┬────┤ ┌───┼───┼───┐ ├───┴───┼───┤ E││</span><br><span class="line"> * │ Ctrl│    │Alt │         Space         │ Alt│    │    │Ctrl│ │ ← │ ↓ │ → │ │   0   │ . │←─┘│</span><br><span class="line"> * └─────┴────┴────┴───────────────────────┴────┴────┴────┴────┘ └───┴───┴───┘ └───────┴───┴───┘</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                    _ooOoo_</span><br><span class="line"> *                   o8888888o</span><br><span class="line"> *                   88&quot; . &quot;88</span><br><span class="line"> *                   (| -_- |)</span><br><span class="line"> *                    O\ = /O</span><br><span class="line"> *                ____/`---&apos;\____</span><br><span class="line"> *              .   &apos; \\| |// `.</span><br><span class="line"> *               / \\||| : |||// \</span><br><span class="line"> *             / _||||| -:- |||||- \</span><br><span class="line"> *               | | \\\ - /// | |</span><br><span class="line"> *             | \_| &apos;&apos;\---/&apos;&apos; | |</span><br><span class="line"> *              \ .-\__ `-` ___/-. /</span><br><span class="line"> *           ___`. .&apos; /--.--\ `. . __</span><br><span class="line"> *        .&quot;&quot; &apos;&lt; `.___\_&lt;|&gt;_/___.&apos; &gt;&apos;&quot;&quot;.</span><br><span class="line"> *       | | : `- \`.;`\ _ /`;.`/ - ` : | |</span><br><span class="line"> *         \ \ `-. \_ __\ /__ _/ .-` / /</span><br><span class="line"> * ======`-.____`-.___\_____/___.-`____.-&apos;======</span><br><span class="line"> *                    `=---=&apos;</span><br><span class="line"> *</span><br><span class="line"> * .............................................</span><br><span class="line"> *          佛祖保佑             永无BUG</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *  佛曰:</span><br><span class="line"> *          写字楼里写字间，写字间里程序员；</span><br><span class="line"> *          程序人员写程序，又拿程序换酒钱。</span><br><span class="line"> *          酒醒只在网上坐，酒醉还来网下眠；</span><br><span class="line"> *          酒醉酒醒日复日，网上网下年复年。</span><br><span class="line"> *          但愿老死电脑间，不愿鞠躬老板前；</span><br><span class="line"> *          奔驰宝马贵者趣，公交自行程序员。</span><br><span class="line"> *          别人笑我忒疯癫，我笑自己命太贱；</span><br><span class="line"> *          不见满街漂亮妹，哪个归得程序员？</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * _ooOoo_</span><br><span class="line"> * o8888888o</span><br><span class="line"> * 88&quot; . &quot;88</span><br><span class="line"> * (| -_- |)</span><br><span class="line"> *  O\ = /O</span><br><span class="line"> * ___/`---&apos;\____</span><br><span class="line"> * .   &apos; \\| |// `.</span><br><span class="line"> * / \\||| : |||// \</span><br><span class="line"> * / _||||| -:- |||||- \</span><br><span class="line"> * | | \\\ - /// | |</span><br><span class="line"> * | \_| &apos;&apos;\---/&apos;&apos; | |</span><br><span class="line"> * \ .-\__ `-` ___/-. /</span><br><span class="line"> * ___`. .&apos; /--.--\ `. . __</span><br><span class="line"> * .&quot;&quot; &apos;&lt; `.___\_&lt;|&gt;_/___.&apos; &gt;&apos;&quot;&quot;.</span><br><span class="line"> * | | : `- \`.;`\ _ /`;.`/ - ` : | |</span><br><span class="line"> * \ \ `-. \_ __\ /__ _/ .-` / /</span><br><span class="line"> * ======`-.____`-.___\_____/___.-`____.-&apos;======</span><br><span class="line"> * `=---=&apos;</span><br><span class="line"> * .............................................</span><br><span class="line"> *           佛曰：bug 泛滥，我已瘫痪！</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *</span><br><span class="line"> *   █████▒█    ██  ▄████▄   ██ ▄█▀       ██████╗ ██╗   ██╗ ██████╗</span><br><span class="line"> * ▓██   ▒ ██  ▓██▒▒██▀ ▀█   ██▄█▒        ██╔══██╗██║   ██║██╔════╝</span><br><span class="line"> * ▒████ ░▓██  ▒██░▒▓█    ▄ ▓███▄░        ██████╔╝██║   ██║██║  ███╗</span><br><span class="line"> * ░▓█▒  ░▓▓█  ░██░▒▓▓▄ ▄██▒▓██ █▄        ██╔══██╗██║   ██║██║   ██║</span><br><span class="line"> * ░▒█░   ▒▒█████▓ ▒ ▓███▀ ░▒██▒ █▄       ██████╔╝╚██████╔╝╚██████╔╝</span><br><span class="line"> *  ▒ ░   ░▒▓▒ ▒ ▒ ░ ░▒ ▒  ░▒ ▒▒ ▓▒       ╚═════╝  ╚═════╝  ╚═════╝</span><br><span class="line"> *  ░     ░░▒░ ░ ░   ░  ▒   ░ ░▒ ▒░</span><br><span class="line"> *  ░ ░    ░░░ ░ ░ ░        ░ ░░ ░</span><br><span class="line"> *           ░     ░ ░      ░  ░</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                    .::::.</span><br><span class="line"> *                  .::::::::.</span><br><span class="line"> *                 :::::::::::  FUCK YOU</span><br><span class="line"> *             ..:::::::::::&apos;</span><br><span class="line"> *           &apos;::::::::::::&apos;</span><br><span class="line"> *             .::::::::::</span><br><span class="line"> *        &apos;::::::::::::::..</span><br><span class="line"> *             ..::::::::::::.</span><br><span class="line"> *           ``::::::::::::::::</span><br><span class="line"> *            ::::``:::::::::&apos;        .:::.</span><br><span class="line"> *           ::::&apos;   &apos;:::::&apos;       .::::::::.</span><br><span class="line"> *         .::::&apos;      ::::     .:::::::&apos;::::.</span><br><span class="line"> *        .:::&apos;       :::::  .:::::::::&apos; &apos;:::::.</span><br><span class="line"> *       .::&apos;        :::::.:::::::::&apos;      &apos;:::::.</span><br><span class="line"> *      .::&apos;         ::::::::::::::&apos;         ``::::.</span><br><span class="line"> *  ...:::           ::::::::::::&apos;              ``::.</span><br><span class="line"> * ```` &apos;:.          &apos;:::::::::&apos;                  ::::..</span><br><span class="line"> *                    &apos;.:::::&apos;                    &apos;:&apos;````..</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *      ┌─┐       ┌─┐</span><br><span class="line"> *   ┌──┘ ┴───────┘ ┴──┐</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   │       ───       │</span><br><span class="line"> *   │  ─┬┘       └┬─  │</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   │       ─┴─       │</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   └───┐         ┌───┘</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         └──────────────┐</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       │                        ├─┐</span><br><span class="line"> *       │                        ┌─┘</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       └─┐  ┐  ┌───────┬──┐  ┌──┘</span><br><span class="line"> *         │ ─┤ ─┤       │ ─┤ ─┤</span><br><span class="line"> *         └──┴──┘       └──┴──┘</span><br><span class="line"> *                神兽保佑</span><br><span class="line"> *               代码无BUG!</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *      ┌─┐       ┌─┐</span><br><span class="line"> *   ┌──┘ ┴───────┘ ┴──┐</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   │       ───       │</span><br><span class="line"> *   │   &gt;        &lt;    │</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   │   ...  ⌒  ...   │</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   └───┐         ┌───┘</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         └──────────────┐</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       │                        ├─┐</span><br><span class="line"> *       │                        ┌─┘</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       └─┐  ┐  ┌───────┬──┐  ┌──┘</span><br><span class="line"> *         │ ─┤ ─┤       │ ─┤ ─┤</span><br><span class="line"> *         └──┴──┘       └──┴──┘</span><br><span class="line"> *                神兽保佑</span><br><span class="line"> *               代码无BUG!</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *      ┌─┐       ┌─┐ + +</span><br><span class="line"> *   ┌──┘ ┴───────┘ ┴──┐++</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   │       ───       │++ + + +</span><br><span class="line"> *   ███████───███████ │+</span><br><span class="line"> *   │                 │+</span><br><span class="line"> *   │       ─┴─       │</span><br><span class="line"> *   │                 │</span><br><span class="line"> *   └───┐         ┌───┘</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         │   + +</span><br><span class="line"> *       │         │</span><br><span class="line"> *       │         └──────────────┐</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       │                        ├─┐</span><br><span class="line"> *       │                        ┌─┘</span><br><span class="line"> *       │                        │</span><br><span class="line"> *       └─┐  ┐  ┌───────┬──┐  ┌──┘  + + + +</span><br><span class="line"> *         │ ─┤ ─┤       │ ─┤ ─┤</span><br><span class="line"> *         └──┴──┘       └──┴──┘  + + + +</span><br><span class="line"> *                神兽保佑</span><br><span class="line"> *               代码无BUG!</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                  ___====-_  _-====___</span><br><span class="line"> *            _--^^^#####//      \\#####^^^--_</span><br><span class="line"> *         _-^##########// (    ) \\##########^-_</span><br><span class="line"> *        -############//  |\^^/|  \\############-</span><br><span class="line"> *      _/############//   (@::@)   \\############\_</span><br><span class="line"> *     /#############((     \\//     ))#############\</span><br><span class="line"> *    -###############\\    (oo)    //###############-</span><br><span class="line"> *   -#################\\  / VV \  //#################-</span><br><span class="line"> *  -###################\\/      \//###################-</span><br><span class="line"> * _#/|##########/\######(   /\   )######/\##########|\#_</span><br><span class="line"> * |/ |#/\#/\#/\/  \#/\##\  |  |  /##/\#/  \/\#/\#/\#| \|</span><br><span class="line"> * `  |/  V  V  `   V  \#\| |  | |/#/  V   &apos;  V  V  \|  &apos;</span><br><span class="line"> *    `   `  `      `   / | |  | | \   &apos;      &apos;  &apos;   &apos;</span><br><span class="line"> *                     (  | |  | |  )</span><br><span class="line"> *                    __\ | |  | | /__</span><br><span class="line"> *                   (vvv(VVV)(VVV)vvv)                </span><br><span class="line"> *                        神兽保佑</span><br><span class="line"> *                       代码无BUG!</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *                                                    __----~~~~~~~~~~~------___</span><br><span class="line"> *                                   .  .   ~~//====......          __--~ ~~</span><br><span class="line"> *                   -.            \_|//     |||\\  ~~~~~~::::... /~</span><br><span class="line"> *                ___-==_       _-~o~  \/    |||  \\            _/~~-</span><br><span class="line"> *        __---~~~.==~||\=_    -_--~/_-~|-   |\\   \\        _/~</span><br><span class="line"> *    _-~~     .=~    |  \\-_    &apos;-~7  /-   /  ||    \      /</span><br><span class="line"> *  .~       .~       |   \\ -_    /  /-   /   ||      \   /</span><br><span class="line"> * /  ____  /         |     \\ ~-_/  /|- _/   .||       \ /</span><br><span class="line"> * |~~    ~~|--~~~~--_ \     ~==-/   | \~--===~~        .\</span><br><span class="line"> *          &apos;         ~-|      /|    |-~\~~       __--~~</span><br><span class="line"> *                      |-~~-_/ |    |   ~\_   _-~            /\</span><br><span class="line"> *                           /  \     \__   \/~                \__</span><br><span class="line"> *                       _--~ _/ | .-~~____--~-/                  ~~==.</span><br><span class="line"> *                      ((-&gt;/~   &apos;.|||&apos; -_|    ~~-/ ,              . _||</span><br><span class="line"> *                                 -_     ~\      ~~---l__i__i__i--~~_/</span><br><span class="line"> *                                 _-~-__   ~)  \--______________--~~</span><br><span class="line"> *                               //.-~~~-~_--~- |-------~~~~~~~~</span><br><span class="line"> *                                      //.-~~~--\</span><br><span class="line"> *                               神兽保佑</span><br><span class="line"> *                              代码无BUG!</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***                              _</span><br><span class="line"> *  _._ _..._ .-&apos;,     _.._(`))</span><br><span class="line"> * &apos;-. `     &apos;  /-._.-&apos;    &apos;,/</span><br><span class="line"> *    )         \            &apos;.</span><br><span class="line"> *   / _    _    |             \</span><br><span class="line"> *  |  a    a    /              |</span><br><span class="line"> *  \   .-.                     ;</span><br><span class="line"> *   &apos;-(&apos;&apos; ).-&apos;       ,&apos;       ;</span><br><span class="line"> *      &apos;-;           |      .&apos;</span><br><span class="line"> *         \           \    /</span><br><span class="line"> *         | 7  .__  _.-\   \</span><br><span class="line"> *         | |  |  ``/  /`  /</span><br><span class="line"> *        /,_|  |   /,_/   /</span><br><span class="line"> *           /,_/      &apos;`-&apos;</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> **************************************************************</span><br><span class="line"> *                                                            *</span><br><span class="line"> *   .=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-.       *</span><br><span class="line"> *    |                     ______                     |      *</span><br><span class="line"> *    |                  .-&quot;      &quot;-.                  |      *</span><br><span class="line"> *    |                 /            \                 |      *</span><br><span class="line"> *    |     _          |              |          _     |      *</span><br><span class="line"> *    |    ( \         |,  .-.  .-.  ,|         / )    |      *</span><br><span class="line"> *    |     &gt; &quot;=._     | )(__/  \__)( |     _.=&quot; &lt;     |      *</span><br><span class="line"> *    |    (_/&quot;=._&quot;=._ |/     /\     \| _.=&quot;_.=&quot;\_)    |      *</span><br><span class="line"> *    |           &quot;=._&quot;(_     ^^     _)&quot;_.=&quot;           |      *</span><br><span class="line"> *    |               &quot;=\__|IIIIII|__/=&quot;               |      *</span><br><span class="line"> *    |              _.=&quot;| \IIIIII/ |&quot;=._              |      *</span><br><span class="line"> *    |    _     _.=&quot;_.=&quot;\          /&quot;=._&quot;=._     _    |      *</span><br><span class="line"> *    |   ( \_.=&quot;_.=&quot;     `--------`     &quot;=._&quot;=._/ )   |      *</span><br><span class="line"> *    |    &gt; _.=&quot;                            &quot;=._ &lt;    |      *</span><br><span class="line"> *    |   (_/                                    \_)   |      *</span><br><span class="line"> *    |                                                |      *</span><br><span class="line"> *    &apos;-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=&apos;      *</span><br><span class="line"> *                                                            *</span><br><span class="line"> *           LASCIATE OGNI SPERANZA, VOI CH&apos;ENTRATE           *</span><br><span class="line"> **************************************************************</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                                         ,s555SB@@&amp;                          </span><br><span class="line"> *                                      :9H####@@@@@Xi                        </span><br><span class="line"> *                                     1@@@@@@@@@@@@@@8                       </span><br><span class="line"> *                                   ,8@@@@@@@@@B@@@@@@8                      </span><br><span class="line"> *                                  :B@@@@X3hi8Bs;B@@@@@Ah,                   </span><br><span class="line"> *             ,8i                  r@@@B:     1S ,M@@@@@@#8;                 </span><br><span class="line"> *            1AB35.i:               X@@8 .   SGhr ,A@@@@@@@@S                </span><br><span class="line"> *            1@h31MX8                18Hhh3i .i3r ,A@@@@@@@@@5               </span><br><span class="line"> *            ;@&amp;i,58r5                 rGSS:     :B@@@@@@@@@@A               </span><br><span class="line"> *             1#i  . 9i                 hX.  .: .5@@@@@@@@@@@1               </span><br><span class="line"> *              sG1,  ,G53s.              9#Xi;hS5 3B@@@@@@@B1                </span><br><span class="line"> *               .h8h.,A@@@MXSs,           #@H1:    3ssSSX@1                  </span><br><span class="line"> *               s ,@@@@@@@@@@@@Xhi,       r#@@X1s9M8    .GA981               </span><br><span class="line"> *               ,. rS8H#@@@@@@@@@@#HG51;.  .h31i;9@r    .8@@@@BS;i;          </span><br><span class="line"> *                .19AXXXAB@@@@@@@@@@@@@@#MHXG893hrX#XGGXM@@@@@@@@@@MS        </span><br><span class="line"> *                s@@MM@@@hsX#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&amp;,      </span><br><span class="line"> *              :GB@#3G@@Brs ,1GM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@B,     </span><br><span class="line"> *            .hM@@@#@@#MX 51  r;iSGAM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@8     </span><br><span class="line"> *          :3B@@@@@@@@@@@&amp;9@h :Gs   .;sSXH@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:    </span><br><span class="line"> *      s&amp;HA#@@@@@@@@@@@@@@M89A;.8S.       ,r3@@@@@@@@@@@@@@@@@@@@@@@@@@@r    </span><br><span class="line"> *   ,13B@@@@@@@@@@@@@@@@@@@5 5B3 ;.         ;@@@@@@@@@@@@@@@@@@@@@@@@@@@i    </span><br><span class="line"> *  5#@@#&amp;@@@@@@@@@@@@@@@@@@9  .39:          ;@@@@@@@@@@@@@@@@@@@@@@@@@@@;    </span><br><span class="line"> *  9@@@X:MM@@@@@@@@@@@@@@@#;    ;31.         H@@@@@@@@@@@@@@@@@@@@@@@@@@:    </span><br><span class="line"> *   SH#@B9.rM@@@@@@@@@@@@@B       :.         3@@@@@@@@@@@@@@@@@@@@@@@@@@5    </span><br><span class="line"> *     ,:.   9@@@@@@@@@@@#HB5                 .M@@@@@@@@@@@@@@@@@@@@@@@@@B    </span><br><span class="line"> *           ,ssirhSM@&amp;1;i19911i,.             s@@@@@@@@@@@@@@@@@@@@@@@@@@S   </span><br><span class="line"> *              ,,,rHAri1h1rh&amp;@#353Sh:          8@@@@@@@@@@@@@@@@@@@@@@@@@#:  </span><br><span class="line"> *            .A3hH@#5S553&amp;@@#h   i:i9S          #@@@@@@@@@@@@@@@@@@@@@@@@@A.</span><br><span class="line"> *</span><br><span class="line"> *</span><br><span class="line"> *    又看源码，看你妹妹呀！</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *_______________#########_______________________</span><br><span class="line"> *______________############_____________________</span><br><span class="line"> *______________#############____________________</span><br><span class="line"> *_____________##__###########___________________</span><br><span class="line"> *____________###__######_#####__________________</span><br><span class="line"> *____________###_#######___####_________________</span><br><span class="line"> *___________###__##########_####________________</span><br><span class="line"> *__________####__###########_####_______________</span><br><span class="line"> *________#####___###########__#####_____________</span><br><span class="line"> *_______######___###_########___#####___________</span><br><span class="line"> *_______#####___###___########___######_________</span><br><span class="line"> *______######___###__###########___######_______</span><br><span class="line"> *_____######___####_##############__######______</span><br><span class="line"> *____#######__#####################_#######_____</span><br><span class="line"> *____#######__##############################____</span><br><span class="line"> *___#######__######_#################_#######___</span><br><span class="line"> *___#######__######_######_#########___######___</span><br><span class="line"> *___#######____##__######___######_____######___</span><br><span class="line"> *___#######________######____#####_____#####____</span><br><span class="line"> *____######________#####_____#####_____####_____</span><br><span class="line"> *_____#####________####______#####_____###______</span><br><span class="line"> *______#####______;###________###______#________</span><br><span class="line"> *________##_______####________####______________</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *             ,%%%%%%%%,</span><br><span class="line"> *           ,%%/\%%%%/\%%</span><br><span class="line"> *          ,%%%\c &quot;&quot; J/%%%</span><br><span class="line"> * %.       %%%%/ o  o \%%%</span><br><span class="line"> * `%%.     %%%%    _  |%%%</span><br><span class="line"> *  `%%     `%%%%(__Y__)%%&apos;</span><br><span class="line"> *  //       ;%%%%`\-/%%%&apos;</span><br><span class="line"> * ((       /  `%%%%%%%&apos;</span><br><span class="line"> *  \\    .&apos;          |</span><br><span class="line"> *   \\  /       \  | |</span><br><span class="line"> *    \\/         ) | |</span><br><span class="line"> *     \         /_ | |__</span><br><span class="line"> *     (___________))))))) 攻城湿</span><br><span class="line"> *</span><br><span class="line"> *        _       _</span><br><span class="line"> * __   _(_)_   _(_) __ _ _ __</span><br><span class="line"> * \ \ / / \ \ / / |/ _` |&apos;_ \</span><br><span class="line"> *  \ V /| |\ V /| | (_| | | | |</span><br><span class="line"> *   \_/ |_| \_/ |_|\__,_|_| |_|</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * https://gold.xitu.io/</span><br><span class="line"> *　　　　１１１　　　　　　　　　　　　　　　　　　　　　　　　　１　　　　　　　　　　　</span><br><span class="line"> *　　　　１１１　１１１１１１１１１１１１　　　　　　　　　　　１１１　　　　　　　　　　</span><br><span class="line"> *　　　　１１　　１１１１１１１１１１１１　　　　　　　　　　１１１１１　　　　　　　　　</span><br><span class="line"> *　　　　１１　　１１１　　　　　　　１１　　　　　　　　　１１１１１１１　　　　　　　　</span><br><span class="line"> *　　１１１１　１　１１１１１１１１１１１　　　　　　　　　１１１　１１１１　　　　　　　</span><br><span class="line"> *　　１１１１１１　１１１１１１１１１１１　　　　　　　１１１１　　　１１１１１　　　　　</span><br><span class="line"> *　　１１１１１１　１１　　　　　　　　　　　　　　　１１１１　　　　　１１１１１１　　　</span><br><span class="line"> *　　　　１１　　　１１１１１１１１　１１　　　　１１１１１１１１１１１１１１１１１１　　</span><br><span class="line"> *　　　　１１　　　１１１１１１１１１１１　　　１１１１１１１１１１１１１１１１１１１　　</span><br><span class="line"> *　　　　１１１１１１１１１　１１　　１１　　　　１１　　　　　　１１　　　　　　　　　　</span><br><span class="line"> *　　１１１１１１１１１１１１１１１１１１　　　　　　　　　　　　１１　　　　　　　　　　</span><br><span class="line"> *　　１１１１　　１１１１１１１１１１１１　　　　　　１１１１１１１１１１１１１１　　　　</span><br><span class="line"> *　　１１１１　　１１　　　　１１　　　　　　　　　　１１１１１１１１１１１１１１　　　　</span><br><span class="line"> *　　　　１１　　１１　１１　１１　　１１１　　　　　　１１　　　１１　　１１１　　　　　</span><br><span class="line"> *　　　　１１　　１１　１１　１１　　１１　　　　　　　１１１　　１１　　１１１　　　　　</span><br><span class="line"> *　　　　１１　１１１　１１　１１　　１１　　　　　　　　１１１　１１　１１１　　　　　　</span><br><span class="line"> *　　１１１１　１１１　１１１１１１１１１　　　　　１１　１１１　１１　１１１１１１１　　</span><br><span class="line"> *　　　１１１１１１　　１１１１１１１１１１　　　　１１１１１１１１１１１１１１１１１　　</span><br><span class="line"> *　　　１１　１１１　　　　　　　　　１１１　　　　１１１１１１１１１１１１１１１１１　　</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * https://www.zhihu.com/</span><br><span class="line"> *           _____                    _____                    _____                    _____          </span><br><span class="line"> *          /\    \                  /\    \                  /\    \                  /\    \         </span><br><span class="line"> *         /::\____\                /::\    \                /::\    \                /::\    \        </span><br><span class="line"> *        /:::/    /                \:::\    \              /::::\    \              /::::\    \       </span><br><span class="line"> *       /:::/    /                  \:::\    \            /::::::\    \            /::::::\    \      </span><br><span class="line"> *      /:::/    /                    \:::\    \          /:::/\:::\    \          /:::/\:::\    \     </span><br><span class="line"> *     /:::/____/                      \:::\    \        /:::/__\:::\    \        /:::/__\:::\    \    </span><br><span class="line"> *    /::::\    \                      /::::\    \      /::::\   \:::\    \      /::::\   \:::\    \   </span><br><span class="line"> *   /::::::\    \   _____    ____    /::::::\    \    /::::::\   \:::\    \    /::::::\   \:::\    \  </span><br><span class="line"> *  /:::/\:::\    \ /\    \  /\   \  /:::/\:::\    \  /:::/\:::\   \:::\____\  /:::/\:::\   \:::\    \</span><br><span class="line"> * /:::/  \:::\    /::\____\/::\   \/:::/  \:::\____\/:::/  \:::\   \:::|    |/:::/__\:::\   \:::\____\</span><br><span class="line"> * \::/    \:::\  /:::/    /\:::\  /:::/    \::/    /\::/   |::::\  /:::|____|\:::\   \:::\   \::/    /</span><br><span class="line"> *  \/____/ \:::\/:::/    /  \:::\/:::/    / \/____/  \/____|:::::\/:::/    /  \:::\   \:::\   \/____/</span><br><span class="line"> *           \::::::/    /    \::::::/    /                 |:::::::::/    /    \:::\   \:::\    \     </span><br><span class="line"> *            \::::/    /      \::::/____/                  |::|\::::/    /      \:::\   \:::\____\    </span><br><span class="line"> *            /:::/    /        \:::\    \                  |::| \::/____/        \:::\   \::/    /    </span><br><span class="line"> *           /:::/    /          \:::\    \                 |::|  ~|               \:::\   \/____/     </span><br><span class="line"> *          /:::/    /            \:::\    \                |::|   |                \:::\    \         </span><br><span class="line"> *         /:::/    /              \:::\____\               \::|   |                 \:::\____\        </span><br><span class="line"> *         \::/    /                \::/    /                \:|   |                  \::/    /        </span><br><span class="line"> *          \/____/                  \/____/                  \|___|                   \/____/         </span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * http://www.freebuf.com/</span><br><span class="line"> *           _.._        ,------------.</span><br><span class="line"> *        ,&apos;      `.    ( We want you! )</span><br><span class="line"> *       /  __) __` \    `-,----------&apos;</span><br><span class="line"> *      (  (`-`(-&apos;)  ) _.-&apos;</span><br><span class="line"> *      /)  \  = /  (</span><br><span class="line"> *     /&apos;    |--&apos; .  \</span><br><span class="line"> *    (  ,---|  `-.)__`</span><br><span class="line"> *     )(  `-.,--&apos;   _`-.</span><br><span class="line"> *    &apos;/,&apos;          (  Uu&quot;,</span><br><span class="line"> *     (_       ,    `/,-&apos; )</span><br><span class="line"> *     `.__,  : `-&apos;/  /`--&apos;</span><br><span class="line"> *       |     `--&apos;  |</span><br><span class="line"> *       `   `-._   /</span><br><span class="line"> *        \        (</span><br><span class="line"> *        /\ .      \.  freebuf</span><br><span class="line"> *       / |` \     ,-\</span><br><span class="line"> *      /  \| .)   /   \</span><br><span class="line"> *     ( ,&apos;|\    ,&apos;     :</span><br><span class="line"> *     | \,`.`--&quot;/      &#125;</span><br><span class="line"> *     `,&apos;    \  |,&apos;    /</span><br><span class="line"> *    / &quot;-._   `-/      |</span><br><span class="line"> *    &quot;-.   &quot;-.,&apos;|     ;</span><br><span class="line"> *   /        _/[&quot;---&apos;&quot;&quot;]</span><br><span class="line"> *  :        /  |&quot;-     &apos;</span><br><span class="line"> *  &apos;           |      /</span><br><span class="line"> *              `      |</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * https://campus.alibaba.com/</span><br><span class="line"> *                                 `:::::::::::,</span><br><span class="line"> *                             `::;:::::::;:::::::,  `</span><br><span class="line"> *                          `::;;:::::::@@@@;:::::::`</span><br><span class="line"> *                        ,:::::::::::::@    #@&apos;:::::`</span><br><span class="line"> *                      :::::::::::::::&apos;@@      @;::::</span><br><span class="line"> *                    ::::::::::::&apos;@@@@&apos;```      .+:::`</span><br><span class="line"> *                  ::::::::::;@@@#.              ,:::,</span><br><span class="line"> *                .::::::::+@#@`                   ::::</span><br><span class="line"> *               :::::::+@@&apos;                       ::::</span><br><span class="line"> *             `:::::&apos;@@:                         `:::.</span><br><span class="line"> *            ,::::@@:  `                         ::::</span><br><span class="line"> *           ;::::::@                            .:::;</span><br><span class="line"> *          :;:::::;@`        `                  :::;</span><br><span class="line"> *         :::::::::@`        @                 ;::::</span><br><span class="line"> *        :::::::::#`          @`              ,::::</span><br><span class="line"> *       :::::::::@`         +@ @             .::::`</span><br><span class="line"> *      .::::::&apos;@@`       `@@&apos;  @             ::::,</span><br><span class="line"> *      :::::::++@@@@@@@@@@.                 ::::;</span><br><span class="line"> *     ;:::::::+,   `..`                    :::::</span><br><span class="line"> *    ,::::::::&apos;,                          :::::</span><br><span class="line"> *    :::::::::+,                         :::::`</span><br><span class="line"> *   :::::::::+@.                        ,::::.`                     `,</span><br><span class="line"> *   ::::::;;@+                         .::;::                     `;</span><br><span class="line"> *  :::::::@@                          `:::;:                   `::``</span><br><span class="line"> *  ::::::#@                           ;::::                  .::`</span><br><span class="line"> *  :::::;@                           :::::`               .;::`</span><br><span class="line"> *  :::::@                           `:;:::            `::::;</span><br><span class="line"> *  :::::#                           :::::.        `,;:::::</span><br><span class="line"> *  ::::::                    `      ::::::,.,::::::::::.</span><br><span class="line"> *  ,::::::`              .::        ::::::::::::::::;`</span><br><span class="line"> *   ;::::::::,````.,:::::,          ::::::::::::::.</span><br><span class="line"> *    :::::::::::::::::: `           `::::::::::`</span><br><span class="line"> *     `::::::::::::,                  .:::.</span><br><span class="line"> *         `..`</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * http://www.flvcd.com/</span><br><span class="line"> *  .--,       .--,</span><br><span class="line"> * ( (  \.---./  ) )</span><br><span class="line"> *  &apos;.__/o   o\__.&apos;</span><br><span class="line"> *     &#123;=  ^  =&#125;</span><br><span class="line"> *      &gt;  -  &lt;</span><br><span class="line"> *     /       \</span><br><span class="line"> *    //       \\</span><br><span class="line"> *   //|   .   |\\</span><br><span class="line"> *   &quot;&apos;\       /&apos;&quot;_.-~^`&apos;-.</span><br><span class="line"> *      \  _  /--&apos;         `</span><br><span class="line"> *    ___)( )(___</span><br><span class="line"> *   (((__) (__)))    高山仰止,景行行止.虽不能至,心向往之。</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * 頂頂頂頂頂頂頂頂頂　頂頂頂頂頂頂頂頂頂</span><br><span class="line"> * 頂頂頂頂頂頂頂　　　　　頂頂　　　　　</span><br><span class="line"> * 　　　頂頂　　　頂頂頂頂頂頂頂頂頂頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂頂頂頂頂頂頂頂頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂　　　　　　　頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂　　頂頂頂　　頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂　　頂頂頂　　頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂　　頂頂頂　　頂頂</span><br><span class="line"> * 　　　頂頂　　　頂頂　　頂頂頂　　頂頂</span><br><span class="line"> * 　　　頂頂　　　　　　　頂頂頂　</span><br><span class="line"> * 　　　頂頂　　　　　　頂頂　頂頂　頂頂</span><br><span class="line"> * 　頂頂頂頂　　　頂頂頂頂頂　頂頂頂頂頂</span><br><span class="line"> * 　頂頂頂頂　　　頂頂頂頂　　　頂頂頂頂</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> * ░░░░░░░░░░░░░░░░░░░░░░░░▄░░</span><br><span class="line"> * ░░░░░░░░░▐█░░░░░░░░░░░▄▀▒▌░</span><br><span class="line"> * ░░░░░░░░▐▀▒█░░░░░░░░▄▀▒▒▒▐</span><br><span class="line"> * ░░░░░░░▐▄▀▒▒▀▀▀▀▄▄▄▀▒▒▒▒▒▐</span><br><span class="line"> * ░░░░░▄▄▀▒░▒▒▒▒▒▒▒▒▒█▒▒▄█▒▐</span><br><span class="line"> * ░░░▄▀▒▒▒░░░▒▒▒░░░▒▒▒▀██▀▒▌</span><br><span class="line"> * ░░▐▒▒▒▄▄▒▒▒▒░░░▒▒▒▒▒▒▒▀▄▒▒</span><br><span class="line"> * ░░▌░░▌█▀▒▒▒▒▒▄▀█▄▒▒▒▒▒▒▒█▒▐</span><br><span class="line"> * ░▐░░░▒▒▒▒▒▒▒▒▌██▀▒▒░░░▒▒▒▀▄</span><br><span class="line"> * ░▌░▒▄██▄▒▒▒▒▒▒▒▒▒░░░░░░▒▒▒▒</span><br><span class="line"> * ▀▒▀▐▄█▄█▌▄░▀▒▒░░░░░░░░░░▒▒▒</span><br><span class="line"> * 单身狗就这样默默地看着你，一句话也不说。</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                   /88888888888888888888888888\</span><br><span class="line"> *                   |88888888888888888888888888/</span><br><span class="line"> *                    |~~____~~~~~~~~~&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;|</span><br><span class="line"> *                   / \_________/&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;&quot;\</span><br><span class="line"> *                  /  |              \         \</span><br><span class="line"> *                 /   |  88    88     \         \</span><br><span class="line"> *                /    |  88    88      \         \</span><br><span class="line"> *               /    /                  \        |</span><br><span class="line"> *              /     |   ________        \       |</span><br><span class="line"> *              \     |   \______/        /       |</span><br><span class="line"> *   /&quot;\         \     \____________     /        |</span><br><span class="line"> *   | |__________\_        |  |        /        /</span><br><span class="line"> * /&quot;&quot;&quot;&quot;\           \_------&apos;  &apos;-------/       --</span><br><span class="line"> * \____/,___________\                 -------/</span><br><span class="line"> * ------*            |                    \</span><br><span class="line"> *   ||               |                     \</span><br><span class="line"> *   ||               |                 ^    \</span><br><span class="line"> *   ||               |                | \    \</span><br><span class="line"> *   ||               |                |  \    \</span><br><span class="line"> *   ||               |                |   \    \</span><br><span class="line"> *   \|              /                /&quot;&quot;&quot;\/    /</span><br><span class="line"> *      -------------                |    |    /</span><br><span class="line"> *      |\--_                        \____/___/</span><br><span class="line"> *      |   |\-_                       |</span><br><span class="line"> *      |   |   \_                     |</span><br><span class="line"> *      |   |     \                    |</span><br><span class="line"> *      |   |      \_                  |</span><br><span class="line"> *      |   |        ----___           |</span><br><span class="line"> *      |   |               \----------|</span><br><span class="line"> *      /   |                     |     ----------&quot;&quot;\</span><br><span class="line"> * /&quot;\--&quot;--_|                     |               |  \</span><br><span class="line"> * |_______/                      \______________/    )</span><br><span class="line"> *                                               \___/</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                        d*##$.</span><br><span class="line"> *  zP&quot;&quot;&quot;&quot;&quot;$e.           $&quot;    $o</span><br><span class="line"> * 4$       &apos;$          $&quot;      $</span><br><span class="line"> * &apos;$        &apos;$        J$       $F</span><br><span class="line"> *  &apos;b        $k       $&gt;       $</span><br><span class="line"> *   $k        $r     J$       d$</span><br><span class="line"> *   &apos;$         $     $&quot;       $~</span><br><span class="line"> *    &apos;$        &quot;$   &apos;$E       $</span><br><span class="line"> *     $         $L   $&quot;      $F ...</span><br><span class="line"> *      $.       4B   $      $$$*&quot;&quot;&quot;*b</span><br><span class="line"> *      &apos;$        $.  $$     $$      $F</span><br><span class="line"> *       &quot;$       R$  $F     $&quot;      $</span><br><span class="line"> *        $k      ?$ u*     dF      .$</span><br><span class="line"> *        ^$.      $$&quot;     z$      u$$$$e</span><br><span class="line"> *         #$b             $E.dW@e$&quot;    ?$</span><br><span class="line"> *          #$           .o$$# d$$$$c    ?F</span><br><span class="line"> *           $      .d$$#&quot; . zo$&gt;   #$r .uF</span><br><span class="line"> *           $L .u$*&quot;      $&amp;$$$k   .$$d$$F</span><br><span class="line"> *            $$&quot;            &quot;&quot;^&quot;$$$P&quot;$P9$</span><br><span class="line"> *           JP              .o$$$$u:$P $$</span><br><span class="line"> *           $          ..ue$&quot;      &quot;&quot;  $&quot;</span><br><span class="line"> *          d$          $F              $</span><br><span class="line"> *          $$     ....udE             4B</span><br><span class="line"> *           #$    &quot;&quot;&quot;&quot;` $r            @$</span><br><span class="line"> *            ^$L        &apos;$            $F</span><br><span class="line"> *              RN        4N           $</span><br><span class="line"> *               *$b                  d$</span><br><span class="line"> *                $$k                 $F</span><br><span class="line"> *                 $$b                $F</span><br><span class="line"> *                  $&quot;&quot;               $F</span><br><span class="line"> *                  &apos;$                $</span><br><span class="line"> *                   $L               $</span><br><span class="line"> *                   &apos;$               $</span><br><span class="line"> *                    $               $</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *              ,----------------,              ,---------,</span><br><span class="line"> *         ,-----------------------,          ,&quot;        ,&quot;|</span><br><span class="line"> *       ,&quot;                      ,&quot;|        ,&quot;        ,&quot;  |</span><br><span class="line"> *      +-----------------------+  |      ,&quot;        ,&quot;    |</span><br><span class="line"> *      |  .-----------------.  |  |     +---------+      |</span><br><span class="line"> *      |  |                 |  |  |     | -==----&apos;|      |</span><br><span class="line"> *      |  |  I LOVE DOS!    |  |  |     |         |      |</span><br><span class="line"> *      |  |  Bad command or |  |  |/----|`---=    |      |</span><br><span class="line"> *      |  |  C:\&gt;_          |  |  |   ,/|==== ooo |      ;</span><br><span class="line"> *      |  |                 |  |  |  // |(((( [33]|    ,&quot;</span><br><span class="line"> *      |  `-----------------&apos;  |,&quot; .;&apos;| |((((     |  ,&quot;</span><br><span class="line"> *      +-----------------------+  ;;  | |         |,&quot;</span><br><span class="line"> *         /_)______________(_/  //&apos;   | +---------+</span><br><span class="line"> *    ___________________________/___  `,</span><br><span class="line"> *   /  oooooooooooooooo  .o.  oooo /,   \,&quot;-----------</span><br><span class="line"> *  / ==ooooooooooooooo==.o.  ooo= //   ,`\--&#123;)B     ,&quot;</span><br><span class="line"> * /_==__==========__==_ooo__ooo=_/&apos;   /___________,&quot;</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***</span><br><span class="line"> *                 .-~~~~~~~~~-._       _.-~~~~~~~~~-.</span><br><span class="line"> *             __.&apos;              ~.   .~              `.__</span><br><span class="line"> *           .&apos;//                  \./                  \\`.</span><br><span class="line"> *         .&apos;//                     |                     \\`.</span><br><span class="line"> *       .&apos;// .-~&quot;&quot;&quot;&quot;&quot;&quot;&quot;~~~~-._     |     _,-~~~~&quot;&quot;&quot;&quot;&quot;&quot;&quot;~-. \\`.</span><br><span class="line"> *     .&apos;//.-&quot;                 `-.  |  .-&apos;                 &quot;-.\\`.</span><br><span class="line"> *   .&apos;//______.============-..   \ | /   ..-============.______\\`.</span><br><span class="line"> * .&apos;______________________________\|/______________________________`.</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/***             无可奉告 一颗赛艇</span><br><span class="line"> *  uJjYJYYLLv7r7vJJ5kqSFFFUUjJ7rrr7LLYLJLJ7</span><br><span class="line"> *  JuJujuYLrvuEM@@@B@@@B@B@B@@@MG5Y7vLjYjJL</span><br><span class="line"> *  JYjYJvr7XM@BB8GOOE8ZEEO8GqM8OBBBMu77LLJ7</span><br><span class="line"> *  LJLY7ru@@@BOZ8O8NXFFuSkSu25X0OFZ8MZJ;vLv</span><br><span class="line"> *  YvL7i5@BM8OGGqk22uvriiriii;r7LuSZXEMXrvr</span><br><span class="line"> *  vv7iU@BMNkF1uY7v7rr;iiii:i:i:ii7JEPNBPir</span><br><span class="line"> *  L7iL@BM8Xjuujvv77rr;ri;i;:iiiii:iLXFOBJ:</span><br><span class="line"> *  7ri@B@MOFuUS2Y7L7777rii;:::::i:iirjPG@O:</span><br><span class="line"> *  7:1B@BBOPjXXSJvrL7rr7iiii:i::::i;iv5MBB,</span><br><span class="line"> *  r:0@BBM8SFPX2Y77rri::iirri:::::iii75O@G.</span><br><span class="line"> *  7:SB@BBGqXPk0122UJL::i::r:::i:i;i:v2@Bk.</span><br><span class="line"> *  ri:MB@BBEqEMGq2JLLL1u7.iX51u77LF27iSB@r,</span><br><span class="line"> *  ri,v@B@MB8@qqNEqN1u:5B8BOFE0S7ii7qMB@F::</span><br><span class="line"> *  ii,J80Eq1MZkqPPX5YkPE@B@iXPE52j7:vBjE7::</span><br><span class="line"> *  ii:7MSqkS0PvLv7rrii0@L.Z1iLr::ir:rO,vi::</span><br><span class="line"> *  ii::EZXPSkquLvii:iF@N:.,BUi7ri,::UY;r:::</span><br><span class="line"> *  i::.2ONXqkPXS5FUUEOPP;..iSPXkjLYLLrr:::,</span><br><span class="line"> *  :::,iMXNP0NPLriiLGZ@BB1P87;JuL7r:7ri:::,</span><br><span class="line"> *  :::,.UGqNX0EZF2uUjUuULr:::,:7uuvv77::::.</span><br><span class="line"> *  ::::..5OXqXNJ50NSY;i:.,,,:i77Yvr;v;,,::.</span><br><span class="line"> *  :::,:.jOEPqPJiqBMMMO8NqP0SYLJriirv:.:,:.</span><br><span class="line"> *  ,:,,,.,Zq0P0X7vPFqF1ujLv7r:irrr7j7.,,::.</span><br><span class="line"> *  ,,,....0qk0080v75ujLLv7ri:i:rvj2J...,,,.</span><br><span class="line"> *  ......8@UXqZEMNvJjr;ii::,:::7uuv...,.,,.</span><br><span class="line"> *  .....B@BOvX88GMGk52vririiirJS1i.......,.</span><br><span class="line"> *  .JEMB@B@BMvL0MOMMMO8PE8GPqSk2L:.........</span><br><span class="line"> *  @B@@@B@M@B@L:7PGBOO8MOMOEP0Xri@B@Mk7,...</span><br><span class="line"> *  B@B@BBMBB@B@0::rJP8MO0uvvu7..,B@B@B@B@Z7</span><br><span class="line"> *  MMBM@BBB@B@B@Br:i,..:Lur:....7@OMMBM@B@@</span><br><span class="line"> *  8OOMMMOMMMMBB@B:....,PZENNi..JBOZ8GMOOOO</span><br><span class="line"> */</span><br></pre></td></tr></table></figure>
 
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>实用工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>闲置风景照片如何变现</title>
+    <url>/30.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>无论你是摄影爱好者还是普通人群  手上或多或少都会库存一些风景照片</p>
+<p>我们作为拍摄者拥有该图片所有权  那么就可以利用图片版权获取收益</p>
+<p>千万不要低估这些不起眼的照片 在别人眼中也许会有它们的价值</p>
+<h2 id="变现渠道"><a href="#变现渠道" class="headerlink" title="变现渠道"></a>变现渠道</h2><h4 id="ShutterStock"><a href="#ShutterStock" class="headerlink" title="ShutterStock"></a>ShutterStock</h4><p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/image-20240406122227099.png" alt="image-20240406122227099"></p>
+<p>国外的一个图片变现平台 该网站需要梯子才能访问</p>
+<p><a href="https://submit.shutterstock.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<h4 id="视觉中国"><a href="#视觉中国" class="headerlink" title="视觉中国"></a>视觉中国</h4><p>这个大家应该都比较熟悉 国内的图片版权交易平台</p>
+<p><a href="https://www.vcg.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>版权收益</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自己录制的视频教程如何变现</title>
+    <url>/31.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如果你是一个知识产出者 尤其是视频教程的录制 如何将视频进行变现 有以下渠道</p>
+<h2 id="变现渠道"><a href="#变现渠道" class="headerlink" title="变现渠道"></a>变现渠道</h2><h4 id="电商平台售卖"><a href="#电商平台售卖" class="headerlink" title="电商平台售卖"></a>电商平台售卖</h4><p>在淘宝或者拼多多 以宝贝的形式对视频进行售卖</p>
+<h4 id="在线课堂售卖"><a href="#在线课堂售卖" class="headerlink" title="在线课堂售卖"></a>在线课堂售卖</h4><p>在<a href="https://study.163.com/" target="_blank" rel="noopener">网易云课堂</a>或者<a href="https://www.udemy.com/" target="_blank" rel="noopener">Udemy</a> 提供付费观看</p>
+<h4 id="视频网站赚取流量收益"><a href="#视频网站赚取流量收益" class="headerlink" title="视频网站赚取流量收益"></a>视频网站赚取流量收益</h4><p>将视频上传至流量比较大的视频网站 依靠播放量或者用户打赏赚取相应的收益</p>
+<ul>
+<li>B站用爱发电 </li>
+<li>YouTube赚取播放量和广告收益</li>
+</ul>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>以上的变现渠道可以结合起来使用 比如视频上传至B站给用户免费观看 另外再开一个赞助型的店铺 用户可以选择性地付费购买</p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>版权收益</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>免费好用的语音转文字工具</title>
+    <url>/29.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><h3 id="Whisper"><a href="#Whisper" class="headerlink" title="Whisper"></a>Whisper</h3><p>这是一款免费且开源的语音和文字互转工具 支持<code>Windows</code>、<code>macOS</code>、<code>Linux</code>系统</p>
+<p>转换的速度取决于你的电脑配置</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/gui-load-model.png" alt="img"></p>
+<h4 id="软件下载"><a href="#软件下载" class="headerlink" title="软件下载"></a>软件下载</h4><h5 id="Windows平台"><a href="#Windows平台" class="headerlink" title="Windows平台"></a>Windows平台</h5><ol>
+<li><p><code>Whisper</code> ：开源项目 <strong>【<a href="https://github.com/Const-me/Whisper/releases/tag/1.8.1" target="_blank" rel="noopener">点击下载</a>】</strong></p>
+</li>
+<li><p><code>ggml-medium</code> 语音模型： <strong>【<a href="https://www.mediafire.com/file/oy8fig7uu1ilh7z/ggml-large.bin/file" target="_blank" rel="noopener">点击下载</a>】</strong></p>
+</li>
+<li><p><code>CPU</code>版的<code>Whisper</code>：<strong>【<a href="https://github.com/chidiwilliams/buzz" target="_blank" rel="noopener">开源项目</a>】</strong></p>
+</li>
+</ol>
+<h5 id="MacOs平台"><a href="#MacOs平台" class="headerlink" title="MacOs平台"></a>MacOs平台</h5><p>如果你想在<code>Mac</code>平台使用带有图形界面的<code>Whisper</code> 那么推荐你下载<code>MacWhisper</code>这个工具</p>
+<p>它是基于 <code>Whisper</code>开发的 界面如下:<br><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/20240404202839.png" alt></p>
+<p><code>MacWhisper</code> 支持 MP3、WAV、M4A、MP4 和 MOV 格式文件的语音转文字，只需将音频文件拖到窗口中即可</p>
+<p>该工具的下载地址如下:</p>
+<p><a href="https://url97.ctfile.com/d/21042697-60629956-c51b05?p=312306" target="_blank" rel="noopener">点击下载</a> (访问密码: 312306)</p>
+<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h4><p>B站Up主有相应的视频介绍:</p>
+<iframe src="//player.bilibili.com/player.html?aid=438475396&bvid=BV1qL411o7TD&cid=1052953054&p=1&autoplay=no" scrolling="no" border="0" frameborder="no" framespacing="0" width="1020" height="660" allowfullscreen="true"> </iframe>
+
+<h3 id="剪映"><a href="#剪映" class="headerlink" title="剪映"></a>剪映</h3><p>这个工具大家应该都比较熟悉 内置语言转字幕的功能 可以将生成的字幕以<code>srt</code>或者<code>txt</code>的格式导出 </p>
+<h2 id="在线转换工具"><a href="#在线转换工具" class="headerlink" title="在线转换工具"></a>在线转换工具</h2><h3 id="飞书妙计"><a href="#飞书妙计" class="headerlink" title="飞书妙计"></a>飞书妙计</h3><p>飞书平台推出的一款语音转写工具</p>
+<p><a href="https://www.feishu.cn/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/%E6%96%B0%E5%BB%BA%E5%A4%87%E5%BF%98%E5%BD%95.jpeg" alt="新建备忘录"></p>
+<p>效果如下:</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/image-20240404211526278.png" alt="image-20240404211526278"></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>实用工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NCM格式在线转MP3网站汇总</title>
+    <url>/28.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>下载的网易云NCM格式音乐，一般只有使用专属的音乐平台才能播放，剪辑或者用于视频背景音乐都会出现格式问题无法使用，下面给大家分享几个操作简单又免费的音频格式转换工具，就连其他平台的音乐格式也能转换。</p>
+<h2 id="在线工具"><a href="#在线工具" class="headerlink" title="在线工具"></a>在线工具</h2><h3 id="NCM直接转MP3"><a href="#NCM直接转MP3" class="headerlink" title="NCM直接转MP3"></a>NCM直接转MP3</h3><p><a href="http://convert.freelrc.com/NCM-to-MP3" target="_blank" rel="noopener">http://convert.freelrc.com/NCM-to-MP3</a></p>
+<p>一个格式丰富的在线音频转换网站，网站将所有的相互转换的音频格式进行了整理分类，支持转换的音频格式多达十几种，包括： NCM转MP3、NCM转FLAC、QMC转MP3、QMCOGG转OGG、TKM转M4A、BKCMP3转MP3等。</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/20230714162333.png" alt></p>
+<p>转换的方法超简单，页面下方的第一个格式转换就是NCM转MP3，点击对应的转换格式后，上传下载的NCM音频文件，上传完成后它会自动将格式转换成MP3，转换成MP3后支持免费下载或者在线播放试听音频效果。</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/20230714162400.png" alt></p>
+<h3 id="音乐转换网"><a href="#音乐转换网" class="headerlink" title="音乐转换网"></a>音乐转换网</h3><p><a href="https://kqwyygszh.pages.dev/ncm/" target="_blank" rel="noopener">https://kqwyygszh.pages.dev/ncm/</a></p>
+<p>一个专门用来转换各大平台音乐的网站，基本上下载的音乐文件格式都能用它转换成MP3，网站仅支持转换输出为MP3格式。</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/image-20230714162420635.png" alt="image-20230714162420635"></p>
+<p>打开页面后会默认为NCM格式转换页面，可以直接点击或拖曳的方式上传音频文件，上传后会直接转换成MP4格式，而且上传音频后还能看到文件的歌手、歌名、同原文件名等详细信息。</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/20230714162435.png" alt></p>
+<h3 id="转换云"><a href="#转换云" class="headerlink" title="转换云"></a>转换云</h3><p>3、转换云<br><a href="https://www.zhuanhuanyun.cn/?to=.zh-warp" target="_blank" rel="noopener">https://www.zhuanhuanyun.cn/?to=.zh-warp</a></p>
+<p>这也是一个免费的音乐格式转换网站，能够转换多个平台下载的音乐文件，它的页面干净简洁，打开就可以看到各种转换格式。</p>
+<p>打开页面后点击上传需要转换的音频文件，上传文件后可以看到歌曲的封面、名字、歌手、以及收录的专辑，同样会默认转换成MP3格式，转换完成就可以直接下载。</p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/20230714162453.png" alt></p>
+<h3 id="lookingup"><a href="#lookingup" class="headerlink" title="lookingup"></a>lookingup</h3><p><a href="https://lookingup.top/index.php/ncm-to-mp3-converter/" target="_blank" rel="noopener">https://lookingup.top/index.php/ncm-to-mp3-converter/</a></p>
+<p><img src="https://raw.staticdn.net/songjianzaina/site_img/master/img/image-20230714162810550.png" alt="image-20230714162810550"></p>
+<p><strong>本文转载自</strong>: <a href="https://zhuanlan.zhihu.com/p/598011792" target="_blank" rel="noopener">知乎</a></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
       <tags>
