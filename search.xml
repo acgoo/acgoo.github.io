@@ -1,80 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Adobe Animate CC 动画制作快速上手</title>
-    <url>/1.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><code>Adobe Animate CC</code>简称为<code>An</code>, 前身为<code>Flash</code>, 一款2D动画制作软件, 界面简洁 , 对新手友好</p>
-<p>主界面如下:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211222152615479.png" alt="image-20211222152615479"></p>
-<p><strong>应用场景:</strong></p>
-<ul>
-<li>二维动画制作</li>
-<li>VR动画制作</li>
-<li>网页动画制作</li>
-<li>交互动画和游戏制作</li>
-</ul>
-<h3 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h3><p> 我们知道动画其实是由多个静态画面按照某个时间顺序依次展现所形成的</p>
-<p>比如我们可以每秒依次展现60张画面, 也可以每秒10张, 数量越多动画就越细腻, 具体每张画面或者每个动作间隔多长时间, 完全取决于创作者</p>
-<p>那么在软件中, 有以下快键键方便我们进行制作:</p>
-<ol>
-<li><p><strong>在时间线上打关键帧</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F7</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><strong>在时间线上打空白延续帧</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F5</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-</li>
-</ol>
-<h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><ol>
-<li><p>适合新手入门的一套教程:</p>
-<iframe src="//player.bilibili.com/player.html?aid=713055289&bvid=BV1qX4y1M761&cid=264976897&page=4&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
-</li>
-<li><p>国外大佬的一套系列的视频, 有兴趣可以跳转至B站观看:</p>
-<iframe src="//player.bilibili.com/player.html?aid=542900562&bvid=BV16i4y1V7df&cid=331789772&page=1&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
-
-
-
-
-
-</li>
-</ol>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>2D动画</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一键将图片转成动画 沙雕必备</title>
-    <url>/10.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>想让图片中的人物动起来, 如果你不擅长动画软件的使用, 那么有个工具非常适合你, 直接在线将图片转动画</p>
-<p>官网张这样:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
-<p><a href="https://sketch.metademolab.com/canvas" target="_blank" rel="noopener">点击进入工具页面</a></p>
-<h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><strong>视频教程如下:</strong></p>
-<iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" autoplay="false" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
-
-<p>只需将图片上传, 然后扫描绑定运动骨骼即可</p>
-<p><strong>个人示范案例:</strong></p>
-<iframe src="//player.bilibili.com/player.html?aid=635740707&bvid=BV1hb4y1J73C&cid=483957440&page=1&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
-
-
-<p><strong>字幕原文:</strong></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">大家好 今天给大家介绍一个快速给图片中的物体添加骨骼动画的工具, 这是一个在线网站, 网址我已经放到了视频简介中, 有兴趣的小伙伴可以去玩一玩</span><br><span class="line">我们选取任意一张图片来试试, 它首先会扫描需要进行动画处理的范围, 然后确认骨骼位置, 这个骨骼是可以调整的, 建议大家选用手脚分离的图片, 不然出来的效果有点奇怪, 我们一会儿尝试另一个图片</span><br><span class="line">官方给我们提供了不少的动画模板, 可以直接选择套用即可, 选择好满意的后可以下载到本地, 它下载的文件格式是Mp4</span><br><span class="line">喜欢玩鬼畜的朋友, 这个工具应该是能用的上的</span><br><span class="line"></span><br><span class="line">好了 今天的视频就到这 喜欢的小伙伴 别忘了给个三连哦</span><br></pre></td></tr></table></figure>
-
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>实用工具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Gift转Mp4 文本转语音 语音生成字幕 视频创作经验分享</title>
     <url>/11.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在公司上班时, 突然心血来潮想制作一个视频, 平常录制视频都是使用<code>OBS Studio</code>, 但是在公司吧, 一来没法录声音 二来没装<code>OBS</code></p>
@@ -130,21 +56,28 @@
       </tags>
   </entry>
   <entry>
-    <title>Blender 3D建模之电脑桌 附工程下载</title>
-    <url>/12.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><code>Eevee</code>渲染引擎效果图:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/Eevee.png" alt="Eevee"></p>
-<p><code>Cycles</code>渲染引擎效果图:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/cycles.png" alt="cycles"></p>
-<p><code>Eevee</code>引擎添加环境灯光后渲染效果图:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/Eevee_after_setting.png" alt="Eevee_after_setting"></p>
-<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
-<p>(访问密码: 312306)</p>
+    <title>一键将图片转成动画 沙雕必备</title>
+    <url>/10.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>想让图片中的人物动起来, 如果你不擅长动画软件的使用, 那么有个工具非常适合你, 直接在线将图片转动画</p>
+<p>官网张这样:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114135647451.png" alt="image-20220114135647451"></p>
+<p><a href="https://sketch.metademolab.com/canvas" target="_blank" rel="noopener">点击进入工具页面</a></p>
+<h3 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h3><p><strong>视频教程如下:</strong></p>
+<iframe src="https://sketch.metademolab.com/static/media/splashVideo.db13dd10.mp4" scrolling="no" border="0" frameborder="no" autoplay="false" width="1020" height="460 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+<p>只需将图片上传, 然后扫描绑定运动骨骼即可</p>
+<p><strong>个人示范案例:</strong></p>
+<iframe src="//player.bilibili.com/player.html?aid=635740707&bvid=BV1hb4y1J73C&cid=483957440&page=1&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+
+<p><strong>字幕原文:</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">大家好 今天给大家介绍一个快速给图片中的物体添加骨骼动画的工具, 这是一个在线网站, 网址我已经放到了视频简介中, 有兴趣的小伙伴可以去玩一玩</span><br><span class="line">我们选取任意一张图片来试试, 它首先会扫描需要进行动画处理的范围, 然后确认骨骼位置, 这个骨骼是可以调整的, 建议大家选用手脚分离的图片, 不然出来的效果有点奇怪, 我们一会儿尝试另一个图片</span><br><span class="line">官方给我们提供了不少的动画模板, 可以直接选择套用即可, 选择好满意的后可以下载到本地, 它下载的文件格式是Mp4</span><br><span class="line">喜欢玩鬼畜的朋友, 这个工具应该是能用的上的</span><br><span class="line"></span><br><span class="line">好了 今天的视频就到这 喜欢的小伙伴 别忘了给个三连哦</span><br></pre></td></tr></table></figure>
+
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
       <tags>
-        <tag>blender</tag>
+        <tag>实用工具</tag>
       </tags>
   </entry>
   <entry>
@@ -181,6 +114,73 @@
     <url>/15.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p>视图预览效果图:</p>
 <p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/sword.png" alt="sword"></p>
+<h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
+<p>(访问密码: 312306)</p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Adobe Animate CC 动画制作快速上手</title>
+    <url>/1.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="软件简介"><a href="#软件简介" class="headerlink" title="软件简介"></a>软件简介</h3><p><code>Adobe Animate CC</code>简称为<code>An</code>, 前身为<code>Flash</code>, 一款2D动画制作软件, 界面简洁 , 对新手友好</p>
+<p>主界面如下:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211222152615479.png" alt="image-20211222152615479"></p>
+<p><strong>应用场景:</strong></p>
+<ul>
+<li>二维动画制作</li>
+<li>VR动画制作</li>
+<li>网页动画制作</li>
+<li>交互动画和游戏制作</li>
+</ul>
+<h3 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h3><p> 我们知道动画其实是由多个静态画面按照某个时间顺序依次展现所形成的</p>
+<p>比如我们可以每秒依次展现60张画面, 也可以每秒10张, 数量越多动画就越细腻, 具体每张画面或者每个动作间隔多长时间, 完全取决于创作者</p>
+<p>那么在软件中, 有以下快键键方便我们进行制作:</p>
+<ol>
+<li><p><strong>在时间线上打关键帧</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F7</span><br></pre></td></tr></table></figure>
+</li>
+<li><p><strong>在时间线上打空白延续帧</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">F5</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+</li>
+</ol>
+<h3 id="视频教程"><a href="#视频教程" class="headerlink" title="视频教程"></a>视频教程</h3><ol>
+<li><p>适合新手入门的一套教程:</p>
+<iframe src="//player.bilibili.com/player.html?aid=713055289&bvid=BV1qX4y1M761&cid=264976897&page=4&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+</li>
+<li><p>国外大佬的一套系列的视频, 有兴趣可以跳转至B站观看:</p>
+<iframe src="//player.bilibili.com/player.html?aid=542900562&bvid=BV16i4y1V7df&cid=331789772&page=1&autoplay=no" scrolling="no" border="0" frameborder="no" width="1020" height="660 framespacing=" 0" allowfullscreen="true"> </iframe>
+
+
+
+
+
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>2D动画</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Blender 3D建模之电脑桌 附工程下载</title>
+    <url>/12.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><code>Eevee</code>渲染引擎效果图:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/Eevee.png" alt="Eevee"></p>
+<p><code>Cycles</code>渲染引擎效果图:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/cycles.png" alt="cycles"></p>
+<p><code>Eevee</code>引擎添加环境灯光后渲染效果图:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/Eevee_after_setting.png" alt="Eevee_after_setting"></p>
 <h3 id="工程下载"><a href="#工程下载" class="headerlink" title="工程下载"></a>工程下载</h3><p><a href="https://url97.ctfile.com/d/21042697-51121667-8d8370?p=312306" target="_blank" rel="noopener">点击下载</a></p>
 <p>(访问密码: 312306)</p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
@@ -251,6 +251,37 @@
       </tags>
   </entry>
   <entry>
+    <title>适合虚幻引擎的电脑配置参考</title>
+    <url>/19.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="处理器-CPU"><a href="#处理器-CPU" class="headerlink" title="处理器 (CPU)"></a>处理器 (CPU)</h3><p>处理器（或 CPU）是虚幻引擎开发工作站中最重要的部分之一。虽然系统的许多其他部分会在一定程度上影响性能，但 CPU 是硬件的核心部分，它绝对是您所做的任何事情的一部分。该列表已从数百个可用 CPU 缩小到仅几个在 Unreal 中进行开发的最佳选择。</p>
+<p>对于大多数用户来说，AMD Ryzen 9 5900X 12 核心是一个很不错的选择。这款 CPU 拥有 12 核 24 线程，足以为大多数用户提供良好的性能。如果预算允许，更多内核总是有帮助的，Ryzen 9 5950X 16 内核被证明是值得升级的<strong>。</strong></p>
+<h3 id="显卡-GPU"><a href="#显卡-GPU" class="headerlink" title="显卡 (GPU)"></a>显卡 (GPU)</h3><p>目前，虚幻引擎仅使用显卡在屏幕上显示图形。其他领域的许多应用程序也开始使用 GPU 执行其他任务，但这还没有在虚幻编辑器中实现。因此，更快的视频卡将在视口或独立游戏中为您提供更高的 FPS，但可能不会提高您在其他任务中的工作效率。</p>
+<p>根据您的预算以及您是否计划开发 VR 内容，您可以在虚幻引擎工作站上考虑这<strong>3 款显卡：</strong></p>
+<ul>
+<li><strong>NVIDIA GeForce RTX 3070 8GB</strong> – 这款 GPU 以其价格提供了出色的性能，并且具有足够的能力来毫无问题地处理多个显示器。</li>
+<li><strong>NVIDIA RTX A6000 48GB</strong> – Nvidia 的专业图形产品线提供将多个系统与视频墙和某些摄像机同步的能力。这是某些虚拟制作工作流程非常需要的功能，并且适用于多个 RTX A 系列型号。</li>
+<li><strong>NVIDIA GeForce RTX 3090 24GB</strong> – RTX 3090 具有 24GB 的 VRAM 和出色的性能价格，是用于游戏开发、虚拟制作和建筑可视化的最佳 GPU 之一，如果您计划开发 VR 内容，我们建议您使用它。大量的 VRAM 使其适用于具有三个甚至四个 4K 显示器的工作站，并且额外的功率非常适合尚未优化的游戏。</li>
+</ul>
+<h3 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 (RAM)"></a>内存 (RAM)</h3><p>您需要的 RAM 量将取决于您的特定项目以及您是否执行 RAM 密集型任务，例如建筑照明。但是，作为一般经验法则，我们建议</p>
+<ul>
+<li>大多数用户需要 32GB 的 RAM</li>
+<li>如果您构建的照明需要几个小时以上，则需要 64GB 以上的 RAM</li>
+</ul>
+<p>请记住，这些只是基本建议，仅涵盖虚幻编辑器本身所需的 RAM 量。如果您经常同时使用除 Unreal 之外的其他程序，您可能希望在系统中拥有更多 RAM，因为每个程序都需要自己的 RAM 块。</p>
+<h3 id="存储（硬盘）"><a href="#存储（硬盘）" class="headerlink" title="存储（硬盘）"></a>存储（硬盘）</h3><p>根据您的特定需求和要求，强烈建议使用三种不同类型的存储驱动器：</p>
+<ul>
+<li><strong>标准 SSD</strong> – SSD 是现代工作站的主要部件，尤其是作为包含操作系统和程序安装的主驱动器。它们比传统的盘片硬盘更贵，但速度也快很多倍，让您可以更快地启动 Windows 和程序。</li>
+<li><strong>NVMe SSD</strong> – 这些驱动器比标准 SSD 贵约 30%，但速度快约五倍！但是，在大多数情况下，您不会看到太大的性能差异，因为现代标准 SSD 已经如此之快，以至于它很少成为性能瓶颈。但是，您可以使用 NVMe 驱动器更快地打开某些项目，这可以使它们用作项目驱动器。</li>
+<li><strong>传统盘片驱动器</strong>——这些驱动器可能比我们提供的 SSD 慢，但它们更实惠且容量更大。虽然我们不建议直接使用这些驱动器，但它们可以制作出极好的长期存储驱动器。</li>
+</ul>
+<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>工具</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>16个简单高效在线抠图网站分享</title>
     <url>/18.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>今天推荐16个超使用的在线抠图网站，都是只需要导入图片，AI就可以自动识别进行抠图，真的非常方便！</p>
@@ -279,26 +310,6 @@
 ]]></content>
       <tags>
         <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>动画和动漫的区别</title>
-    <url>/2.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>许多小伙伴动画和动漫傻傻分不清楚</p>
-<p>这里给大家简单介绍一下</p>
-<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><p>能动的画面统称为动画</p>
-<h3 id="动漫"><a href="#动漫" class="headerlink" title="动漫"></a>动漫</h3><p>动漫是动画和漫画的统称</p>
-<h3 id="什么是ACG"><a href="#什么是ACG" class="headerlink" title="什么是ACG"></a>什么是ACG</h3><p><code>ACG</code>是动画 漫画 和游戏的统称</p>
-<p>百度介绍如下:</p>
-<p><code>ACG</code>即<a href="https://baike.baidu.com/item/Animation/8726467" target="_blank" rel="noopener">Animation</a>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comics</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）与<code>Games</code>（游戏）的首字母缩写</p>
-<h3 id="什么是ACGN"><a href="#什么是ACGN" class="headerlink" title="什么是ACGN"></a>什么是ACGN</h3><p><code>ACGN</code>为英文<code>Animation</code>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comic</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）、<code>Game</code>（<a href="https://baike.baidu.com/item/游戏/33581" target="_blank" rel="noopener">游戏</a>）、<code>Novel</code>（<a href="https://baike.baidu.com/item/小说/45851" target="_blank" rel="noopener">小说</a>）的合并缩写</p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>如下图:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211222150716026.png" alt="image-20211222150716026"></p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>动画基础</tag>
       </tags>
   </entry>
   <entry>
@@ -344,44 +355,23 @@
       </tags>
   </entry>
   <entry>
-    <title>介绍几款免费的像素画制作工具</title>
-    <url>/23.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>无论你是做设计还是做游戏 都有可能涉及到像素画的绘制, 那么接下来给大家推荐一些好用的像素画绘制工具</p>
-<h3 id="工具汇总"><a href="#工具汇总" class="headerlink" title="工具汇总"></a>工具汇总</h3><ol>
-<li><p><strong>Aseprite</strong></p>
-<p>知名度非常高的一款软件, 很多人都在用, 官网或者<code>stream</code>下载收费, 不过已经在<code>Github</code>开源, 自行编译的话可免费使用</p>
-<p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
-<p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
-</li>
-<li><p><strong>piskelapp</strong></p>
-<p>这是一款像素画在线编辑工具, 支持逐帧动画, 可将工程导出至本地, 只有有浏览器就能随时随地作画</p>
-<p><a href="https://www.piskelapp.com/" target="_blank" rel="noopener">点击进入网站</a></p>
-</li>
-</ol>
-<p>   <img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915152850821.png" alt="image-20220915152850821"></p>
-<ol start="3">
-<li><p><strong>Pixelorama</strong> </p>
-<p>也是一款开源免费的工具, 基于<code>Godot</code>引擎的<code>GDScript</code>语言编写, 功能强大 软件跨平台, 可以说是<code>Godot</code>的完美搭档, 我猜想未来可能会将该工具直接集成进<code>Godot</code>内部</p>
-<p><a href="https://github.com/Orama-Interactive/Pixelorama" target="_blank" rel="noopener">Github</a></p>
-<p><a href="https://orama-interactive.itch.io/pixelorama" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915155142976.png" alt="image-20220915155142976"></p>
-<p>有<code>Web</code>在线版 也可以下载到本地使用:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915155311899.png" alt="image-20220915155311899"></p>
-</li>
-</ol>
-<ol start="4">
-<li><p><strong>GraphicsGale</strong></p>
-<p>它是日本 <code>HUMANBALANCE</code> 旗下的一款免费像素级动画制作软件, 界面偏复古, 遗憾的是只支持<code>Windows</code>系统</p>
-<p><a href="https://graphicsgale.com/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915160111771.png" alt="image-20220915160111771"></p>
-</li>
-</ol>
+    <title>动画和动漫的区别</title>
+    <url>/2.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>许多小伙伴动画和动漫傻傻分不清楚</p>
+<p>这里给大家简单介绍一下</p>
+<h3 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h3><p>能动的画面统称为动画</p>
+<h3 id="动漫"><a href="#动漫" class="headerlink" title="动漫"></a>动漫</h3><p>动漫是动画和漫画的统称</p>
+<h3 id="什么是ACG"><a href="#什么是ACG" class="headerlink" title="什么是ACG"></a>什么是ACG</h3><p><code>ACG</code>是动画 漫画 和游戏的统称</p>
+<p>百度介绍如下:</p>
+<p><code>ACG</code>即<a href="https://baike.baidu.com/item/Animation/8726467" target="_blank" rel="noopener">Animation</a>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comics</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）与<code>Games</code>（游戏）的首字母缩写</p>
+<h3 id="什么是ACGN"><a href="#什么是ACGN" class="headerlink" title="什么是ACGN"></a>什么是ACGN</h3><p><code>ACGN</code>为英文<code>Animation</code>（<a href="https://baike.baidu.com/item/动画/206564" target="_blank" rel="noopener">动画</a>）、<code>Comic</code>（<a href="https://baike.baidu.com/item/漫画/178351" target="_blank" rel="noopener">漫画</a>）、<code>Game</code>（<a href="https://baike.baidu.com/item/游戏/33581" target="_blank" rel="noopener">游戏</a>）、<code>Novel</code>（<a href="https://baike.baidu.com/item/小说/45851" target="_blank" rel="noopener">小说</a>）的合并缩写</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>如下图:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211222150716026.png" alt="image-20211222150716026"></p>
 <p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
 <p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
 ]]></content>
       <tags>
-        <tag>像素画</tag>
+        <tag>动画基础</tag>
       </tags>
   </entry>
   <entry>
@@ -467,37 +457,6 @@
       </tags>
   </entry>
   <entry>
-    <title>适合虚幻引擎的电脑配置参考</title>
-    <url>/19.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="处理器-CPU"><a href="#处理器-CPU" class="headerlink" title="处理器 (CPU)"></a>处理器 (CPU)</h3><p>处理器（或 CPU）是虚幻引擎开发工作站中最重要的部分之一。虽然系统的许多其他部分会在一定程度上影响性能，但 CPU 是硬件的核心部分，它绝对是您所做的任何事情的一部分。该列表已从数百个可用 CPU 缩小到仅几个在 Unreal 中进行开发的最佳选择。</p>
-<p>对于大多数用户来说，AMD Ryzen 9 5900X 12 核心是一个很不错的选择。这款 CPU 拥有 12 核 24 线程，足以为大多数用户提供良好的性能。如果预算允许，更多内核总是有帮助的，Ryzen 9 5950X 16 内核被证明是值得升级的<strong>。</strong></p>
-<h3 id="显卡-GPU"><a href="#显卡-GPU" class="headerlink" title="显卡 (GPU)"></a>显卡 (GPU)</h3><p>目前，虚幻引擎仅使用显卡在屏幕上显示图形。其他领域的许多应用程序也开始使用 GPU 执行其他任务，但这还没有在虚幻编辑器中实现。因此，更快的视频卡将在视口或独立游戏中为您提供更高的 FPS，但可能不会提高您在其他任务中的工作效率。</p>
-<p>根据您的预算以及您是否计划开发 VR 内容，您可以在虚幻引擎工作站上考虑这<strong>3 款显卡：</strong></p>
-<ul>
-<li><strong>NVIDIA GeForce RTX 3070 8GB</strong> – 这款 GPU 以其价格提供了出色的性能，并且具有足够的能力来毫无问题地处理多个显示器。</li>
-<li><strong>NVIDIA RTX A6000 48GB</strong> – Nvidia 的专业图形产品线提供将多个系统与视频墙和某些摄像机同步的能力。这是某些虚拟制作工作流程非常需要的功能，并且适用于多个 RTX A 系列型号。</li>
-<li><strong>NVIDIA GeForce RTX 3090 24GB</strong> – RTX 3090 具有 24GB 的 VRAM 和出色的性能价格，是用于游戏开发、虚拟制作和建筑可视化的最佳 GPU 之一，如果您计划开发 VR 内容，我们建议您使用它。大量的 VRAM 使其适用于具有三个甚至四个 4K 显示器的工作站，并且额外的功率非常适合尚未优化的游戏。</li>
-</ul>
-<h3 id="内存-RAM"><a href="#内存-RAM" class="headerlink" title="内存 (RAM)"></a>内存 (RAM)</h3><p>您需要的 RAM 量将取决于您的特定项目以及您是否执行 RAM 密集型任务，例如建筑照明。但是，作为一般经验法则，我们建议</p>
-<ul>
-<li>大多数用户需要 32GB 的 RAM</li>
-<li>如果您构建的照明需要几个小时以上，则需要 64GB 以上的 RAM</li>
-</ul>
-<p>请记住，这些只是基本建议，仅涵盖虚幻编辑器本身所需的 RAM 量。如果您经常同时使用除 Unreal 之外的其他程序，您可能希望在系统中拥有更多 RAM，因为每个程序都需要自己的 RAM 块。</p>
-<h3 id="存储（硬盘）"><a href="#存储（硬盘）" class="headerlink" title="存储（硬盘）"></a>存储（硬盘）</h3><p>根据您的特定需求和要求，强烈建议使用三种不同类型的存储驱动器：</p>
-<ul>
-<li><strong>标准 SSD</strong> – SSD 是现代工作站的主要部件，尤其是作为包含操作系统和程序安装的主驱动器。它们比传统的盘片硬盘更贵，但速度也快很多倍，让您可以更快地启动 Windows 和程序。</li>
-<li><strong>NVMe SSD</strong> – 这些驱动器比标准 SSD 贵约 30%，但速度快约五倍！但是，在大多数情况下，您不会看到太大的性能差异，因为现代标准 SSD 已经如此之快，以至于它很少成为性能瓶颈。但是，您可以使用 NVMe 驱动器更快地打开某些项目，这可以使它们用作项目驱动器。</li>
-<li><strong>传统盘片驱动器</strong>——这些驱动器可能比我们提供的 SSD 慢，但它们更实惠且容量更大。虽然我们不建议直接使用这些驱动器，但它们可以制作出极好的长期存储驱动器。</li>
-</ul>
-<p><strong>本文转载自</strong>:<a href="https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc" target="_blank" rel="noopener">https://baijiahao.baidu.com/s?id=1729981081883767568&amp;wfr=spider&amp;for=pc</a></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>工具</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>3d像素建模软件汇总</title>
     <url>/25.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>3D像素建模又叫体素编辑, 核心就在于两点:</p>
@@ -556,6 +515,47 @@
 ]]></content>
       <tags>
         <tag>blender</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>介绍几款免费的像素画制作工具</title>
+    <url>/23.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>无论你是做设计还是做游戏 都有可能涉及到像素画的绘制, 那么接下来给大家推荐一些好用的像素画绘制工具</p>
+<h3 id="工具汇总"><a href="#工具汇总" class="headerlink" title="工具汇总"></a>工具汇总</h3><ol>
+<li><p><strong>Aseprite</strong></p>
+<p>知名度非常高的一款软件, 很多人都在用, 官网或者<code>stream</code>下载收费, 不过已经在<code>Github</code>开源, 自行编译的话可免费使用</p>
+<p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
+<p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
+</li>
+<li><p><strong>piskelapp</strong></p>
+<p>这是一款像素画在线编辑工具, 支持逐帧动画, 可将工程导出至本地, 只有有浏览器就能随时随地作画</p>
+<p><a href="https://www.piskelapp.com/" target="_blank" rel="noopener">点击进入网站</a></p>
+</li>
+</ol>
+<p>   <img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915152850821.png" alt="image-20220915152850821"></p>
+<ol start="3">
+<li><p><strong>Pixelorama</strong> </p>
+<p>也是一款开源免费的工具, 基于<code>Godot</code>引擎的<code>GDScript</code>语言编写, 功能强大 软件跨平台, 可以说是<code>Godot</code>的完美搭档, 我猜想未来可能会将该工具直接集成进<code>Godot</code>内部</p>
+<p><a href="https://github.com/Orama-Interactive/Pixelorama" target="_blank" rel="noopener">Github</a></p>
+<p><a href="https://orama-interactive.itch.io/pixelorama" target="_blank" rel="noopener">官网</a></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915155142976.png" alt="image-20220915155142976"></p>
+<p>有<code>Web</code>在线版 也可以下载到本地使用:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915155311899.png" alt="image-20220915155311899"></p>
+</li>
+</ol>
+<ol start="4">
+<li><p><strong>GraphicsGale</strong></p>
+<p>它是日本 <code>HUMANBALANCE</code> 旗下的一款免费像素级动画制作软件, 界面偏复古, 遗憾的是只支持<code>Windows</code>系统</p>
+<p><a href="https://graphicsgale.com/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220915160111771.png" alt="image-20220915160111771"></p>
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>像素画</tag>
       </tags>
   </entry>
   <entry>
@@ -675,27 +675,6 @@
       </tags>
   </entry>
   <entry>
-    <title>手把手教你制作像素风格人物</title>
-    <url>/3.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="设计环境"><a href="#设计环境" class="headerlink" title="设计环境"></a>设计环境</h3><ul>
-<li><strong>Photoshop</strong></li>
-</ul>
-<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-1.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<h3 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h3><p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-2.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-3.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-4.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
-<h3 id="像素动画制作"><a href="#像素动画制作" class="headerlink" title="像素动画制作"></a>像素动画制作</h3><p>如果我们要制作像素动画, 用于游戏使用, 我们可以考虑使用<code>Aseprite</code>这款软件</p>
-<p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
-<p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
-<p>*<em>本文转载自 *</em> : <a href="https://www.uisdc.com/photoshop-pixel-style-avatar" target="_blank" rel="noopener">https://www.uisdc.com/photoshop-pixel-style-avatar</a></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>动画基础</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>闲置风景照片如何变现</title>
     <url>/30.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>无论你是摄影爱好者还是普通人群  手上或多或少都会库存一些风景照片</p>
@@ -714,64 +693,6 @@
       </tags>
   </entry>
   <entry>
-    <title>手写字体之如何使用procreate给已经写好的字更改颜色</title>
-    <url>/32.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如何给已经写好的字改色 今天给大家介绍一种非破坏性修改方式 也就是图层上色的方式</p>
-<h2 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h2><ol>
-<li><p>打开写好的字</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080416963.png" alt="image-20240411080416963"></p>
-</li>
-<li><p>新建图层</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080450198.png" alt="image-20240411080450198"></p>
-</li>
-<li><p>添加剪辑蒙版</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080524522.png" alt="image-20240411080524522"></p>
-</li>
-<li><p>切换画笔 并进行涂抹上色</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080551797.png" alt="image-20240411080551797"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080634341.png" alt="image-20240411080634341"></p>
-</li>
-<li><p>效果如下</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080701096.png" alt="image-20240411080701096"></p>
-</li>
-</ol>
-<p><strong>本文转载自:</strong> <a href="https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4327245822973880948" target="_blank" rel="noopener">百度</a></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>手写字体</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手写字体之如何使用PS给svg图片中的字更改颜色</title>
-    <url>/33.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>上一篇文章《<a href="https://acg.newban.cn/32.html">手写字体之如何使用procreate给已经写好的字更改颜色</a>》中介绍了给文字修改颜色的方法</p>
-<p>今天向大家介绍在PS中如何给图片中的字更改颜色 其实方法都是一样的</p>
-<h2 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h2><ol>
-<li><p>打开<code>svg</code>图片文件</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082156499.png" alt="image-20240411082156499"></p>
-</li>
-<li><p>新建图层</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082250866.png" alt="image-20240411082250866"></p>
-</li>
-<li><p>在新建图层上鼠标右键<code>创建剪贴蒙版</code></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082321082.png" alt="image-20240411082321082"></p>
-</li>
-<li><p>使用画笔工具 选择相应的颜色 并进行涂抹上色</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082433342.png" alt="image-20240411082433342"></p>
-</li>
-<li><p>效果如下</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411083817801.png" alt="image-20240411083817801"></p>
-</li>
-</ol>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>手写字体</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自己录制的视频教程如何变现</title>
     <url>/31.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如果你是一个知识产出者 尤其是视频教程的录制 如何将视频进行变现 有以下渠道</p>
@@ -787,6 +708,27 @@
 ]]></content>
       <tags>
         <tag>版权收益</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手把手教你制作像素风格人物</title>
+    <url>/3.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="设计环境"><a href="#设计环境" class="headerlink" title="设计环境"></a>设计环境</h3><ul>
+<li><strong>Photoshop</strong></li>
+</ul>
+<h3 id="效果图"><a href="#效果图" class="headerlink" title="效果图"></a>效果图</h3><p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-1.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h3><p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-2.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-3.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/uisdc-course-20170127-4.jpg" alt="PS基础教程！手把手教你制作像素风格人物"></p>
+<h3 id="像素动画制作"><a href="#像素动画制作" class="headerlink" title="像素动画制作"></a>像素动画制作</h3><p>如果我们要制作像素动画, 用于游戏使用, 我们可以考虑使用<code>Aseprite</code>这款软件</p>
+<p><a href="https://github.com/aseprite/aseprite" target="_blank" rel="noopener">Github</a></p>
+<p><a href="https://www.aseprite.org/" target="_blank" rel="noopener">官网</a></p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20220114161700414.png" alt="image-20220114161700414"></p>
+<p>*<em>本文转载自 *</em> : <a href="https://www.uisdc.com/photoshop-pixel-style-avatar" target="_blank" rel="noopener">https://www.uisdc.com/photoshop-pixel-style-avatar</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>动画基础</tag>
       </tags>
   </entry>
   <entry>
@@ -822,6 +764,108 @@
 ]]></content>
       <tags>
         <tag>游戏开发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手写字体之如何使用PS给svg图片中的字更改颜色</title>
+    <url>/33.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>上一篇文章《<a href="https://acg.newban.cn/32.html">手写字体之如何使用procreate给已经写好的字更改颜色</a>》中介绍了给文字修改颜色的方法</p>
+<p>今天向大家介绍在PS中如何给图片中的字更改颜色 其实方法都是一样的</p>
+<h2 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h2><ol>
+<li><p>打开<code>svg</code>图片文件</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082156499.png" alt="image-20240411082156499"></p>
+</li>
+<li><p>新建图层</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082250866.png" alt="image-20240411082250866"></p>
+</li>
+<li><p>在新建图层上鼠标右键<code>创建剪贴蒙版</code></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082321082.png" alt="image-20240411082321082"></p>
+</li>
+<li><p>使用画笔工具 选择相应的颜色 并进行涂抹上色</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411082433342.png" alt="image-20240411082433342"></p>
+</li>
+<li><p>效果如下</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411083817801.png" alt="image-20240411083817801"></p>
+</li>
+</ol>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>手写字体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手写字体之如何使用procreate给已经写好的字更改颜色</title>
+    <url>/32.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>如何给已经写好的字改色 今天给大家介绍一种非破坏性修改方式 也就是图层上色的方式</p>
+<h2 id="步骤如下"><a href="#步骤如下" class="headerlink" title="步骤如下"></a>步骤如下</h2><ol>
+<li><p>打开写好的字</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080416963.png" alt="image-20240411080416963"></p>
+</li>
+<li><p>新建图层</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080450198.png" alt="image-20240411080450198"></p>
+</li>
+<li><p>添加剪辑蒙版</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080524522.png" alt="image-20240411080524522"></p>
+</li>
+<li><p>切换画笔 并进行涂抹上色</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080551797.png" alt="image-20240411080551797"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080634341.png" alt="image-20240411080634341"></p>
+</li>
+<li><p>效果如下</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240411080701096.png" alt="image-20240411080701096"></p>
+</li>
+</ol>
+<p><strong>本文转载自:</strong> <a href="https://mbd.baidu.com/newspage/data/dtlandingsuper?nid=dt_4327245822973880948" target="_blank" rel="noopener">百度</a></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>手写字体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>好用的视频压制工具</title>
+    <url>/6.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在视频制作完成后导出, 发现视频体积太大, 此时为了方便网络传输, 我们需要对视频进行压缩处理, 在保证画质的前提下, 体积自然是越小越好啦</p>
+<p>那么接下来给大家介绍几款好用的视频压制工具</p>
+<ul>
+<li><strong>HandBrake</strong></li>
+<li><strong>小丸压制工具</strong></li>
+</ul>
+<h3 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h3><p>一款非常强大的视频转码压制工具, 可以将任意格式视频文件转码成MP4, WebM或者MKV格式</p>
+<p><strong>工具优点:</strong></p>
+<ul>
+<li><strong>体积小 安装包也就几十兆大小</strong></li>
+<li><strong>免费开源</strong> <a href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener">点击进入GitHub源码仓库</a></li>
+<li><strong>跨平台 支持Windows, Mac和Linux</strong></li>
+<li><strong>支持压制预览, 快速对比压制前后差距</strong></li>
+<li><strong>支持给视频添加字幕</strong></li>
+</ul>
+<p>官网长这样:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231140529245.png" alt="image-20211231140529245"></p>
+<p> <a href="https://handbrake.fr/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p>给视频添加字幕:</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231142212789.png" alt="image-20211231142212789"></p>
+<h3 id="小丸工具箱"><a href="#小丸工具箱" class="headerlink" title="小丸工具箱"></a>小丸工具箱</h3><p>小丸工具箱是一款用于处理音视频等多媒体文件的软件。是一款x264、ffmpeg等命令行程序的图形界面。它的目标是让视频压制变得简单、轻松。</p>
+<p>主要功能：</p>
+<ul>
+<li><strong>高质量的H264+AAC视频压制</strong></li>
+<li><strong>ASS/SRT字幕内嵌到视频</strong></li>
+<li><strong>AAC/WAV/FLAC/ALAC音频转换</strong></li>
+<li><strong>MP4/MKV/FLV的无损抽取和封装</strong></li>
+</ul>
+<p>缺点:</p>
+<p>目前只支持<code>Windows</code>平台</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231142900086.png" alt="image-20211231142900086"></p>
+<p><a href="https://maruko.appinn.me/" target="_blank" rel="noopener">点击进入官网</a></p>
+<p>如果你刚好是Windows用户, 可以直接去B站下载B站优化版本</p>
+<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231143033438.png" alt="image-20211231143033438"></p>
+<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
+]]></content>
+      <tags>
+        <tag>视频制作</tag>
       </tags>
   </entry>
   <entry>
@@ -1062,50 +1106,6 @@
 ]]></content>
       <tags>
         <tag>动画基础</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>好用的视频压制工具</title>
-    <url>/6.html</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>在视频制作完成后导出, 发现视频体积太大, 此时为了方便网络传输, 我们需要对视频进行压缩处理, 在保证画质的前提下, 体积自然是越小越好啦</p>
-<p>那么接下来给大家介绍几款好用的视频压制工具</p>
-<ul>
-<li><strong>HandBrake</strong></li>
-<li><strong>小丸压制工具</strong></li>
-</ul>
-<h3 id="HandBrake"><a href="#HandBrake" class="headerlink" title="HandBrake"></a>HandBrake</h3><p>一款非常强大的视频转码压制工具, 可以将任意格式视频文件转码成MP4, WebM或者MKV格式</p>
-<p><strong>工具优点:</strong></p>
-<ul>
-<li><strong>体积小 安装包也就几十兆大小</strong></li>
-<li><strong>免费开源</strong> <a href="https://github.com/HandBrake/HandBrake" target="_blank" rel="noopener">点击进入GitHub源码仓库</a></li>
-<li><strong>跨平台 支持Windows, Mac和Linux</strong></li>
-<li><strong>支持压制预览, 快速对比压制前后差距</strong></li>
-<li><strong>支持给视频添加字幕</strong></li>
-</ul>
-<p>官网长这样:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231140529245.png" alt="image-20211231140529245"></p>
-<p> <a href="https://handbrake.fr/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p>给视频添加字幕:</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231142212789.png" alt="image-20211231142212789"></p>
-<h3 id="小丸工具箱"><a href="#小丸工具箱" class="headerlink" title="小丸工具箱"></a>小丸工具箱</h3><p>小丸工具箱是一款用于处理音视频等多媒体文件的软件。是一款x264、ffmpeg等命令行程序的图形界面。它的目标是让视频压制变得简单、轻松。</p>
-<p>主要功能：</p>
-<ul>
-<li><strong>高质量的H264+AAC视频压制</strong></li>
-<li><strong>ASS/SRT字幕内嵌到视频</strong></li>
-<li><strong>AAC/WAV/FLAC/ALAC音频转换</strong></li>
-<li><strong>MP4/MKV/FLV的无损抽取和封装</strong></li>
-</ul>
-<p>缺点:</p>
-<p>目前只支持<code>Windows</code>平台</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231142900086.png" alt="image-20211231142900086"></p>
-<p><a href="https://maruko.appinn.me/" target="_blank" rel="noopener">点击进入官网</a></p>
-<p>如果你刚好是Windows用户, 可以直接去B站下载B站优化版本</p>
-<p><img src="https://gitee.com/songjianzaina/lunanzb_img/raw/master/img/image-20211231143033438.png" alt="image-20211231143033438"></p>
-<p><strong>本文为作者原创 转载时请注明出处 谢谢</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG作坊– 分享动漫制作的博客站 </a></em></p>
-]]></content>
-      <tags>
-        <tag>视频制作</tag>
       </tags>
   </entry>
   <entry>
