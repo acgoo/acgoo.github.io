@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+<meta name="referrer" content="never">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="AI绘图,">
+
+
+
+
+
+  <link rel="alternate" href="atom.xml" title="动漫作坊 – 分享动漫制作" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="&amp;#x524D;&amp;#x8A00;&amp;#x524D;&amp;#x9762;&amp;#x7ED9;&amp;#x5927;&amp;#x5BB6;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x5982;&amp;#x4F55;&amp;#x53BB;&amp;#x53BB;&amp;#x9664;&amp;#x4EBA;&amp;#x7269;&amp;#x80CC;&amp;#x666F;, &amp;#x8BE6;&amp;#x60C5;&amp;#x53C2;&amp;#x89C1;&amp;#x300A;ComfyU">
+<meta name="keywords" content="AI绘图">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ComfyUI图像处理之物品擦除">
+<meta property="og:url" content="https://acg.newban.cn/61.html">
+<meta property="og:site_name" content="动漫作坊 – 分享动漫制作">
+<meta property="og:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x524D;&amp;#x9762;&amp;#x7ED9;&amp;#x5927;&amp;#x5BB6;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x5982;&amp;#x4F55;&amp;#x53BB;&amp;#x53BB;&amp;#x9664;&amp;#x4EBA;&amp;#x7269;&amp;#x80CC;&amp;#x666F;, &amp;#x8BE6;&amp;#x60C5;&amp;#x53C2;&amp;#x89C1;&amp;#x300A;ComfyU">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240523215700074.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240523213306292.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/girl-1561989_960_720.jpg">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/6ef214ec0eb1c2a3559361939d1f00db1cddf4425ced1161c868d31b9104ac70.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/8e838a6f77b1089ac61342f3cbc714a2ab3dcd993d45139a40d810ff139acc46.png">
+<meta property="og:updated_time" content="2024-05-23T14:28:22.938Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ComfyUI图像处理之物品擦除">
+<meta name="twitter:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x524D;&amp;#x9762;&amp;#x7ED9;&amp;#x5927;&amp;#x5BB6;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x5982;&amp;#x4F55;&amp;#x53BB;&amp;#x53BB;&amp;#x9664;&amp;#x4EBA;&amp;#x7269;&amp;#x80CC;&amp;#x666F;, &amp;#x8BE6;&amp;#x60C5;&amp;#x53C2;&amp;#x89C1;&amp;#x300A;ComfyU">
+<meta name="twitter:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240523215700074.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+<!--谷歌广告验证代码-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2626449904708114",
+          enable_page_level_ads: true
+     });
+</script>
+<!--谷歌广告验证代码-->
+
+
+
+  <link rel="canonical" href="https://acg.newban.cn/61.html">
+
+
+
+
+
+  <title>ComfyUI图像处理之物品擦除 | 动漫作坊 – 分享动漫制作</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">动漫作坊 – 分享动漫制作</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">动漫作坊 – 分享动漫制作</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="http://www.newban.cn/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="https://acg.newban.cn/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">ComfyUI图像处理之物品擦除</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-23T17:19:53+08:00">
+                2024-05-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x524D;&#x9762;&#x7ED9;&#x5927;&#x5BB6;&#x4ECB;&#x7ECD;&#x4E86;&#x5982;&#x4F55;&#x53BB;&#x53BB;&#x9664;&#x4EBA;&#x7269;&#x80CC;&#x666F;, &#x8BE6;&#x60C5;&#x53C2;&#x89C1;&#x300A;<a href="https://acg.newban.cn/58.html">ComfyUI&#x62A0;&#x56FE;&#x4E4B;&#x4EBA;&#x7269;&#x80CC;&#x666F;&#x79FB;&#x9664;</a>&#x300B;</p>
+<p>&#x4ECA;&#x5929;&#x7ED9;&#x5927;&#x5BB6;&#x804A;&#x4E00;&#x804A;&#x5982;&#x4F55;&#x5C06;&#x56FE;&#x7247;&#x4E2D;&#x4E0D;&#x9700;&#x8981;&#x7684;&#x7269;&#x54C1;&#x8FDB;&#x884C;&#x64E6;&#x9664;</p>
+<h2 id="&#x9700;&#x8981;&#x5B89;&#x88C5;&#x7684;&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x578B;"><a href="#&#x9700;&#x8981;&#x5B89;&#x88C5;&#x7684;&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x578B;" class="headerlink" title="&#x9700;&#x8981;&#x5B89;&#x88C5;&#x7684;&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x578B;"></a>&#x9700;&#x8981;&#x5B89;&#x88C5;&#x7684;&#x63D2;&#x4EF6;&#x548C;&#x6A21;&#x578B;</h2><h3 id="&#x63D2;&#x4EF6;"><a href="#&#x63D2;&#x4EF6;" class="headerlink" title="&#x63D2;&#x4EF6;:"></a>&#x63D2;&#x4EF6;:</h3><ul>
+<li><p><a href="/external_links/f3b8f2b9be440130b4591eac69455fba.html" target="blank" rel="noopener">sdxl_prompt_styler</a></p>
+</li>
+<li><p><a href="/external_links/9562374f73840f3b7a9767bd7f8eab1c.html" target="blank" rel="noopener">Fooocus_Nodes</a></p>
+</li>
+<li><p><a href="/external_links/44ff616e4240884afcdda6ec6e90c184.html" target="blank" rel="noopener">comfyui-inpaint-nodes</a></p>
+<p>&#x8FD9;&#x91CC;&#x63A8;&#x8350;&#x4F7F;&#x7528;<code>manage</code>&#x6765;&#x5B89;&#x88C5;&#x8FD9;&#x4E9B;&#x63D2;&#x4EF6;, &#x5B83;&#x4F1A;&#x81EA;&#x52A8;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;&#x6240;&#x9700;&#x7684;&#x4F9D;&#x8D56;&#x5305;</p>
+</li>
+</ul>
+<h3 id="&#x6A21;&#x578B;"><a href="#&#x6A21;&#x578B;" class="headerlink" title="&#x6A21;&#x578B;"></a>&#x6A21;&#x578B;</h3><ul>
+<li><p><a href="/external_links/bcc936b20f6c891157608534aa1d3afb.html" target="blank" rel="noopener">Realistic Vision&#x6A21;&#x578B;&#x4E0B;&#x8F7D;</a> : &#x653E;&#x7F6E;&#x5230;<code>ComfyUI/models/checkpoint</code>&#x76EE;&#x5F55;&#x4E0B;</p>
+</li>
+<li><p><a href="/external_links/7a43396e5cb77e09759839b68016dbed.html" target="blank" rel="noopener">fooocus_inpaint_head.pth</a> : &#x653E;&#x7F6E;&#x5230;<code>ComfyUI/models/inpaint</code>&#x76EE;&#x5F55;&#x4E0B;</p>
+</li>
+<li><p><a href="/external_links/c7c71a2ee25bc62949da0abdb0716dac.html" target="blank" rel="noopener">inpaint_v26.fooocus.patch</a> : &#x653E;&#x7F6E;&#x5230;<code>ComfyUI/models/inpaint</code>&#x76EE;&#x5F55;&#x4E0B;</p>
+</li>
+</ul>
+<h2 id="&#x5F00;&#x59CB;&#x5B9E;&#x73B0;"><a href="#&#x5F00;&#x59CB;&#x5B9E;&#x73B0;" class="headerlink" title="&#x5F00;&#x59CB;&#x5B9E;&#x73B0;"></a>&#x5F00;&#x59CB;&#x5B9E;&#x73B0;</h2><ol>
+<li><p>&#x542F;&#x52A8;<code>ComfyUI</code></p>
+</li>
+<li><p>&#x5BFC;&#x5165;&#x5DE5;&#x4F5C;&#x6D41;</p>
+<p>&#x64E6;&#x9664;&#x7269;&#x54C1;&#x5DE5;&#x4F5C;&#x6D41;<code>json</code>&#x6587;&#x4EF6;, &#x4E24;&#x79CD;&#x4E0B;&#x8F7D;&#x65B9;&#x5F0F;, &#x4EFB;&#x541B;&#x9009;&#x62E9;:</p>
+<p><a href="/external_links/952c6c92dad85cd4de3a2d2c21cfdc5a.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x7F51;&#x76D8;&#x4E0B;&#x8F7D;</a> (&#x8BBF;&#x95EE;&#x5BC6;&#x7801;: 312306)</p>
+<p><a href="https://acg.newban.cn/comfyui/workflow/&#x64E6;&#x9664;&#x7269;&#x54C1;.json">&#x70B9;&#x51FB;&#x672C;&#x5730;&#x4E0B;&#x8F7D;</a></p>
+</li>
+<li><p>&#x4E0A;&#x4F20;&#x9700;&#x8981;&#x5904;&#x7406;&#x7684;&#x56FE;&#x7247;</p>
+<p>&#x5728;<code>Load Image</code>&#x8282;&#x70B9;&#x4E2D;&#x70B9;&#x51FB;<code>Upload</code>&#x6309;&#x94AE;&#x4E0A;&#x4F20;&#x56FE;&#x7247;</p>
+<p>&#x7136;&#x540E;&#x70B9;&#x51FB;&#x56FE;&#x7247;&#x9F20;&#x6807;&#x53F3;&#x952E;&#x9009;&#x62E9;<code>Open in MaskEditor</code>&#x5728;&#x8499;&#x7248;&#x7F16;&#x8F91;&#x5668;&#x4E2D;&#x6253;&#x5F00;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240523215700074.png" alt="image-20240523215700074"></p>
+<p>&#x63A5;&#x4E0B;&#x91CC;&#x7528;&#x753B;&#x7B14;&#x6D82;&#x62B9;&#x9700;&#x8981;&#x53BB;&#x9664;&#x7684;&#x90E8;&#x5206;,&#x6700;&#x540E;&#x70B9;&#x51FB;<code>Save to node</code>&#x4FDD;&#x5B58;&#x5904;&#x7406;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240523213306292.png" alt="image-20240523213306292"></p>
+</li>
+<li><p>&#x70B9;&#x51FB;<code>Queue Prompt</code>&#x5F00;&#x59CB;&#x5904;&#x7406;&#x5DE5;&#x4F5C;&#x6D41;</p>
+</li>
+<li><p>&#x6548;&#x679C;&#x5982;&#x4E0B;</p>
+<table>
+<thead>
+<tr>
+<th>&#x539F;&#x56FE;</th>
+<th>&#x5904;&#x7406;&#x540E;&#x7684;&#x56FE;&#x7247;</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/girl-1561989_960_720.jpg" alt="girl-1561989_960_720"></td>
+<td><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/6ef214ec0eb1c2a3559361939d1f00db1cddf4425ced1161c868d31b9104ac70.png" alt="6ef214ec0eb1c2a3559361939d1f00db1cddf4425ced1161c868d31b9104ac70"></td>
+</tr>
+</tbody></table>
+<p>&#x6548;&#x679C;&#x8BF4;&#x4E0D;&#x4E0A;&#x591A;&#x5B8C;&#x7F8E;, &#x4F46;&#x8FD8;&#x7B97;&#x80FD;&#x7528;</p>
+<p>&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;, &#x5982;&#x679C;&#x4F7F;&#x7528;&#x5176;&#x4ED6;&#x5927;&#x6A21;&#x578B;, &#x6BD4;&#x5982;<code>DreamShaper</code>&#x6A21;&#x578B;, &#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x73B0;&#x7269;&#x54C1;&#x66FF;&#x6362;&#x7684;&#x6548;&#x679C;, &#x50CF;&#x8FD9;&#x6837;&#x5B50;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/8e838a6f77b1089ac61342f3cbc714a2ab3dcd993d45139a40d810ff139acc46.png" alt="8e838a6f77b1089ac61342f3cbc714a2ab3dcd993d45139a40d810ff139acc46"></p>
+<p>&#x6240;&#x4EE5;&#x6A21;&#x578B;&#x7684;&#x9009;&#x62E9;&#x4E5F;&#x5F88;&#x5173;&#x952E;</p>
+</li>
+</ol>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="tags/AI绘图/" rel="tag"># AI绘图</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="58.html" rel="next" title="ComfyUI抠图之人物背景移除">
+                <i class="fa fa-chevron-left"></i> ComfyUI抠图之人物背景移除
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="62.html" rel="prev" title="一些免费的AI模型下载网站汇总">
+                一些免费的AI模型下载网站汇总 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    <!-- 有瓣音频文章内嵌广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6145016388"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+  <!-- 有瓣音频信息流广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6455528644"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">动漫作坊</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="https://acg.newban.cn/archives/">
+              
+                  <span class="site-state-item-count">63</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#前言"><span class="nav-number">1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#需要安装的插件和模型"><span class="nav-number">2.</span> <span class="nav-text">需要安装的插件和模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#插件"><span class="nav-number">2.1.</span> <span class="nav-text">插件:</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#模型"><span class="nav-number">2.2.</span> <span class="nav-text">模型</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开始实现"><span class="nav-number">3.</span> <span class="nav-text">开始实现</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">动漫作坊</span>
+  <div>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+  </div>
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+  <script type="text/javascript" async src="js/src/mermaid.min.js"></script>
+  <script>
+  if (window.mermaid) {
+        var mermaid_config = {
+            startOnLoad: true,
+            theme: 'default',
+            flowchart:{
+                useMaxWidth: false,
+                htmlLabels: true
+            }                
+        }
+        mermaid.initialize(mermaid_config);
+  }
+  </script>
+  
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
