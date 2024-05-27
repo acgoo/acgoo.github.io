@@ -273,6 +273,486 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../47.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../47.html" itemprop="url">Blender视频剪辑之如何实现视频变速效果</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-04T12:19:53+08:00">
+                2024-05-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x6211;&#x4EEC;&#x5728;&#x8FDB;&#x884C;&#x89C6;&#x9891;&#x526A;&#x8F91;&#x65F6;&#x7ECF;&#x5E38;&#x4F1A;&#x6709;&#x5BF9;&#x89C6;&#x9891;&#x8FDB;&#x884C;&#x53D8;&#x901F;&#x7684;&#x9700;&#x6C42;</p>
+<p>&#x90A3;&#x4E48;&#x63A5;&#x4E0B;&#x6765;&#x5C31;&#x7ED9;&#x5927;&#x5BB6;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B; &#x5728;<code>Blender</code>&#x4E2D;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x8BE5;&#x6548;&#x679C;</p>
+<h2 id="&#x5B9E;&#x73B0;&#x6B65;&#x9AA4;"><a href="#&#x5B9E;&#x73B0;&#x6B65;&#x9AA4;" class="headerlink" title="&#x5B9E;&#x73B0;&#x6B65;&#x9AA4;"></a>&#x5B9E;&#x73B0;&#x6B65;&#x9AA4;</h2><ol>
+<li><p>&#x5C06;&#x89C6;&#x9891;&#x5BFC;&#x5165;<code>blender</code></p>
+</li>
+<li><p>&#x9009;&#x4E2D;&#x89C6;&#x9891;&#x7247;&#x6BB5; &#x7136;&#x540E;&#x6DFB;&#x6548;&#x679C;&#x7247;&#x6BB5;&#x2013;&gt;&#x901F;&#x5EA6;&#x63A7;&#x5236;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504194142571.png" alt="image-20240504194142571"></p>
+</li>
+<li><p>&#x5C06;&#x7EFF;&#x8272;&#x7684;&#x901F;&#x5EA6;&#x7247;&#x6BB5;&#x653E;&#x5728;&#x9700;&#x8981;&#x8C03;&#x6574;&#x901F;&#x5EA6;&#x7684;&#x89C6;&#x9891;&#x7247;&#x6BB5;&#x4E0A;&#x5C42;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504194724537.png" alt="image-20240504194724537"></p>
+</li>
+<li><p>&#x62C9;&#x4F38;&#x89C6;&#x9891;&#x5373;&#x53EF;&#x8C03;&#x8282;&#x901F;&#x5EA6;</p>
+<p>&#x901F;&#x5EA6;&#x7247;&#x6BB5;&#x4F1A;&#x8DDF;&#x968F;&#x89C6;&#x9891;&#x7247;&#x6BB5;&#x540C;&#x6B65;&#x62C9;&#x4F38; &#x62C9;&#x957F;&#x901F;&#x5EA6;&#x53D8;&#x6162; &#x62C9;&#x77ED;&#x901F;&#x5EA6;&#x53D8;&#x5FEB;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-04_19.50.03.gif" alt="iShot_2024-05-04_19.50.03"></p>
+</li>
+<li><p>&#x8D76;&#x7D27;&#x8BD5;&#x8BD5;&#x5427;&#x1F61C;</p>
+</li>
+</ol>
+<h2 id="&#x5176;&#x4ED6;"><a href="#&#x5176;&#x4ED6;" class="headerlink" title="&#x5176;&#x4ED6;"></a>&#x5176;&#x4ED6;</h2><p>&#x9664;&#x4E86;&#x4E0A;&#x9762;&#x6240;&#x8BF4;&#x7684;&#x5E38;&#x89C4;&#x624B;&#x6BB5;&#x4E4B;&#x5916; &#x6211;&#x4EEC;&#x8FD8;&#x53EF;&#x4EE5;&#x8C03;&#x6574;&#x8F93;&#x51FA;&#x5E27;&#x7387;&#x6765;&#x5B9E;&#x73B0;&#x53D8;&#x901F;&#x6548;&#x679C; &#x5E27;&#x7387;&#x8C03;&#x5927;&#x89C6;&#x9891;&#x52A0;&#x901F; &#x5E27;&#x7387;&#x8C03;&#x5C0F;&#x89C6;&#x9891;&#x964D;&#x901F;</p>
+<h2 id="&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x5E27;&#x7387;&#x7684;&#x89C6;&#x9891;"><a href="#&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x5E27;&#x7387;&#x7684;&#x89C6;&#x9891;" class="headerlink" title="&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x5E27;&#x7387;&#x7684;&#x89C6;&#x9891;"></a>&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x5E27;&#x7387;&#x7684;&#x89C6;&#x9891;</h2><p>&#x5F53;&#x6211;&#x4EEC;&#x5C06;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x5E27;&#x7387;&#x7684;&#x4E24;&#x4E2A;&#x89C6;&#x9891;&#x8FDB;&#x884C;&#x526A;&#x8F91;&#x65F6; &#x4F1A;&#x51FA;&#x73B0;&#x9AD8;&#x5E27;&#x7387;&#x89C6;&#x9891;&#x753B;&#x9762;&#x53D8;&#x6162;&#x7684;&#x95EE;&#x9898;</p>
+<p>&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x5F88;&#x5BB9;&#x6613;&#x8BA9;&#x521D;&#x5B66;&#x8005;&#x8BEF;&#x4EE5;&#x4E3A;&#x662F;&#x89C6;&#x9891;&#x8D44;&#x6E90;&#x5360;&#x7528;&#x8FC7;&#x9AD8;&#x5BFC;&#x81F4;&#x753B;&#x9762;&#x5361;&#x987F; </p>
+<p>&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x7684;&#x65B9;&#x6CD5;&#x4E5F;&#x5F88;&#x7B80;&#x5355; &#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x5BF9;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x89C6;&#x9891;&#x8FDB;&#x884C;&#x53D8;&#x901F;&#x5904;&#x7406;&#x76F4;&#x5230;&#x4E24;&#x4E2A;&#x753B;&#x9762;&#x76F8;&#x5339;&#x914D;</p>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../46.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../46.html" itemprop="url">网站流量变现渠道都有哪些</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-03T10:19:53+08:00">
+                2024-05-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x5982;&#x679C;&#x7F51;&#x7AD9;&#x6D41;&#x91CF;&#x5927;&#x7684;&#x8BDD; &#x53EF;&#x4EE5;&#x8003;&#x8651;&#x4EE5;&#x4E0B;&#x53D8;&#x73B0;&#x6E20;&#x9053;</p>
+<h2 id="&#x5E7F;&#x544A;&#x53D8;&#x73B0;"><a href="#&#x5E7F;&#x544A;&#x53D8;&#x73B0;" class="headerlink" title="&#x5E7F;&#x544A;&#x53D8;&#x73B0;"></a>&#x5E7F;&#x544A;&#x53D8;&#x73B0;</h2><ul>
+<li><p><a href="/external_links/38b3fb221f638136d28b6a73e249153f.html" target="blank" rel="noopener">&#x8C37;&#x6B4C;Adsense&#x5E7F;&#x544A;</a> : &#x95E8;&#x69DB;&#x4F4E; 0&#x6D41;&#x91CF;&#x65B0;&#x7AD9;&#x4E5F;&#x53EF;&#x96C6;&#x6210; &#x6EE1;100&#x7F8E;&#x5143;&#x81EA;&#x52A8;&#x63D0;&#x73B0;&#x5230;&#x8D26;</p>
+</li>
+<li><p><a href="/external_links/8aafdd5071193264bedd1e7dc88ef25d.html" target="blank" rel="noopener">&#x4E07;&#x7EF4;&#x5E7F;&#x544A;</a> : &#x95E8;&#x69DB;&#x8981;&#x6C42; &#x7F51;&#x7AD9;&#x9700;&#x8FBE;&#x5230;10&#x4E07;PV/&#x6708; &#x6536;&#x76CA;&#x4F1A;&#x6BD4;&#x8C37;&#x6B4C;&#x8981;&#x9AD8;&#x4E00;&#x4E9B;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504162632250.png" alt="image-20240504162632250"></p>
+</li>
+</ul>
+<h2 id="&#x5185;&#x5BB9;&#x4ED8;&#x8D39;-&#x4F1A;&#x5458;&#x5236;"><a href="#&#x5185;&#x5BB9;&#x4ED8;&#x8D39;-&#x4F1A;&#x5458;&#x5236;" class="headerlink" title="&#x5185;&#x5BB9;&#x4ED8;&#x8D39;/&#x4F1A;&#x5458;&#x5236;"></a>&#x5185;&#x5BB9;&#x4ED8;&#x8D39;/&#x4F1A;&#x5458;&#x5236;</h2><p>&#x9488;&#x5BF9;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x4F18;&#x8D28;&#x5185;&#x5BB9;&#x548C;&#x8D44;&#x6E90; &#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;&#x6237;&#x4ED8;&#x8D39;&#x6216;&#x8005;&#x5F00;&#x5305;&#x6708;&#x4F1A;&#x5458; &#x83B7;&#x53D6;</p>
+<h2 id="&#x6253;&#x8D4F;"><a href="#&#x6253;&#x8D4F;" class="headerlink" title="&#x6253;&#x8D4F;"></a>&#x6253;&#x8D4F;</h2><p>&#x7528;&#x7231;&#x53D1;&#x7535; &#x4F5B;&#x7CFB;&#x7ECF;&#x8425;</p>
+<h2 id="&#x7535;&#x5B50;&#x5546;&#x52A1;"><a href="#&#x7535;&#x5B50;&#x5546;&#x52A1;" class="headerlink" title="&#x7535;&#x5B50;&#x5546;&#x52A1;"></a>&#x7535;&#x5B50;&#x5546;&#x52A1;</h2><p>&#x5F00;&#x8BBE;&#x6DD8;&#x5B9D;/&#x62FC;&#x591A;&#x591A;&#x5E97;&#x94FA; &#x4ECE;&#x7F51;&#x7AD9;&#x5F15;&#x6D41; </p>
+<p>&#x6216;&#x8005;&#x76F4;&#x63A5;&#x5145;&#x5F53;&#x4E2D;&#x95F4;&#x4EBA; &#x53EA;&#x505A;&#x63A8;&#x5E7F; &#x4E0D;&#x7ECF;&#x8425;&#x5E97;&#x94FA; &#x7C7B;&#x4F3C;&#x5F53;&#x5E74;&#x7684;&#x6DD8;&#x5B9D;&#x5BA2;&#x548C;&#x5982;&#x4ECA;&#x7684;&#x6296;&#x97F3;&#x5E26;&#x8D27;</p>
+<h2 id="&#x5F15;&#x6D41;&#x8D77;&#x53F7;"><a href="#&#x5F15;&#x6D41;&#x8D77;&#x53F7;" class="headerlink" title="&#x5F15;&#x6D41;&#x8D77;&#x53F7;"></a>&#x5F15;&#x6D41;&#x8D77;&#x53F7;</h2><p>&#x6BD4;&#x5982;&#x521A;&#x5F00;&#x4E86;&#x4E00;&#x4E2A;&#x89C6;&#x9891;&#x8D26;&#x53F7; &#x751F;&#x4EA7;&#x7684;&#x5185;&#x5BB9;&#x65E0;&#x4EBA;&#x89C2;&#x770B;&#x600E;&#x4E48;&#x529E; &#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x7F51;&#x7AD9;&#x6D41;&#x91CF; &#x5FEB;&#x901F;&#x5F15;&#x6D41;  &#x8FD9;&#x6837;&#x4E5F;&#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x7701;&#x4E86;&#x4E00;&#x7B14;&#x5BA3;&#x4F20;&#x8D39; &#x7701;&#x5230;&#x5C31;&#x662F;&#x8D5A;&#x5230;&#x561B;&#x1F61C;</p>
+<h2 id="&#x603B;&#x7ED3;"><a href="#&#x603B;&#x7ED3;" class="headerlink" title="&#x603B;&#x7ED3;"></a>&#x603B;&#x7ED3;</h2><p>&#x5173;&#x4E8E;&#x6D41;&#x91CF;&#x53D8;&#x73B0; &#x9700;&#x8981;&#x6839;&#x636E;&#x7F51;&#x7AD9;&#x5B9A;&#x4F4D;&#x6765;&#x505A;&#x51FA;&#x5408;&#x9002;&#x7684;&#x9009;&#x62E9;</p>
+<p>&#x5356;&#x5185;&#x5BB9;&#x8FD8;&#x662F;&#x5356;&#x670D;&#x52A1; &#x6216;&#x8005;&#x662F;&#x53EA;&#x8D5A;&#x5E7F;&#x544A; &#x5B8C;&#x5168;&#x53D6;&#x51B3;&#x81EA;&#x5DF1;</p>
+<p>&#x4EE5;&#x4E0A;&#x4E5F;&#x53EA;&#x662F;&#x4E00;&#x4E9B;&#x5927;&#x4F17;&#x7684;&#x601D;&#x8DEF; &#x4EC5;&#x4F9B;&#x53C2;&#x8003;</p>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../45.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="../../images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="../../45.html" itemprop="url">国产AI助手和ChatGPT汇总</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-02T10:19:53+08:00">
+                2024-05-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x8FD9;&#x91CC;&#x7684;&#x56FD;&#x4EA7;&#x6307;&#x7684;&#x662F;&#x56FD;&#x5185;&#x642D;&#x5EFA;&#x7684;AI&#x5E73;&#x53F0; &#x5176;&#x4E2D;&#x5305;&#x62EC;ChatGPT&#x6A21;&#x578B;&#x548C;&#x5927;&#x6570;&#x636E;&#x641C;&#x7D22;&#x6A21;&#x578B;&#x642D;&#x5EFA;&#x7684;&#x5E73;&#x53F0;</p>
+<h2 id="&#x6587;&#x5FC3;&#x4E00;&#x8A00;"><a href="#&#x6587;&#x5FC3;&#x4E00;&#x8A00;" class="headerlink" title="&#x6587;&#x5FC3;&#x4E00;&#x8A00;"></a>&#x6587;&#x5FC3;&#x4E00;&#x8A00;</h2><p>&#x767E;&#x5EA6;&#x65D7;&#x4E0B;&#x7684;&#x4E00;&#x6B3E;AI&#x5DE5;&#x5177;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504111544538.png" alt="image-20240504111544538"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504111621332.png" alt="image-20240504111621332"></p>
+<p>&#x6587;&#x5FC3;&#x4E00;&#x8A00;&#x7684;&#x4F5C;&#x56FE;&#x529F;&#x80FD; &#x8FD8;&#x662F;&#x633A;&#x6709;&#x8DA3;&#x7684;  &#x5C06;&#x5B83;&#x4EEC;&#x526A;&#x8F91;&#x6210;&#x77ED;&#x89C6;&#x9891;&#x53D1;&#x5E03; &#x4F30;&#x8BA1;&#x80FD;&#x5E26;&#x6765;&#x4E0D;&#x5C11;&#x6D41;&#x91CF;</p>
+<p>&#x79E6;&#x738B;&#x7ED5;&#x67F1;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504112018638.png" alt="image-20240504112018638"></p>
+<p>&#x5973;&#x5A32;&#x8865;&#x5929;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504112052766.png" alt="image-20240504112052766"></p>
+<p>&#x6731;&#x5143;&#x748B;&#x62BD;&#x4E2D;&#x534E;&#x70DF;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504112711150.png" alt="image-20240504112711150"></p>
+<p><a href="/external_links/c47b8ebace836597e981e4a8677db5d5.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x8BAF;&#x98DE;&#x661F;&#x706B;"><a href="#&#x8BAF;&#x98DE;&#x661F;&#x706B;" class="headerlink" title="&#x8BAF;&#x98DE;&#x661F;&#x706B;"></a>&#x8BAF;&#x98DE;&#x661F;&#x706B;</h2><p>&#x79D1;&#x5927;&#x8BAF;&#x98DE;&#x65D7;&#x4E0B;&#x7684;&#x4E00;&#x6B3E;AI&#x5DE5;&#x5177;</p>
+<p>&#x667A;&#x80FD;&#x7A0B;&#x5EA6;&#x548C;<code>ChatGPT3.5</code>&#x5DEE;&#x4E0D;&#x591A;  &#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E9B;AI&#x4EBA;&#x7269;&#x8FD8;&#x633A;&#x6709;&#x610F;&#x601D; &#x6BD4;&#x5982;&#x548C;AI&#x9C81;&#x8FC5;&#x3001;<code>AI</code>&#x6797;&#x9EDB;&#x7389;&#x5BF9;&#x8BDD;&#x7B49;&#x7B49; &#x65E0;&#x804A;&#x7684;&#x65F6;&#x5019;&#x64A9;&#x4E00;&#x64A9;AI&#x59B9;&#x5B50;&#x4E5F;&#x4E0D;&#x662F;&#x4E0D;&#x884C;&#x554A; &#x1F603;</p>
+<p>&#x8BE5;&#x4EA7;&#x54C1;&#x79FB;&#x52A8;&#x7AEF;<code>App</code>&#x5DF2;&#x51FA; &#x53EF;&#x5728;&#x5E94;&#x7528;&#x5E02;&#x573A;&#x4E0B;&#x8F7D;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504111049810.png" alt="image-20240504111049810"></p>
+<p><a href="/external_links/cf670590113e1c10d1784c3a8679986d.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x901A;&#x4E49;&#x5343;&#x95EE;"><a href="#&#x901A;&#x4E49;&#x5343;&#x95EE;" class="headerlink" title="&#x901A;&#x4E49;&#x5343;&#x95EE;"></a>&#x901A;&#x4E49;&#x5343;&#x95EE;</h2><p>&#x963F;&#x91CC;&#x4E91;&#x65D7;&#x4E0B;&#x7684;AI&#x5DE5;&#x5177;</p>
+<p>&#x963F;&#x91CC;&#x7CFB;&#x7684;&#x4EA7;&#x54C1;&#x4E00;&#x822C;&#x6765;&#x8BF4;&#x90FD;&#x4E0D;&#x4F1A;&#x592A;&#x5DEE;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104650516.png" alt="image-20240504104650516"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504105548464.png" alt="image-20240504105548464"></p>
+<p>&#x529F;&#x80FD;&#x70B9;&#x8FD8;&#x662F;&#x975E;&#x5E38;&#x4E30;&#x5BCC;&#x7684;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504105728089.png" alt="image-20240504105728089"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104919196.png" alt="image-20240504104919196"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104939639.png" alt="image-20240504104939639"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504105002831.png" alt="image-20240504105002831"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504105043094.png" alt="image-20240504105043094"></p>
+<p>&#x8BD5;&#x4E86;&#x8BD5;&#x5B83;&#x7684;&#x5C0F;&#x8BF4;&#x5199;&#x4F5C;&#x529F;&#x80FD; &#x611F;&#x89C9;&#x8FD8;&#x884C; &#x628A;&#x5927;&#x7EB2;&#x7ED9;&#x5199;&#x51FA;&#x6765;&#x4E86;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504105408736.png" alt="image-20240504105408736"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&#x5C0F;&#x8BF4;&#x6807;&#x9898;&#xFF1A;&#x300A;&#x9006;&#x5929;&#x4ED9;&#x9014;&#xFF1A;&#x4E5D;&#x9704;&#x9F99;&#x541F;&#x300B;</span><br><span class="line">&#x7B2C;&#x4E00;&#x7AE0; &#x70FD;&#x706B;&#x4E71;&#x4E16;&#xFF0C;&#x7075;&#x8109;&#x9057;&#x5B64;</span><br><span class="line">&#x5728;&#x6D69;&#x701A;&#x65E0;&#x57A0;&#x7684;&#x4E91;&#x8352;&#x5927;&#x9646;&#x4E0A;&#xFF0C;&#x70FD;&#x706B;&#x8FDE;&#x5929;&#xFF0C;&#x8BF8;&#x4FAF;&#x5272;&#x636E;&#x3002;&#x4E8E;&#x8FD9;&#x4E71;&#x4E16;&#x4E4B;&#x4E2D;&#xFF0C;&#x6709;&#x4E00;&#x5904;&#x540D;&#x4E3A;&#x5E7D;&#x8C37;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x9690;&#x533F;&#x7740;&#x4E0D;&#x4E3A;&#x4EBA;&#x77E5;&#x7684;&#x79D8;&#x5BC6;&#x3002;&#x5E7D;&#x8C37;&#x6DF1;&#x5904;&#xFF0C;&#x4E00;&#x9053;&#x6E05;&#x6CC9;&#x7ED5;&#x8FC7;&#x5343;&#x5E74;&#x53E4;&#x6728;&#xFF0C;&#x6ECB;&#x517B;&#x7740;&#x4E00;&#x65B9;&#x5947;&#x5F02;&#x4E4B;&#x5730;&#x2014;&#x2014;&#x7075;&#x8109;&#x4E4B;&#x773C;&#x3002;&#x4F20;&#x8BF4;&#x4E2D;&#xFF0C;&#x8FD9;&#x91CC;&#x662F;&#x5929;&#x5730;&#x7075;&#x6C14;&#x6700;&#x4E3A;&#x6D53;&#x90C1;&#x4E4B;&#x5904;&#xFF0C;&#x51E1;&#x4EBA;&#x4E0D;&#x53EF;&#x8F7B;&#x6613;&#x6D89;&#x8DB3;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x5728;&#x8FD9;&#x88AB;&#x9057;&#x5FD8;&#x7684;&#x89D2;&#x843D;&#xFF0C;&#x751F;&#x6D3B;&#x7740;&#x4E00;&#x4E2A;&#x540D;&#x53EB;&#x4E91;&#x6F88;&#x7684;&#x5C11;&#x5E74;&#x3002;&#x4ED6;&#x81EA;&#x5E7C;&#x7236;&#x6BCD;&#x53CC;&#x4EA1;&#xFF0C;&#x7531;&#x4E00;&#x4F4D;&#x795E;&#x79D8;&#x7684;&#x8001;&#x8005;&#x629A;&#x517B;&#x957F;&#x5927;&#x3002;&#x8001;&#x8005;&#x8EAB;&#x6000;&#x7EDD;&#x6280;&#xFF0C;&#x5374;&#x4ECE;&#x4E0D;&#x8A00;&#x53CA;&#x8FC7;&#x5F80;&#xFF0C;&#x53EA;&#x4F20;&#x6388;&#x4E91;&#x6F88;&#x4E00;&#x5957;&#x540D;&#x4E3A;&#x201C;&#x9F99;&#x541F;&#x8BC0;&#x201D;&#x7684;&#x53E4;&#x8001;&#x529F;&#x6CD5;&#xFF0C;&#x58F0;&#x79F0;&#x6B64;&#x4E43;&#x9006;&#x5929;&#x6539;&#x547D;&#x4E4B;&#x672F;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x7B2C;&#x4E8C;&#x7AE0; &#x9F99;&#x541F;&#x521D;&#x73B0;&#xFF0C;&#x547D;&#x8FD0;&#x8F6C;&#x6298;</span><br><span class="line">&#x5C81;&#x6708;&#x5982;&#x68AD;&#xFF0C;&#x8F6C;&#x773C;&#x4E91;&#x6F88;&#x5DF2;&#x81F3;&#x5F31;&#x51A0;&#x4E4B;&#x5E74;&#x3002;&#x4E00;&#x65E5;&#xFF0C;&#x4ED6;&#x5728;&#x6797;&#x95F4;&#x4FEE;&#x70BC;&#x65F6;&#xFF0C;&#x65E0;&#x610F;&#x95F4;&#x89E6;&#x52A8;&#x4E86;&#x7075;&#x8109;&#x4E4B;&#x773C;&#x7684;&#x7981;&#x5236;&#xFF0C;&#x5F15;&#x53D1;&#x4E86;&#x4E00;&#x573A;&#x5929;&#x5730;&#x5F02;&#x8C61;&#x3002;&#x4E4C;&#x4E91;&#x853D;&#x65E5;&#xFF0C;&#x7535;&#x95EA;&#x96F7;&#x9E23;&#xFF0C;&#x4E00;&#x6761;&#x865A;&#x5E7B;&#x7684;&#x5DE8;&#x9F99;&#x81EA;&#x4E91;&#x5C42;&#x4E2D;&#x5486;&#x54EE;&#x800C;&#x51FA;&#xFF0C;&#x4E0E;&#x4E91;&#x6F88;&#x4F53;&#x5185;&#x7684;&#x9F99;&#x541F;&#x8BC0;&#x4EA7;&#x751F;&#x4E86;&#x5171;&#x9E23;&#x3002;&#x90A3;&#x4E00;&#x523B;&#xFF0C;&#x4E91;&#x6F88;&#x7684;&#x8EAB;&#x4F53;&#x53D1;&#x751F;&#x4E86;&#x7FFB;&#x5929;&#x8986;&#x5730;&#x7684;&#x53D8;&#x5316;&#xFF0C;&#x4E00;&#x80A1;&#x524D;&#x6240;&#x672A;&#x6709;&#x7684;&#x529B;&#x91CF;&#x5728;&#x4ED6;&#x4F53;&#x5185;&#x89C9;&#x9192;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x8001;&#x8005;&#x89C1;&#x72B6;&#xFF0C;&#x773C;&#x4E2D;&#x95EA;&#x8FC7;&#x4E00;&#x62B9;&#x590D;&#x6742;&#x4E4B;&#x8272;&#xFF0C;&#x7EC8;&#x4E8E;&#x5411;&#x4E91;&#x6F88;&#x5410;&#x9732;&#x771F;&#x76F8;&#x3002;&#x539F;&#x6765;&#xFF0C;&#x4E91;&#x6F88;&#x5E76;&#x975E;&#x51E1;&#x4EBA;&#x4E4B;&#x540E;&#xFF0C;&#x800C;&#x662F;&#x5343;&#x5E74;&#x524D;&#x5931;&#x8E2A;&#x7684;&#x9F99;&#x65CF;&#x540E;&#x88D4;&#xFF0C;&#x800C;&#x90A3;&#x5957;&#x201C;&#x9F99;&#x541F;&#x8BC0;&#x201D;&#x6B63;&#x662F;&#x5F00;&#x542F;&#x4ED6;&#x8840;&#x8109;&#x4E4B;&#x529B;&#x7684;&#x5173;&#x952E;&#x3002;&#x4E3A;&#x4E86;&#x4FDD;&#x62A4;&#x4E91;&#x6F88;&#x514D;&#x906D;&#x4EC7;&#x5BB6;&#x8FFD;&#x6740;&#xFF0C;&#x8001;&#x8005;&#x9690;&#x85CF;&#x4E86;&#x4ED6;&#x7684;&#x8EAB;&#x4EFD;&#xFF0C;&#x9ED8;&#x9ED8;&#x5B88;&#x62A4;&#x81F3;&#x4ECA;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x7B2C;&#x4E09;&#x7AE0; &#x4FEE;&#x4ED9;&#x4E4B;&#x8DEF;&#xFF0C;&#x6B65;&#x6B65;&#x60CA;&#x5FC3;</span><br><span class="line">&#x77E5;&#x6653;&#x8EAB;&#x4E16;&#x4E4B;&#x540E;&#xFF0C;&#x4E91;&#x6F88;&#x8E0F;&#x4E0A;&#x4E86;&#x5BFB;&#x627E;&#x9F99;&#x65CF;&#x9057;&#x8FF9;&#x3001;&#x91CD;&#x632F;&#x9F99;&#x65CF;&#x8363;&#x8000;&#x7684;&#x4FEE;&#x4ED9;&#x4E4B;&#x65C5;&#x3002;&#x9014;&#x4E2D;&#xFF0C;&#x4ED6;&#x7ED3;&#x8BC6;&#x4E86;&#x6027;&#x683C;&#x8FE5;&#x5F02;&#x7684;&#x4F19;&#x4F34;&#xFF1A;&#x673A;&#x667A;&#x72E1;&#x9EE0;&#x7684;&#x76D7;&#x5893;&#x5C11;&#x5973;&#x68A6;&#x7483;&#xFF0C;&#x4EE5;&#x53CA;&#x6E29;&#x6587;&#x5C14;&#x96C5;&#x7684;&#x533B;&#x9053;&#x4F20;&#x4EBA;&#x98CE;&#x884C;&#x8FDC;&#x3002;&#x4ED6;&#x4EEC;&#x5404;&#x6000;&#x7EDD;&#x6280;&#xFF0C;&#x5171;&#x540C;&#x9762;&#x5BF9;&#x7740;&#x6765;&#x81EA;&#x5404;&#x65B9;&#x52BF;&#x529B;&#x7684;&#x6311;&#x6218;&#x548C;&#x8BD5;&#x70BC;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x5728;&#x4E00;&#x6B21;&#x6DF1;&#x5165;&#x53E4;&#x5893;&#x63A2;&#x5BFB;&#x9F99;&#x65CF;&#x79D8;&#x5B9D;&#x65F6;&#xFF0C;&#x4E91;&#x6F88;&#x7B49;&#x4EBA;&#x610F;&#x5916;&#x89E6;&#x53D1;&#x4E86;&#x53E4;&#x8001;&#x7684;&#x673A;&#x5173;&#xFF0C;&#x9677;&#x5165;&#x4E86;&#x4E00;&#x573A;&#x751F;&#x6B7B;&#x5371;&#x673A;&#x3002;&#x6B63;&#x5F53;&#x7EDD;&#x671B;&#x4E4B;&#x9645;&#xFF0C;&#x4E91;&#x6F88;&#x4F53;&#x5185;&#x7684;&#x9F99;&#x8840;&#x6CB8;&#x817E;&#xFF0C;&#x5316;&#x8EAB;&#x4E3A;&#x534A;&#x9F99;&#x4E4B;&#x8EAF;&#xFF0C;&#x4EE5;&#x4E00;&#x5DF1;&#x4E4B;&#x529B;&#x7834;&#x5F00;&#x4E86;&#x6B7B;&#x5C40;&#xFF0C;&#x6551;&#x4F17;&#x4EBA;&#x4E8E;&#x6C34;&#x6DF1;&#x706B;&#x70ED;&#x4E4B;&#x4E2D;&#x3002;&#x8FD9;&#x4E00;&#x6218;&#xFF0C;&#x8BA9;&#x4E91;&#x6F88;&#x7684;&#x540D;&#x5B57;&#x5F00;&#x59CB;&#x5728;&#x4FEE;&#x4ED9;&#x754C;&#x4E2D;&#x6084;&#x7136;&#x4F20;&#x5F00;&#xFF0C;&#x4E5F;&#x8BA9;&#x4ED6;&#x6210;&#x4E3A;&#x4E86;&#x4F17;&#x591A;&#x52BF;&#x529B;&#x7ADE;&#x76F8;&#x62C9;&#x62E2;&#x7684;&#x5BF9;&#x8C61;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x7B2C;&#x56DB;&#x7AE0; &#x4E5D;&#x9704;&#x4E4B;&#x4E0A;&#xFF0C;&#x9F99;&#x541F;&#x9707;&#x5929;</span><br><span class="line">&#x968F;&#x7740;&#x4FEE;&#x4E3A;&#x7684;&#x63D0;&#x5347;&#xFF0C;&#x4E91;&#x6F88;&#x9010;&#x6E10;&#x63ED;&#x5F00;&#x4E86;&#x5173;&#x4E8E;&#x9F99;&#x65CF;&#x8870;&#x843D;&#x7684;&#x60CA;&#x4EBA;&#x79D8;&#x5BC6;&#xFF0C;&#x8FD9;&#x4E00;&#x5207;&#x7ADF;&#x4E0E;&#x5927;&#x9646;&#x4E0A;&#x6700;&#x5F3A;&#x5927;&#x7684;&#x4FEE;&#x4ED9;&#x5B97;&#x95E8;&#x2014;&#x2014;&#x4E5D;&#x9704;&#x5BAB;&#x6709;&#x7740;&#x5343;&#x4E1D;&#x4E07;&#x7F15;&#x7684;&#x8054;&#x7CFB;&#x3002;&#x4E3A;&#x4E86;&#x89E3;&#x5F00;&#x8C1C;&#x56E2;&#xFF0C;&#x4E5F;&#x4E3A;&#x4E86;&#x4E00;&#x96EA;&#x524D;&#x803B;&#xFF0C;&#x4E91;&#x6F88;&#x5E26;&#x9886;&#x7740;&#x4F19;&#x4F34;&#x4EEC;&#x52C7;&#x95EF;&#x4E5D;&#x9704;&#x5BAB;&#xFF0C;&#x5C55;&#x5F00;&#x4E86;&#x4E00;&#x573A;&#x60CA;&#x5FC3;&#x52A8;&#x9B44;&#x7684;&#x5BF9;&#x51B3;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x51B3;&#x6218;&#x4E4B;&#x65E5;&#xFF0C;&#x4E5D;&#x9704;&#x4E4B;&#x4E0A;&#x98CE;&#x4E91;&#x53D8;&#x8272;&#xFF0C;&#x4E91;&#x6F88;&#x51ED;&#x501F;&#x7740;&#x9F99;&#x541F;&#x8BC0;&#x7684;&#x7EC8;&#x6781;&#x5965;&#x4E49;&#xFF0C;&#x4E0E;&#x4E5D;&#x9704;&#x5BAB;&#x4E3B;&#x8FDB;&#x884C;&#x4E86;&#x4E00;&#x573A;&#x8DE8;&#x8D8A;&#x65F6;&#x7A7A;&#x7684;&#x8F83;&#x91CF;&#x3002;&#x6700;&#x7EC8;&#xFF0C;&#x5728;&#x4E00;&#x58F0;&#x9707;&#x5929;&#x54CD;&#x7684;&#x9F99;&#x541F;&#x4E2D;&#xFF0C;&#x4E91;&#x6F88;&#x4E0D;&#x4EC5;&#x6218;&#x80DC;&#x4E86;&#x5F3A;&#x654C;&#xFF0C;&#x66F4;&#x5524;&#x9192;&#x4E86;&#x6C89;&#x7761;&#x7684;&#x9F99;&#x65CF;&#x5148;&#x7956;&#x4E4B;&#x9B42;&#xFF0C;&#x4EE4;&#x6574;&#x4E2A;&#x5927;&#x9646;&#x4E3A;&#x4E4B;&#x9707;&#x64BC;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x7B2C;&#x4E94;&#x7AE0; &#x4E7E;&#x5764;&#x9006;&#x8F6C;&#xFF0C;&#x65B0;&#x7684;&#x7EAA;&#x5143;</span><br><span class="line">&#x80DC;&#x5229;&#x4E4B;&#x540E;&#xFF0C;&#x4E91;&#x6F88;&#x5E76;&#x672A;&#x9009;&#x62E9;&#x590D;&#x4EC7;&#x4E4B;&#x8DEF;&#xFF0C;&#x800C;&#x662F;&#x4EE5;&#x5BBD;&#x5E7F;&#x7684;&#x80F8;&#x6000;&#x548C;&#x8D85;&#x51E1;&#x7684;&#x5B9E;&#x529B;&#x8D62;&#x5F97;&#x4E86;&#x5404;&#x5927;&#x52BF;&#x529B;&#x7684;&#x5C0A;&#x91CD;&#xFF0C;&#x63A8;&#x52A8;&#x4E86;&#x4FEE;&#x4ED9;&#x754C;&#x7684;&#x548C;&#x5E73;&#x5171;&#x5904;&#x3002;&#x5728;&#x4ED6;&#x7684;&#x52AA;&#x529B;&#x4E0B;&#xFF0C;&#x9F99;&#x65CF;&#x4E0E;&#x4EBA;&#x7C7B;&#x4E4B;&#x95F4;&#x7684;&#x9694;&#x9602;&#x6E10;&#x6E10;&#x6D88;&#x878D;&#xFF0C;&#x5F00;&#x542F;&#x4E86;&#x4FEE;&#x4ED9;&#x754C;&#x7684;&#x4E00;&#x4E2A;&#x5168;&#x65B0;&#x7EAA;&#x5143;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x6545;&#x4E8B;&#x7684;&#x6700;&#x540E;&#xFF0C;&#x4E91;&#x6F88;&#x7AD9;&#x5728;&#x4E5D;&#x9704;&#x4E4B;&#x5DC5;&#xFF0C;&#x671B;&#x7740;&#x4E0B;&#x65B9;&#x7E41;&#x8363;&#x5B89;&#x5B81;&#x7684;&#x5927;&#x9646;&#xFF0C;&#x5FC3;&#x4E2D;&#x5145;&#x6EE1;&#x4E86;&#x5BF9;&#x672A;&#x6765;&#x7684;&#x65E0;&#x9650;&#x61A7;&#x61AC;&#x3002;&#x4ED6;&#x77E5;&#x9053;&#xFF0C;&#x8FD9;&#x53EA;&#x662F;&#x4ED6;&#x4F20;&#x5947;&#x65C5;&#x7A0B;&#x7684;&#x5F00;&#x59CB;&#xFF0C;&#x524D;&#x65B9;&#x8FD8;&#x6709;&#x66F4;&#x591A;&#x672A;&#x77E5;&#x7684;&#x6311;&#x6218;&#x7B49;&#x5F85;&#x7740;&#x4ED6;&#xFF0C;&#x4F46;&#x53EA;&#x8981;&#x5FC3;&#x4E2D;&#x6709;&#x7231;&#xFF0C;&#x6709;&#x4FE1;&#x5FF5;&#xFF0C;&#x4EFB;&#x4F55;&#x9006;&#x5883;&#x90FD;&#x65E0;&#x6CD5;&#x963B;&#x6321;&#x4ED6;&#x524D;&#x884C;&#x7684;&#x811A;&#x6B65;&#x3002;</span><br><span class="line"></span><br><span class="line">&#x300A;&#x9006;&#x5929;&#x4ED9;&#x9014;&#xFF1A;&#x4E5D;&#x9704;&#x9F99;&#x541F;&#x300B;&#x7684;&#x6545;&#x4E8B;&#xFF0C;&#x5C31;&#x8FD9;&#x6837;&#x5728;&#x534E;&#x4E3D;&#x6D41;&#x7545;&#x7684;&#x53D9;&#x8FF0;&#x4E2D;&#x7F13;&#x7F13;&#x843D;&#x5E55;&#xFF0C;&#x7559;&#x7ED9;&#x8BFB;&#x8005;&#x65E0;&#x9650;&#x7684;&#x60F3;&#x8C61;&#x7A7A;&#x95F4;&#x548C;&#x6DF1;&#x6DF1;&#x7684;&#x601D;&#x8003;&#x3002;</span><br></pre></td></tr></table></figure>
+
+<p><a href="/external_links/1474db8bdd5a0ffa71c1b232826dda7e.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<p>&#x9664;&#x6B64;&#x4E4B;&#x5916; &#x963F;&#x91CC;&#x9488;&#x5BF9;AI&#x4F5C;&#x56FE;&#x4E13;&#x95E8;&#x5F00;&#x53D1;&#x4E86;&#x4E00;&#x6B3E;&#x540D;&#x4E3A;&#x901A;&#x4E49;&#x4E07;&#x76F8;&#x7684;&#x4EA7;&#x54C1; &#x611F;&#x89C9;&#x8FD8;&#x4E0D;&#x9519; &#x6709;&#x5174;&#x8DA3;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x53EF;&#x4EE5;&#x4F53;&#x9A8C;&#x4E00;&#x4E0B;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504113051459.png" alt="image-20240504113051459"></p>
+<h2 id="KIMI"><a href="#KIMI" class="headerlink" title="KIMI"></a>KIMI</h2><p>&#x6708;&#x4E4B;&#x6697;&#x9762;&#x79D1;&#x6280;&#x6709;&#x9650;&#x516C;&#x53F8;<code>&#xFF08;Moonshot AI&#xFF09;</code>&#x65D7;&#x4E0B;&#x7684;&#x4E00;&#x6B3E;<code>AI</code>&#x4EA7;&#x54C1; </p>
+<p>&#x4E3B;&#x8981;&#x5C31;&#x662F;<code>AI</code>&#x5BF9;&#x8BDD; &#x4F53;&#x9A8C;&#x548C;<code>ChatGPT3.5</code>&#x5DEE;&#x4E0D;&#x591A;</p>
+<p>&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x629B;&#x5F03;&#x90A3;&#x4E9B;&#x6240;&#x8C13;&#x7684;&#x6536;&#x8D39;GPT&#x4E86;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504132043625.png" alt="image-20240504132043625"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504132029163.png" alt="image-20240504132029163"></p>
+<p><a href="/external_links/d8e95467ff136e5e6dbaced0757ee7e2.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x8C46;&#x5305;"><a href="#&#x8C46;&#x5305;" class="headerlink" title="&#x8C46;&#x5305;"></a>&#x8C46;&#x5305;</h2><p>&#x6296;&#x97F3;&#x65D7;&#x4E0B;&#x7684;AI&#x4EA7;&#x54C1;</p>
+<p>&#x57FA;&#x4E8E;&#x5168;&#x7F51;&#x5927;&#x6570;&#x636E;+AI&#x5206;&#x6790;</p>
+<p>&#x5BF9;&#x4E8E;&#x65B0;&#x95FB;&#x70ED;&#x70B9;&#x7684;&#x641C;&#x7D22;&#x5206;&#x6790;&#x8FD8;&#x6709;&#x89E3;&#x8BF4;&#x6587;&#x6848;&#x7684;&#x751F;&#x6210;&#x8FD8;&#x662F;&#x53EF;&#x4EE5;&#x7684; </p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104447069.png" alt="image-20240504104447069"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104514311.png" alt="image-20240504104514311"></p>
+<p><a href="/external_links/381700d536b4ae61b6d5b7aa8300306a.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x5929;&#x5DE5;"><a href="#&#x5929;&#x5DE5;" class="headerlink" title="&#x5929;&#x5DE5;"></a>&#x5929;&#x5DE5;</h2><p>&#x57FA;&#x4E8E;&#x5168;&#x7F51;&#x5927;&#x6570;&#x636E;+AI&#x5206;&#x6790;&#x7684;&#x4E00;&#x4E2A;&#x641C;&#x7D22;&#x5F15;&#x64CE;</p>
+<p>&#x9664;&#x4E86;&#x641C;&#x7D22;&#x4E4B;&#x5916; &#x8FD8;&#x652F;&#x6301;AI&#x4F1A;&#x8BDD;&#x548C;&#x5199;&#x4F5C;&#x4EE5;&#x53CA;&#x4E2D;&#x82F1;&#x6587;&#x7FFB;&#x8BD1;</p>
+<p>&#x4F7F;&#x7528;&#x4E0B;&#x6765; &#x6548;&#x679C;&#x8FD8;&#x884C; &#x4F46;&#x662F;&#x4E0D;&#x5982;GPT&#x667A;&#x80FD; </p>
+<p>&#x8BE5;&#x6B3E;&#x4EA7;&#x54C1;&#x5DF2;&#x7ECF;&#x51FA;&#x4E86;&#x79FB;&#x52A8;&#x7AEF;App &#x6709;&#x9700;&#x8981;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x53EF;&#x4EE5;&#x53BB;&#x5E94;&#x7528;&#x5E02;&#x573A;&#x4E0B;&#x8F7D;&#x5C1D;&#x8BD5;&#x4E00;&#x4E0B;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504104047449.png" alt="image-20240504104047449"></p>
+<p><a href="/external_links/5f605557fa060ec4c43cbb8e985d87bd.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x79D8;&#x5854;AI&#x641C;&#x7D22;"><a href="#&#x79D8;&#x5854;AI&#x641C;&#x7D22;" class="headerlink" title="&#x79D8;&#x5854;AI&#x641C;&#x7D22;"></a>&#x79D8;&#x5854;AI&#x641C;&#x7D22;</h2><p>&#x540C;&#x6837;&#x57FA;&#x4E8E;&#x5168;&#x7F51;&#x5927;&#x6570;&#x636E;+AI&#x5206;&#x6790;</p>
+<p>&#x5C06;&#x641C;&#x7D22;&#x5230;&#x7684;&#x77E5;&#x8BC6;&#x8FDB;&#x884C;&#x603B;&#x7ED3;&#x5F52;&#x7EB3; &#x5E76;&#x6CE8;&#x660E;&#x5F15;&#x7528;&#x6765;&#x6E90; &#x6709;&#x70B9;&#x7C7B;&#x4F3C;&#x767E;&#x5EA6;&#x767E;&#x79D1;&#x7684;&#x611F;&#x89C9;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504103558137.png" alt="image-20240504103558137"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504103809364.png" alt="image-20240504103809364"></p>
+<p>&#x8FD8;&#x80FD;&#x751F;&#x6210;&#x6F14;&#x793A;&#x6587;&#x7A3F;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504103845082.png" alt="image-20240504103845082"></p>
+<p><a href="/external_links/75f17532aff97a9af4de2d62f49c4352.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5B98;&#x7F51;</a></p>
+<h2 id="&#x5176;&#x4ED6;AI"><a href="#&#x5176;&#x4ED6;AI" class="headerlink" title="&#x5176;&#x4ED6;AI"></a>&#x5176;&#x4ED6;AI</h2><ul>
+<li><p><code>WebTab</code>&#x5185;&#x7F6E;<code>ChatGPT</code>&#x5BF9;&#x8BDD;&#x529F;&#x80FD; &#x6BCF;&#x5929;&#x4E94;&#x6B21;&#x514D;&#x8D39;&#x5BF9;&#x8BDD;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504110756646.png" alt="image-20240504110756646"></p>
+</li>
+<li><p>&#x5F55;&#x5496;&#x5E73;&#x53F0;&#x5185;&#x7F6E;&#x7684;&#x6587;&#x6848;AI &#x4EC5;&#x9650;&#x4E8E;&#x6587;&#x6848;&#x751F;&#x6210; &#x7528;&#x4E8E;&#x77ED;&#x89C6;&#x9891;&#x6587;&#x6848;&#x591F;&#x7528;&#x4E86;</p>
+</li>
+<li><p>&#x9762;&#x5305;&#x591A;&#x5E73;&#x53F0;&#x7F16;&#x8F91;&#x5668;&#x5185;&#x7F6E;&#x7684;&#x6587;&#x6848;AI &#x53EF;&#x4EE5;&#x767D;&#x5AD6;&#x4E00;&#x4E0B;</p>
+</li>
+<li><p><a href="/external_links/51ab81feecd97aabc1538c72cec3f837.html" target="blank" rel="noopener">ChatAI</a> AI&#x5BF9;&#x8BDD;+AI&#x7ED8;&#x56FE;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240513184218869.png" alt="image-20240513184218869"></p>
+</li>
+</ul>
+<h2 id="&#x56FD;&#x5916;AI&#x5DE5;&#x5177;"><a href="#&#x56FD;&#x5916;AI&#x5DE5;&#x5177;" class="headerlink" title="&#x56FD;&#x5916;AI&#x5DE5;&#x5177;"></a>&#x56FD;&#x5916;AI&#x5DE5;&#x5177;</h2><ul>
+<li><p><a href="/external_links/81617518e1f300d780c14a587e73a1a0.html" target="blank" rel="noopener">HuggingChat</a> :&#x662F;&#x4E00;&#x4E2A;&#x7531;<code>Hugging Face</code>&#x5F00;&#x53D1;&#x7684;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x804A;&#x5929;&#x673A;&#x5668;&#x4EBA; &#x5E76;&#x975E;&#x57FA;&#x4E8E;<code>ChatGPT</code> &#x76EE;&#x524D;&#x53EA;&#x9700;&#x8981;&#x767B;&#x5F55;&#x5C31;&#x53EF;&#x514D;&#x8D39;&#x4F7F;&#x7528; &#x4F46;&#x9700;&#x8981;&#x5927;&#x722C;&#x68AF;&#x8BBF;&#x95EE;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504150358089.png" alt="image-20240504150358089"></p>
+</li>
+</ul>
+<h2 id="&#x653E;&#x5927;&#x62DB;"><a href="#&#x653E;&#x5927;&#x62DB;" class="headerlink" title="&#x653E;&#x5927;&#x62DB;"></a>&#x653E;&#x5927;&#x62DB;</h2><p>&#x4E03;&#x767E;&#x5BB6;AI&#x5DE5;&#x5177;&#x6C47;&#x603B;</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240504121320865.png" alt="image-20240504121320865"></p>
+<p><a href="/external_links/8f943fce689aa220e0d24c5ee57f428a.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;</a></p>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../44.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1308,440 +1788,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../37.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="动漫作坊">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="../../images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="../../37.html" itemprop="url">解决使用blender剪辑长视频出现卡顿的问题</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-25T11:19:53+08:00">
-                2024-04-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x5F53;&#x6211;&#x4EEC;&#x4F7F;&#x7528;blender&#x8FDB;&#x884C;&#x89C6;&#x9891;&#x526A;&#x8F91;&#x65F6; &#x5982;&#x679C;&#x89C6;&#x9891;&#x65F6;&#x957F;&#x8D85;&#x8FC7;&#x4E00;&#x4E2A;&#x5C0F;&#x65F6; &#x90A3;&#x4E48;&#x5C31;&#x6709;&#x53EF;&#x80FD;&#x51FA;&#x73B0;&#x6307;&#x9488;&#x79FB;&#x52A8;&#x5EF6;&#x8FDF;&#x5361;&#x987F;&#x7684;&#x60C5;&#x51B5;</p>
-<p>&#x8981;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E5F;&#x5F88;&#x7B80;&#x5355; &#x53EA;&#x9700;&#x8981;&#x5C06;&#x89C6;&#x9891;&#x8FDB;&#x884C;&#x4E00;&#x4E2A;&#x9884;&#x6E32;&#x67D3;&#x538B;&#x7F29;&#x4E00;&#x4E0B;  &#x51CF;&#x5C11;&#x7535;&#x8111;&#x8D44;&#x6E90;&#x7684;&#x6D88;&#x8017;&#x5373;&#x53EF;</p>
-<h3 id="&#x5177;&#x4F53;&#x5B9E;&#x73B0;"><a href="#&#x5177;&#x4F53;&#x5B9E;&#x73B0;" class="headerlink" title="&#x5177;&#x4F53;&#x5B9E;&#x73B0;"></a>&#x5177;&#x4F53;&#x5B9E;&#x73B0;</h3><p>&#x6211;&#x4EEC;&#x5728;&#x526A;&#x8F91;&#x7A97;&#x53E3; &#x70B9;&#x51FB;&#x83DC;&#x5355;&#x4E2D;&#x7684;<code>&#x89C6;&#x56FE;--&gt;&#x4EE3;&#x7406;--&gt;&#x65B0;&#x5EFA;</code> :</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425134522286.png" alt="image-20240425134522286"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425134940792.png" alt="image-20240425134940792"></p>
-<p>&#x9009;&#x62E9;&#x4E00;&#x4E2A;&#x538B;&#x7F29;&#x5206;&#x8FA8;&#x7387; &#x8FD9;&#x91CC;&#x6211;&#x9009;&#x62E9;<code>25%</code> &#x8868;&#x793A;&#x5206;&#x8FA8;&#x7387;&#x964D;&#x4F4E;&#x81F3;25% &#x8BBE;&#x7F6E;&#x5B8C;&#x540E; &#x7B49;&#x5F85;&#x6E32;&#x67D3;</p>
-<p>&#x6E32;&#x67D3;&#x5B8C;&#x6210;&#x540E; &#x89C6;&#x56FE;&#x4E2D;&#x7684;&#x89C6;&#x9891;&#x8089;&#x773C;&#x53EF;&#x89C1;&#x5730;&#x6A21;&#x7CCA;&#x4E86;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425135258661.png" alt="image-20240425135258661"></p>
-<p>&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x62D6;&#x52A8;&#x64AD;&#x653E;&#x6307;&#x9488; &#x660E;&#x663E;&#x6D41;&#x7545;&#x4E86;&#x4E0D;&#x5C11;</p>
-<p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x5207;&#x6362;&#x56DE;&#x539F;&#x5206;&#x8FA8;&#x7387; &#x540C;&#x6837;&#x7684;&#x70B9;&#x83DC;&#x5355;&#x4E2D;&#x7684;<code>&#x89C6;&#x56FE;--&gt;&#x4EE3;&#x7406;--&gt;25%--&gt;&#x9009;&#x62E9;100%</code> :</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425135506839.png" alt="image-20240425135506839"></p>
-<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../36.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="动漫作坊">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="../../images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="../../36.html" itemprop="url">Blender视频剪辑之给视频添加srt字幕</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-25T10:19:53+08:00">
-                2024-04-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x6709;&#x4E2A;&#x7ED9;&#x89C6;&#x9891;&#x6DFB;&#x52A0;&#x5B57;&#x5E55;&#x7684;&#x9700;&#x6C42; &#x521A;&#x597D;&#x7535;&#x8111;&#x4E0A;&#x88C5;&#x4E86;<code>blender</code> &#x90A3;&#x4E48;&#x5C31;&#x76F4;&#x63A5;&#x4F7F;&#x7528;<code>blender</code>&#x7684;&#x89C6;&#x9891;&#x526A;&#x8F91;&#x529F;&#x80FD;</p>
-<p><code>blender</code>&#x9ED8;&#x8BA4;&#x662F;&#x4E0D;&#x80FD;&#x76F4;&#x63A5;&#x8BC6;&#x522B;<code>srt</code>&#x5B57;&#x5E55;&#x6587;&#x4EF6;&#x7684; &#x53EA;&#x80FD;&#x624B;&#x52A8;&#x8F93;&#x5165;&#x6587;&#x672C;  &#x5F97;&#x76CA;&#x4E8E;<code>blender</code>&#x5F3A;&#x5927;&#x7684;&#x63D2;&#x4EF6;&#x7CFB;&#x7EDF; &#x7ED9;&#x4E86;&#x5B83;&#x65E0;&#x9650;&#x7684;&#x53EF;&#x80FD;</p>
-<p>&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x5B89;&#x88C5;&#x4E00;&#x4E2A;&#x5B57;&#x5E55;&#x7F16;&#x8F91;&#x63D2;&#x4EF6; &#x5373;&#x53EF;&#x5FEB;&#x901F;&#x8BC6;&#x522B;<code>srt</code>&#x5B57;&#x5E55;</p>
-<p>&#x8BE5;&#x63D2;&#x4EF6;&#x6E90;&#x7801;&#x5730;&#x5740;&#x4E3A;: <a href="/external_links/16abb0cbad40a9d1eca38ed72bc2db52.html" target="blank" rel="noopener">GitHub</a></p>
-<h2 id="&#x63D2;&#x4EF6;&#x5B89;&#x88C5;"><a href="#&#x63D2;&#x4EF6;&#x5B89;&#x88C5;" class="headerlink" title="&#x63D2;&#x4EF6;&#x5B89;&#x88C5;"></a>&#x63D2;&#x4EF6;&#x5B89;&#x88C5;</h2><ol>
-<li><p>&#x4E0B;&#x8F7D;&#x63D2;&#x4EF6;&#x5305;</p>
-<p>&#x56FD;&#x5185;&#x7528;&#x6237;&#x63A8;&#x8350;&#x4F7F;&#x7528;&#x7F51;&#x76D8;&#x4E0B;&#x8F7D; &#x901F;&#x5EA6;&#x66F4;&#x5FEB;:</p>
-<p><a href="/external_links/13fa12ad59b9fdae25608d30ddcadbed.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x7F51;&#x76D8;&#x4E0B;&#x8F7D;</a>  (&#x8BBF;&#x95EE;&#x5BC6;&#x7801;: 312306)</p>
-</li>
-<li><p>&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</p>
-<p>&#x5728;&#x83DC;&#x5355;&#x680F;&#x627E;&#x5230;<code>&#x7F16;&#x8F91;--&gt;&#x504F;&#x597D;&#x8BBE;&#x7F6E;--&gt;&#x5B89;&#x88C5;&#x63D2;&#x4EF6;</code>&#x7136;&#x540E;&#x9009;&#x62E9;&#x4E0B;&#x8F7D;&#x7684;&#x538B;&#x7F29;&#x5305;&#x8FDB;&#x884C;&#x5B89;&#x88C5;&#x5373;&#x53EF;</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425115013357.png" alt="image-20240425115013357"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425115035044.png" alt="image-20240425115035044"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425115124161.png" alt="image-20240425115124161"></p>
-</li>
-<li><p>&#x542F;&#x7528;&#x63D2;&#x4EF6;</p>
-<p>&#x5B89;&#x88C5;&#x5B8C;&#x6BD5;&#x540E; &#x8FD8;&#x9700;&#x8981;&#x542F;&#x7528;&#x63D2;&#x4EF6;&#x624D;&#x80FD;&#x6B63;&#x5E38;&#x4F7F;&#x7528; &#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x641C;&#x7D22;&#x63D2;&#x4EF6;&#x7684;&#x540D;&#x79F0; &#x7136;&#x540E;&#x627E;&#x5230;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x7684;&#x63D2;&#x4EF6; &#x52FE;&#x9009;&#x5B83;&#x5373;&#x53EF;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425115432867.png" alt="image-20240425115432867"></p>
-</li>
-</ol>
-<h2 id="&#x7ED9;&#x89C6;&#x9891;&#x6DFB;&#x52A0;&#x5B57;&#x5E55;"><a href="#&#x7ED9;&#x89C6;&#x9891;&#x6DFB;&#x52A0;&#x5B57;&#x5E55;" class="headerlink" title="&#x7ED9;&#x89C6;&#x9891;&#x6DFB;&#x52A0;&#x5B57;&#x5E55;"></a>&#x7ED9;&#x89C6;&#x9891;&#x6DFB;&#x52A0;&#x5B57;&#x5E55;</h2><h3 id="&#x5BFC;&#x5165;&#x5916;&#x90E8;srt&#x5B57;&#x5E55;"><a href="#&#x5BFC;&#x5165;&#x5916;&#x90E8;srt&#x5B57;&#x5E55;" class="headerlink" title="&#x5BFC;&#x5165;&#x5916;&#x90E8;srt&#x5B57;&#x5E55;"></a>&#x5BFC;&#x5165;&#x5916;&#x90E8;srt&#x5B57;&#x5E55;</h3><p>&#x542F;&#x7528;&#x63D2;&#x4EF6;&#x540E; &#x6211;&#x4EEC;&#x5728;&#x7F16;&#x8F91;&#x83DC;&#x5355;&#x4E0B;&#x65B9;&#x7684;&#x6DFB;&#x52A0;&#x9009;&#x9879;&#x4E2D;&#x80FD;&#x770B;&#x5230;&#x76F8;&#x5E94;&#x7684;&#x63D2;&#x4EF6;&#x529F;&#x80FD;</p>
-<p>&#x8FD9;&#x91CC;&#x6211;&#x9009;&#x62E9;&#x6DFB;&#x52A0; <code>Subtitles</code> &#x7136;&#x540E;&#x9009;&#x62E9;<code>srt</code>&#x5B57;&#x5E55;&#x6587;&#x4EF6;&#x8FDB;&#x884C;&#x5BFC;&#x5165;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425115655018.png" alt="image-20240425115655018"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425120119574.png" alt="image-20240425120119574"></p>
-<p>&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x5728;&#x65F6;&#x95F4;&#x8F74;&#x4E0A;&#x5DF2;&#x7ECF;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5BFC;&#x5165;&#x7684;&#x5B57;&#x5E55;&#x4E86;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425121654501.png" alt="image-20240425121654501"></p>
-<h3 id="&#x7F16;&#x8F91;&#x5B57;&#x5E55;&#x5185;&#x5BB9;"><a href="#&#x7F16;&#x8F91;&#x5B57;&#x5E55;&#x5185;&#x5BB9;" class="headerlink" title="&#x7F16;&#x8F91;&#x5B57;&#x5E55;&#x5185;&#x5BB9;"></a>&#x7F16;&#x8F91;&#x5B57;&#x5E55;&#x5185;&#x5BB9;</h3><p>&#x5BFC;&#x5165;&#x5B57;&#x5E55;&#x540E; &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5728;&#x53F3;&#x4E0B;&#x65B9;&#x627E;&#x5230;<code>Subtitle Editor</code>&#x9009;&#x9879;&#x5361; &#x70B9;&#x51FB;&#x5B83;&#x5F39;&#x51FA;&#x7F16;&#x8F91;&#x6846; &#x67E5;&#x770B;&#x5E76;&#x7F16;&#x8F91;&#x5B57;&#x5E55;&#x5185;&#x5BB9;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425121006946.png" alt="image-20240425121006946"></p>
-<h3 id="&#x5B57;&#x5E55;&#x7FFB;&#x8BD1;&#x6210;&#x591A;&#x56FD;&#x8BED;&#x8A00;"><a href="#&#x5B57;&#x5E55;&#x7FFB;&#x8BD1;&#x6210;&#x591A;&#x56FD;&#x8BED;&#x8A00;" class="headerlink" title="&#x5B57;&#x5E55;&#x7FFB;&#x8BD1;&#x6210;&#x591A;&#x56FD;&#x8BED;&#x8A00;"></a>&#x5B57;&#x5E55;&#x7FFB;&#x8BD1;&#x6210;&#x591A;&#x56FD;&#x8BED;&#x8A00;</h3><p>&#x8BE5;&#x63D2;&#x4EF6;&#x9664;&#x4E86;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x5B57;&#x5E55;&#x5BFC;&#x5165;&#x4E4B;&#x5916; &#x8FD8;&#x662F;&#x5C06;&#x5B57;&#x5E55;&#x8FDB;&#x884C;&#x7FFB;&#x8BD1;&#x6210;&#x591A;&#x56FD;&#x8BED;&#x8A00;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425120446580.png" alt="image-20240425120446580"></p>
-<p>&#x4E0D;&#x8FC7;&#x8FD9;&#x4E2A;&#x7FFB;&#x8BD1;&#x529F;&#x80FD;&#x8FD8;&#x5B58;&#x5728;&#x4E00;&#x4E9B;<code>bug</code>&#x4F7F;&#x7528;&#x65F6;&#x5BB9;&#x6613;&#x5BFC;&#x81F4;<code>blender</code>&#x5361;&#x6B7B;</p>
-<h2 id="&#x5B57;&#x5E55;&#x6837;&#x5F0F;&#x4FEE;&#x6539;"><a href="#&#x5B57;&#x5E55;&#x6837;&#x5F0F;&#x4FEE;&#x6539;" class="headerlink" title="&#x5B57;&#x5E55;&#x6837;&#x5F0F;&#x4FEE;&#x6539;"></a>&#x5B57;&#x5E55;&#x6837;&#x5F0F;&#x4FEE;&#x6539;</h2><p>&#x4F7F;&#x7528;&#x8BE5;&#x63D2;&#x4EF6;&#x5BFC;&#x5165;&#x7684;&#x5B57;&#x6BCD;&#x9ED8;&#x8BA4;&#x662F;&#x767D;&#x8272;&#x5B57;&#x4F53; &#x6DFB;&#x52A0;&#x4E86;&#x9634;&#x5F71;&#x548C;&#x65B9;&#x6846; &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5BF9;&#x5B57;&#x5E55;&#x6837;&#x5F0F;&#x8FDB;&#x884C;&#x4FEE;&#x6539; &#x53EF;&#x4EE5;&#x5728;&#x53F3;&#x4E0B;&#x89D2;&#x7247;&#x6BB5;&#x9009;&#x9879;&#x5361;&#x4E2D;&#x8FDB;&#x884C;&#x76F8;&#x5E94;&#x7684;&#x8C03;&#x6574;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240425151505534.png" alt="image-20240425151505534"></p>
-<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn../../35.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="动漫作坊">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="../../images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="../../35.html" itemprop="url">将视频配音翻译为指定语言并自动添加该语言的字幕和配音</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-24T17:19:53+08:00">
-                2024-04-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="&#x9700;&#x6C42;"><a href="#&#x9700;&#x6C42;" class="headerlink" title="&#x9700;&#x6C42;"></a>&#x9700;&#x6C42;</h2><p>B&#x7AD9;&#x4E0A;&#x6709;&#x5F88;&#x591A;Up&#x4E3B; &#x4ECE;YouTube&#x4E0A;&#x642C;&#x8FD0;&#x89C6;&#x9891; &#x7531;&#x4E8E;&#x5927;&#x90E8;&#x5206;&#x7FA4;&#x4F17;&#x5916;&#x8BED;&#x6C34;&#x5E73;&#x6709;&#x9650; &#x5BFC;&#x81F4;&#x5F88;&#x591A;&#x4F18;&#x8D28;&#x7684;&#x89C6;&#x9891;&#x90FD;&#x88AB;&#x6DF9;&#x6CA1;</p>
-<p>&#x5982;&#x679C;&#x8981;&#x4EBA;&#x5DE5;&#x7FFB;&#x8BD1;&#x89C6;&#x9891;&#x5E76;&#x91CD;&#x65B0;&#x914D;&#x4E0A;&#x4E2D;&#x6587;&#x5B57;&#x5E55; &#x8FD9;&#x4E2A;&#x5DE5;&#x7A0B;&#x91CF;&#x5B9E;&#x5728;&#x592A;&#x5927; &#x89C6;&#x9891;&#x91CF;&#x591A;&#x7684;&#x8BDD;&#x5F88;&#x96BE;&#x575A;&#x6301;&#x4E0B;&#x53BB;</p>
-<p>&#x6709;&#x6CA1;&#x6709;&#x4E00;&#x79CD;&#x53EF;&#x4EE5;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x8F6F;&#x4EF6;&#x5462; &#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x5C06;&#x82F1;&#x6587;&#x89C6;&#x9891;&#x5BFC;&#x5165;&#x5230;&#x8F6F;&#x4EF6;&#x4E2D;&#x5C31;&#x80FD;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x4E2D;&#x6587;&#x914D;&#x97F3; &#x5E76;&#x4E14;&#x5E26;&#x6709;&#x4E2D;&#x6587;&#x5B57;&#x5E55;&#x7684;&#x89C6;&#x9891;</p>
-<p>&#x7B54;&#x6848;&#x662F; &#x6709;&#x7684; </p>
-<p>&#x6709;&#x9700;&#x6C42; &#x5C31;&#x4F1A;&#x6709;&#x89E3;&#x51B3;&#x65B9;&#x6848; &#x5DF2;&#x7ECF;&#x6709;&#x5927;&#x4F6C;&#x5728;&#x5F00;&#x53D1;&#x76F8;&#x5E94;&#x7684;&#x5DE5;&#x5177;&#x4E86; &#x5E76;&#x4E14;&#x975E;&#x5E38;&#x65E0;&#x79C1;&#x5730;&#x8FDB;&#x884C;&#x4E86;&#x5F00;&#x6E90;</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424161723889.png" alt="image-20240424161723889"></p>
-<p>Github : <a href="/external_links/9f6b046f4b733073410a4a814a572ba7.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;</a></p>
-<p>&#x5B98;&#x7F51; : <a href="/external_links/27aa77504fbc32f90d8126a866bdab5c.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;</a></p>
-<p>&#x8BE5;&#x5DE5;&#x5177;&#x652F;&#x6301;&#x5728;<code>Windows</code>&#x3001;<code>Mac</code>&#x3001;<code>Linux</code>&#x4E09;&#x5927;&#x5E73;&#x53F0;&#x4E0A;&#x8FD0;&#x884C;</p>
-<h2 id="&#x8F6F;&#x4EF6;&#x4F7F;&#x7528;"><a href="#&#x8F6F;&#x4EF6;&#x4F7F;&#x7528;" class="headerlink" title="&#x8F6F;&#x4EF6;&#x4F7F;&#x7528;"></a>&#x8F6F;&#x4EF6;&#x4F7F;&#x7528;</h2><p>&#x8FD9;&#x91CC;&#x4EE5;Mac&#x5E73;&#x53F0;&#x4E3A;&#x4F8B; &#x505A;&#x4E00;&#x4E2A;&#x4F7F;&#x7528;&#x6D4B;&#x8BD5; &#x770B;&#x770B;&#x6548;&#x679C;&#x5982;&#x4F55;</p>
-<p>&#x9996;&#x5148;&#x4E0B;&#x8F7D;&#x5BF9;&#x5E94;&#x5E73;&#x53F0;&#x7684;&#x5B89;&#x88C5;&#x5305;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424161947130.png" alt="image-20240424161947130"></p>
-<p>&#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#x89E3;&#x538B;&#x7136;&#x540E;&#x53CC;&#x51FB;<code>start.app</code>&#x542F;&#x52A8;, &#x5982;&#x679C;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x65E0;&#x6CD5;&#x6253;&#x5F00; &#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x547D;&#x4EE4;&#x884C;&#x7684;&#x65B9;&#x5F0F;&#x542F;&#x52A8;</p>
-<p>&#x5728;<code>start.app</code>&#x6240;&#x5C5E;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x4E0A;&#x53F3;&#x952E;-&gt;&#x670D;&#x52A1;-&gt;&#x65B0;&#x5EFA;&#x4F4D;&#x4E8E;&#x6587;&#x4EF6;&#x5939;&#x4F4D;&#x7F6E;&#x7684;&#x7EC8;&#x7AEF;&#x7A97;&#x53E3;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x7EC8;&#x7AEF;&#x4E2D;&#x6267;&#x884C;&#x5982;&#x4E0B;2&#x6761;&#x547D;&#x4EE4;:</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">- &#x547D;&#x4EE4;1 `chmod +x ./<span class="keyword">do</span>`</span><br><span class="line">- &#x547D;&#x4EE4;2 `./<span class="keyword">do</span>`</span><br></pre></td></tr></table></figure>
-
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/20240424162250.png" alt></p>
-<p>&#x7ECF;&#x8FC7;&#x6D4B;&#x8BD5;&#x4E4B;&#x540E; &#x53D1;&#x73B0;&#x65E0;&#x6CD5;&#x8FD0;&#x884C; &#x62A5;&#x9519;<code>bad CPU type in executable: ./do</code>:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424163109309.png" alt="image-20240424163109309"></p>
-<p>&#x4E8E;&#x662F;&#x4E4E; &#x6211;&#x53EA;&#x597D;&#x4F5C;&#x7F62; </p>
-<p>&#x53EF;&#x78B0;&#x5DE7;&#x7684;&#x662F; &#x6211;&#x53C8;&#x53D1;&#x73B0;&#x4E00;&#x4E2A;&#x5728;&#x7EBF;&#x7248; &#x4E00;&#x770B;&#x8FD9;&#x57DF;&#x540D;&#x5C31;&#x77E5;&#x9053; &#x4E5F;&#x662F;&#x8FD9;&#x4F4D;&#x5927;&#x4F6C;&#x7684;&#x6770;&#x4F5C;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424163255962.png" alt="image-20240424163255962"></p>
-<p>&#x7F51;&#x7AD9;&#x957F;&#x8FD9;&#x4E2A;&#x6837;&#x5B50;:</p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424163326084.png" alt="image-20240424163326084"></p>
-<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240424163515623.png" alt="image-20240424163515623"></p>
-<p>&#x8FD8;&#x662F;&#x5728;&#x7EBF;&#x5DE5;&#x5177;&#x65B9;&#x4FBF;&#x4E00;&#x4E9B; &#x552F;&#x4E00;&#x4E0D;&#x8DB3;&#x4E4B;&#x5904;&#x5C31;&#x662F; &#x5408;&#x6210;&#x8F6C;&#x6362;&#x7684;&#x901F;&#x5EA6;&#x592A;&#x6162;&#x4E86;</p>
-<p><a href="/external_links/48fde8752faac66a5fc528180dff8e0d.html" target="blank" rel="noopener">&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x5728;&#x7EBF;&#x7248;</a></p>
-<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
-<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -1792,7 +1838,7 @@
               
                 <a href="https://acg.newban.cn/archives/">
               
-                  <span class="site-state-item-count">64</span>
+                  <span class="site-state-item-count">67</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
