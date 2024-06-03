@@ -103,7 +103,7 @@
 <meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240525092552145.png">
 <meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240525092827681.png">
 <meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/225.jpg">
-<meta property="og:updated_time" content="2024-05-25T01:32:47.648Z">
+<meta property="og:updated_time" content="2024-05-27T03:15:06.996Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ComfyUI使用SVD模型实现图生视频和文生视频">
 <meta name="twitter:description" content="&amp;#x524D;&amp;#x8A00;&amp;#x76EE;&amp;#x524D;&amp;#x5E02;&amp;#x9762;&amp;#x4E0A;&amp;#x6587;&amp;#x751F;&amp;#x89C6;&amp;#x9891;&amp;#x7684;&amp;#x4EA7;&amp;#x54C1;&amp;#x6709;&amp;#x5F88;&amp;#x591A;&amp;#x6BD4;&amp;#x5982;runway&amp;#x3001;pika&amp;#x3001;Genmo&amp;#x7B49;&amp;#x7B49;">
@@ -358,12 +358,12 @@
       
 
       
-        <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x76EE;&#x524D;&#x5E02;&#x9762;&#x4E0A;&#x6587;&#x751F;&#x89C6;&#x9891;&#x7684;&#x4EA7;&#x54C1;&#x6709;&#x5F88;&#x591A;&#x6BD4;&#x5982;<code>runway</code>&#x3001;<code>pika</code>&#x3001;<code>Genmo</code>&#x7B49;&#x7B49;  &#x8BE6;&#x60C5;&#x53C2;&#x52A0;&#x4E4B;&#x524D;&#x6587;&#x7AE0;&#x300A;<a href="https://acg.newban.cn/34.html">&#x6839;&#x636E;&#x6587;&#x5B57;&#x751F;&#x6210;&#x89C6;&#x9891;</a>&#x300B;</p>
+        <h2 id="&#x524D;&#x8A00;"><a href="#&#x524D;&#x8A00;" class="headerlink" title="&#x524D;&#x8A00;"></a>&#x524D;&#x8A00;</h2><p>&#x76EE;&#x524D;&#x5E02;&#x9762;&#x4E0A;&#x6587;&#x751F;&#x89C6;&#x9891;&#x7684;&#x4EA7;&#x54C1;&#x6709;&#x5F88;&#x591A;&#x6BD4;&#x5982;<code>runway</code>&#x3001;<code>pika</code>&#x3001;<code>Genmo</code>&#x7B49;&#x7B49;  &#x8BE6;&#x60C5;&#x53C2;&#x89C1;&#x4E4B;&#x524D;&#x6587;&#x7AE0;&#x300A;<a href="https://acg.newban.cn/34.html">&#x6839;&#x636E;&#x6587;&#x5B57;&#x751F;&#x6210;&#x89C6;&#x9891;</a>&#x300B;</p>
 <p>&#x53E6;&#x5916;&#x524D;&#x9762;&#x4E5F;&#x7ED9;&#x5927;&#x5BB6;&#x4ECB;&#x7ECD;&#x8FC7;&#x5982;&#x4F55;&#x4F7F;&#x7528;<code>animatediff</code>&#x63D2;&#x4EF6;&#x751F;&#x6210;&#x89C6;&#x9891;, &#x8BE6;&#x60C5;&#x53C2;&#x89C1;&#x300A;<a href="https://acg.newban.cn/57.html">ComfyUI&#x5B9E;&#x73B0;&#x6839;&#x636E;&#x6587;&#x5B57;&#x751F;&#x6210;&#x8DF3;&#x821E;&#x89C6;&#x9891;</a>&#x300B;</p>
 <p>&#x5728;<code>ComfyUI</code>&#x4E2D; &#x9664;&#x4E86;&#x4F7F;&#x7528;<code>animatediff</code>&#x63D2;&#x4EF6;&#x4E4B;&#x5916;, &#x8FD8;&#x6709;&#x5F88;&#x591A;&#x5176;&#x4ED6;&#x7684;&#x63D2;&#x4EF6;&#x4E5F;&#x80FD;&#x751F;&#x6210;&#x89C6;&#x9891;, &#x6BD4;&#x5982;<code>deforum</code>&#x7B49;&#x7B49;</p>
 <p>&#x90A3;&#x4E48;&#x672C;&#x6587;&#x5462; &#x5C06;&#x7ED9;&#x5927;&#x5BB6;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x4F7F;&#x7528;<code>SVD</code>&#x5927;&#x6A21;&#x578B;&#x6765;&#x751F;&#x6210;&#x89C6;&#x9891;</p>
 <h2 id="&#x4EC0;&#x4E48;&#x662F;SVD"><a href="#&#x4EC0;&#x4E48;&#x662F;SVD" class="headerlink" title="&#x4EC0;&#x4E48;&#x662F;SVD"></a>&#x4EC0;&#x4E48;&#x662F;SVD</h2><p><code>Stable Video Diffusion</code>&#x7B80;&#x79F0;<code>SVD</code>, &#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;<code>Stable Diffusion</code>&#x6A21;&#x578B;&#x7684;&#x89C6;&#x9891;&#x7248;&#x672C;</p>
-<p>&#x76EE;&#x524D;&#x8BE5;&#x6A21;&#x578B;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x4E2A;&#x67B6;&#x6784;:</p>
+<p>&#x76EE;&#x524D;&#x8BE5;&#x6A21;&#x578B;&#x5206;&#x4E3A;&#x4E24;&#x4E2A;&#x67B6;&#x6784;:</p>
 <ul>
 <li><a href="/external_links/6c8166c2f4227d31b53a9aa24e469451.html" target="blank" rel="noopener">SVD&#x57FA;&#x7840;&#x7248;</a> : &#x9ED8;&#x8BA4;&#x751F;&#x6210;14&#x5E27;&#x76F8;&#x540C;&#x5206;&#x8FA8;&#x7387;&#x7684;&#x89C6;&#x9891;, &#x6CE8;&#x610F;&#x662F;&#x603B;&#x5171;14&#x5E27;&#x56FE;&#x7247;, &#x4E0D;&#x662F;14&#x5E27;/&#x79D2;</li>
 <li><a href="/external_links/442621d067e87696a5ddbb5b76b0d512.html" target="blank" rel="noopener">SVD-XT</a> : &#x5728;SVD&#x57FA;&#x7840;&#x4E0A;&#x5FAE;&#x8C03;&#x4EE5;&#x751F;&#x6210;25&#x5E27;&#x89C6;&#x9891; &#x8BE5;&#x6A21;&#x578B;&#x5BF9;&#x663E;&#x5B58;&#x8981;&#x6C42;&#x66F4;&#x9AD8;</li>
@@ -571,7 +571,7 @@
               
                 <a href="https://acg.newban.cn/archives/">
               
-                  <span class="site-state-item-count">67</span>
+                  <span class="site-state-item-count">74</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -584,7 +584,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">标签</span>
                 
               </div>

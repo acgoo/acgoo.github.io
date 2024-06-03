@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+<meta name="referrer" content="never">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="blender,">
+
+
+
+
+
+  <link rel="alternate" href="atom.xml" title="动漫作坊 – 分享动漫制作" type="application/atom+xml">
+
+
+
+
+
+
+<meta name="description" content="&amp;#x5E38;&amp;#x7528;&amp;#x6280;&amp;#x5DE7;&amp;#x6279;&amp;#x91CF;&amp;#x4FEE;&amp;#x6539;&amp;#x5173;&amp;#x952E;&amp;#x5E27;&amp;#x548C;&amp;#x8FC7;&amp;#x6E21;&amp;#x5E27;&amp;#x5185;&amp;#x5BB9; &amp;#x7B2C;&amp;#x4E00;&amp;#x6B65; &amp;#x6846;&amp;#x9009;&amp;#x9700;&amp;#x8981;&amp;#x4FE">
+<meta name="keywords" content="blender">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Blender制作2D动画之常用技巧">
+<meta property="og:url" content="https://acg.newban.cn/70.html">
+<meta property="og:site_name" content="动漫作坊 – 分享动漫制作">
+<meta property="og:description" content="&amp;#x5E38;&amp;#x7528;&amp;#x6280;&amp;#x5DE7;&amp;#x6279;&amp;#x91CF;&amp;#x4FEE;&amp;#x6539;&amp;#x5173;&amp;#x952E;&amp;#x5E27;&amp;#x548C;&amp;#x8FC7;&amp;#x6E21;&amp;#x5E27;&amp;#x5185;&amp;#x5BB9; &amp;#x7B2C;&amp;#x4E00;&amp;#x6B65; &amp;#x6846;&amp;#x9009;&amp;#x9700;&amp;#x8981;&amp;#x4FE">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/20240530124848.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123208312.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123300132.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123731261.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123757550.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531223044946.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_22.28.23.gif">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_10.39.07.gif">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110318843.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110230317.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110603428.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531111403529.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_11.15.12.gif">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530203156289.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530203344205.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602102605799.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602103337927.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602103405285.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529123815110.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529123936739.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529124044139.png">
+<meta property="og:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531224744586.png">
+<meta property="og:updated_time" content="2024-06-02T02:34:42.453Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Blender制作2D动画之常用技巧">
+<meta name="twitter:description" content="&amp;#x5E38;&amp;#x7528;&amp;#x6280;&amp;#x5DE7;&amp;#x6279;&amp;#x91CF;&amp;#x4FEE;&amp;#x6539;&amp;#x5173;&amp;#x952E;&amp;#x5E27;&amp;#x548C;&amp;#x8FC7;&amp;#x6E21;&amp;#x5E27;&amp;#x5185;&amp;#x5BB9; &amp;#x7B2C;&amp;#x4E00;&amp;#x6B65; &amp;#x6846;&amp;#x9009;&amp;#x9700;&amp;#x8981;&amp;#x4FE">
+<meta name="twitter:image" content="https://gitee.com/songjianzaina/site_img/raw/master/img/20240530124848.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":true,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+<!--谷歌广告验证代码-->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-2626449904708114",
+          enable_page_level_ads: true
+     });
+</script>
+<!--谷歌广告验证代码-->
+
+
+
+  <link rel="canonical" href="https://acg.newban.cn/70.html">
+
+
+
+
+
+  <title>Blender制作2D动画之常用技巧 | 动漫作坊 – 分享动漫制作</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">动漫作坊 – 分享动漫制作</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">动漫作坊 – 分享动漫制作</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="http://www.newban.cn/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="https://acg.newban.cn/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br>
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off" placeholder="搜索..." spellcheck="false" type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://acg.newban.cn">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="动漫作坊">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="动漫作坊 – 分享动漫制作">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Blender制作2D动画之常用技巧</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-28T10:19:53+08:00">
+                2024-05-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="&#x5E38;&#x7528;&#x6280;&#x5DE7;"><a href="#&#x5E38;&#x7528;&#x6280;&#x5DE7;" class="headerlink" title="&#x5E38;&#x7528;&#x6280;&#x5DE7;"></a>&#x5E38;&#x7528;&#x6280;&#x5DE7;</h2><h3 id="&#x6279;&#x91CF;&#x4FEE;&#x6539;&#x5173;&#x952E;&#x5E27;&#x548C;&#x8FC7;&#x6E21;&#x5E27;&#x5185;&#x5BB9;"><a href="#&#x6279;&#x91CF;&#x4FEE;&#x6539;&#x5173;&#x952E;&#x5E27;&#x548C;&#x8FC7;&#x6E21;&#x5E27;&#x5185;&#x5BB9;" class="headerlink" title="&#x6279;&#x91CF;&#x4FEE;&#x6539;&#x5173;&#x952E;&#x5E27;&#x548C;&#x8FC7;&#x6E21;&#x5E27;&#x5185;&#x5BB9;"></a>&#x6279;&#x91CF;&#x4FEE;&#x6539;&#x5173;&#x952E;&#x5E27;&#x548C;&#x8FC7;&#x6E21;&#x5E27;&#x5185;&#x5BB9;</h3><ol>
+<li>&#x7B2C;&#x4E00;&#x6B65; &#x6846;&#x9009;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x7684;&#x5173;&#x952E;&#x5E27;&#x548C;&#x8FC7;&#x6E21;&#x5E27;</li>
+<li>&#x7B2C;&#x4E8C;&#x6B65; &#x70B9;&#x4EAE;&#x591A;&#x91CD;&#x5E27;&#x6309;&#x94AE;</li>
+<li>&#x7B2C;&#x4E09;&#x6B65; &#x7EBF;&#x6761;&#x989C;&#x8272;&#x53D8;&#x7C97;&#x53D8;&#x6DF1;&#x8868;&#x793A;&#x8FDB;&#x5165;&#x5230;&#x6279;&#x91CF;&#x5904;&#x7406;&#x72B6;&#x6001;</li>
+<li>&#x5F00;&#x59CB;&#x4FEE;&#x6539;&#x5185;&#x5BB9;</li>
+</ol>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/20240530124848.png" alt></p>
+<h2 id="&#x52A8;&#x753B;&#x5FAA;&#x73AF;"><a href="#&#x52A8;&#x753B;&#x5FAA;&#x73AF;" class="headerlink" title="&#x52A8;&#x753B;&#x5FAA;&#x73AF;"></a>&#x52A8;&#x753B;&#x5FAA;&#x73AF;</h2><p>&#x5B9E;&#x73B0;&#x52A8;&#x753B;&#x5FAA;&#x73AF;&#x5E38;&#x89C4;&#x505A;&#x6CD5;&#x662F;&#x590D;&#x5236;&#x7C98;&#x8D34;&#x5173;&#x952E;&#x5E27;, &#x8FD9;&#x79CD;&#x505A;&#x6CD5;&#x4E0D;&#x4EC5;&#x7E41;&#x7410;, &#x800C;&#x4E14;&#x5982;&#x679C;&#x540E;&#x671F;&#x9700;&#x8981;&#x5BF9;&#x52A8;&#x4F5C;&#x8FDB;&#x884C;&#x4FEE;&#x6539;, &#x90A3;&#x4E48;&#x5DE5;&#x4F5C;&#x91CF;&#x5DE8;&#x5927;</p>
+<p>&#x8FD9;&#x91CC;&#x63A8;&#x8350;&#x5927;&#x5BB6;&#x4F7F;&#x7528;&#x4FEE;&#x6539;&#x5668;&#x6765;&#x5B9E;&#x73B0;, &#x6DFB;&#x52A0;&#x65F6;&#x95F4;&#x504F;&#x79FB;&#x4FEE;&#x6539;&#x5668;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123208312.png" alt="image-20240530123208312"></p>
+<p>&#x7136;&#x540E;&#x8BBE;&#x7F6E;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x5FAA;&#x73AF;&#x7684;&#x8D77;&#x59CB;&#x5E27;&#x548C;&#x7ED3;&#x675F;&#x5E27;&#x5373;&#x53EF;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123300132.png" alt="image-20240530123300132"></p>
+<h2 id="&#x5C06;&#x4FEE;&#x6539;&#x5668;&#x5E94;&#x7528;&#x5230;&#x591A;&#x4E2A;&#x7269;&#x4F53;"><a href="#&#x5C06;&#x4FEE;&#x6539;&#x5668;&#x5E94;&#x7528;&#x5230;&#x591A;&#x4E2A;&#x7269;&#x4F53;" class="headerlink" title="&#x5C06;&#x4FEE;&#x6539;&#x5668;&#x5E94;&#x7528;&#x5230;&#x591A;&#x4E2A;&#x7269;&#x4F53;"></a>&#x5C06;&#x4FEE;&#x6539;&#x5668;&#x5E94;&#x7528;&#x5230;&#x591A;&#x4E2A;&#x7269;&#x4F53;</h2><p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x5BF9;&#x573A;&#x666F;&#x4E2D;&#x7684;&#x591A;&#x4E2A;&#x7269;&#x4F53;&#x6DFB;&#x52A0;&#x76F8;&#x540C;&#x7684;&#x4FEE;&#x6539;&#x5668;, &#x90A3;&#x4E48;&#x6328;&#x4E2A;&#x624B;&#x52A8;&#x6DFB;&#x52A0;&#x7684;&#x65B9;&#x5F0F;&#x592A;&#x8FC7;&#x4F4E;&#x6548;, &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4FEE;&#x6539;&#x9762;&#x677F;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x9009;&#x5B9A;&#x9879;&#x529F;&#x80FD;</p>
+<p>&#x9996;&#x5148;&#x5728;&#x7269;&#x4F53;&#x5927;&#x7EB2;&#x680F;&#x4E2D; &#x914D;&#x5408;<code>Shift</code>&#x952E;&#x9009;&#x62E9;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x6DFB;&#x52A0;&#x7684;&#x4FEE;&#x6539;&#x5668;&#x7269;&#x4F53;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123731261.png" alt="image-20240530123731261"></p>
+<p>&#x7136;&#x540E;&#x5728;&#x4FEE;&#x6539;&#x5668;&#x9762;&#x677F;&#x4E2D;&#x9009;&#x62E9;<code>&#x590D;&#x5236;&#x5230;&#x9009;&#x4E2D;&#x9879;</code>&#x5373;&#x53EF;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530123757550.png" alt="image-20240530123757550"></p>
+<h2 id="&#x7269;&#x4F53;&#x6296;&#x52A8;"><a href="#&#x7269;&#x4F53;&#x6296;&#x52A8;" class="headerlink" title="&#x7269;&#x4F53;&#x6296;&#x52A8;"></a>&#x7269;&#x4F53;&#x6296;&#x52A8;</h2><p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x4F7F;&#x52A8;&#x753B;&#x4E2D;&#x7684;&#x7269;&#x4F53;&#x8FD0;&#x52A8;&#x4E0D;&#x90A3;&#x4E48;&#x50F5;&#x786C;&#x6B7B;&#x677F;, &#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E3A;&#x5176;&#x589E;&#x52A0;&#x566A;&#x58F0;&#x6296;&#x52A8;, &#x8FD9;&#x79CD;&#x6548;&#x679C;&#x6709;&#x70B9;&#x7C7B;&#x4F3C;&#x4E8E;&#x4EE5;&#x524D;&#x9ED1;&#x767D;&#x8001;&#x7535;&#x89C6;&#x4FE1;&#x53F7;&#x4E0D;&#x597D;&#x753B;&#x9762;&#x6296;&#x52A8;&#x7684;&#x611F;&#x89C9;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531223044946.png" alt="image-20240531223044946"></p>
+<p>&#x6548;&#x679C;&#x5982;&#x4E0B;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_22.28.23.gif" alt="iShot_2024-05-31_22.28.23"></p>
+<h2 id="&#x4F7F;&#x7528;&#x81EA;&#x7531;&#x7EBF;&#x586B;&#x5145;&#x7740;&#x8272;&#x7684;&#x6280;&#x5DE7;"><a href="#&#x4F7F;&#x7528;&#x81EA;&#x7531;&#x7EBF;&#x586B;&#x5145;&#x7740;&#x8272;&#x7684;&#x6280;&#x5DE7;" class="headerlink" title="&#x4F7F;&#x7528;&#x81EA;&#x7531;&#x7EBF;&#x586B;&#x5145;&#x7740;&#x8272;&#x7684;&#x6280;&#x5DE7;"></a>&#x4F7F;&#x7528;&#x81EA;&#x7531;&#x7EBF;&#x586B;&#x5145;&#x7740;&#x8272;&#x7684;&#x6280;&#x5DE7;</h2><p>&#x5F88;&#x591A;&#x521D;&#x5B66;&#x8005;, &#x9762;&#x5BF9;&#x81EA;&#x7531;&#x7EBF;&#x7ED9;&#x7EBF;&#x7A3F;&#x586B;&#x5145;&#x989C;&#x8272;&#x65F6;, &#x53EF;&#x80FD;&#x6709;&#x70B9;&#x4E0D;&#x9002;&#x5E94;, &#x5176;&#x5B9E;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5F88;&#x7B80;&#x5355;, &#x53EA;&#x9700;&#x8981;&#x6CBF;&#x7740;&#x7EBF;&#x6761;&#x753B;&#x4E00;&#x904D;&#x5373;&#x53EF;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_10.39.07.gif" alt="iShot_2024-05-31_10.39.07"></p>
+<h2 id="&#x7ED8;&#x5236;&#x6DF1;&#x5EA6;"><a href="#&#x7ED8;&#x5236;&#x6DF1;&#x5EA6;" class="headerlink" title="&#x7ED8;&#x5236;&#x6DF1;&#x5EA6;"></a>&#x7ED8;&#x5236;&#x6DF1;&#x5EA6;</h2><p><code>blender2D</code>&#x7ED8;&#x56FE;&#x9ED8;&#x8BA4;&#x5728;&#x4E00;&#x4E2A;&#x540C;&#x4E00;&#x4E2A;&#x5C42;&#x9762;&#x4E0A;, &#x5982;&#x679C;&#x6211;&#x4EEC;&#x8981;&#x7ED9;&#x5185;&#x5BB9;&#x6307;&#x5B9A;&#x4E0D;&#x540C;&#x7684;&#x7EB5;&#x6DF1;&#x611F;, &#x53EF;&#x4EE5;&#x8003;&#x8651;&#x501F;&#x52A9;3D&#x6E38;&#x6807;&#x6765;&#x5B9E;&#x73B0;:</p>
+<p>&#x9996;&#x5148;&#x5F00;&#x542F;3D&#x6E38;&#x6807;&#x663E;&#x793A;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110318843.png" alt="image-20240531110318843"></p>
+<p>&#x7136;&#x540E;&#x5C06;&#x7B14;&#x753B;&#x4F4D;&#x7F6E;&#x9009;&#x62E9;&#x4E3A;&#x8DDF;&#x968F;3D&#x6E38;&#x6807;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110230317.png" alt="image-20240531110230317"></p>
+<p>&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x66F4;&#x6539;&#x6E38;&#x6807;&#x7684;&#x4F4D;&#x7F6E;&#x8FDB;&#x884C;&#x7ED8;&#x5236;, &#x90A3;&#x4E48;&#x5B83;&#x4EEC;&#x4E4B;&#x95F4;&#x5C31;&#x4F1A;&#x51FA;&#x73B0;&#x7EB5;&#x6DF1;&#x611F;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531110603428.png" alt="image-20240531110603428"></p>
+<p>&#x6709;&#x65F6;&#x5019;&#x6211;&#x4EEC;&#x5728;&#x7ED8;&#x5236;&#x65F6;, &#x4F1A;&#x9700;&#x8981;&#x7528;&#x5230;&#x8FD9;&#x79CD;&#x6548;&#x679C;</p>
+<h2 id="&#x8F85;&#x52A9;&#x7ED8;&#x5236;"><a href="#&#x8F85;&#x52A9;&#x7ED8;&#x5236;" class="headerlink" title="&#x8F85;&#x52A9;&#x7ED8;&#x5236;"></a>&#x8F85;&#x52A9;&#x7ED8;&#x5236;</h2><p>&#x6211;&#x4EEC;&#x5982;&#x679C;&#x4EE5;&#x67D0;&#x4E2A;&#x90E8;&#x4F4D;&#x4E3A;&#x5706;&#x5F62;&#x7ED8;&#x5236;&#x4E00;&#x4E2A;&#x7CBE;&#x51C6;&#x7684;&#x5706;&#x6216;&#x8005;&#x5E73;&#x884C;&#x7EBF;, &#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x7528;&#x5230;&#x8F85;&#x52A9;&#x7ED8;&#x5236;&#x529F;&#x80FD;, &#x5B83;&#x80FD;&#x5F88;&#x5FEB;&#x901F;&#x7684;&#x5B9E;&#x73B0;&#x8FD9;&#x4E00;&#x6548;&#x679C;, &#x5B83;&#x4E3A;&#x6211;&#x4EEC;&#x63D0;&#x4F9B;&#x4E86;&#x4E09;&#x79CD;&#x53C2;&#x8003;&#x65B9;&#x5F0F;, &#x5206;&#x522B;&#x662F;&#x6E38;&#x6807;&#x3001;&#x81EA;&#x5B9A;&#x4E49;&#x3001;&#x73B0;&#x6709;&#x7269;&#x4F53;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531111403529.png" alt="image-20240531111403529"></p>
+<p>&#x6211;&#x4EEC;&#x4EE5;&#x6E38;&#x6807;&#x4E3A;&#x4F8B;&#x505A;&#x4E2A;&#x793A;&#x8303;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/iShot_2024-05-31_11.15.12.gif" alt="iShot_2024-05-31_11.15.12"></p>
+<h2 id="&#x6444;&#x50CF;&#x673A;&#x89C6;&#x89D2;&#x95EE;&#x9898;"><a href="#&#x6444;&#x50CF;&#x673A;&#x89C6;&#x89D2;&#x95EE;&#x9898;" class="headerlink" title="&#x6444;&#x50CF;&#x673A;&#x89C6;&#x89D2;&#x95EE;&#x9898;"></a>&#x6444;&#x50CF;&#x673A;&#x89C6;&#x89D2;&#x95EE;&#x9898;</h2><p>&#x6211;&#x4EEC;&#x5728;&#x7ED8;&#x5236;&#x7ED8;&#x5236;&#x65F6;, &#x4E00;&#x5B9A;&#x8981;&#x5148;&#x79FB;&#x52A8;&#x6444;&#x50CF;&#x673A;&#x518D;&#x8FDB;&#x884C;&#x7ED8;&#x5236;, &#x5426;&#x5219;&#x4F1A;&#x51FA;&#x73B0;&#x7269;&#x4F53;&#x89C6;&#x89D2;&#x4E0D;&#x5BF9;&#x7684;&#x60C5;&#x51B5;</p>
+<p>&#x6BD4;&#x5982;, &#x6211;&#x4EEC;&#x5728;&#x79FB;&#x52A8;&#x6444;&#x50CF;&#x673A;&#x4E4B;&#x524D;&#x8FDB;&#x884C;&#x7ED8;&#x5236;, &#x6B64;&#x65F6;&#x56FE;&#x50CF;&#x6CA1;&#x6709;&#x95EE;&#x9898;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530203156289.png" alt="image-20240530203156289"></p>
+<p>&#x4F46;&#x662F;&#x5F53;&#x6211;&#x4EEC;&#x5C06;&#x6444;&#x50CF;&#x673A;&#x79FB;&#x52A8;&#x5230;&#x7ED8;&#x5236;&#x7269;&#x4F53;&#x65F6;, &#x753B;&#x9762;&#x5C31;&#x53D1;&#x751F;&#x7684;&#x53D8;&#x5F62;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240530203344205.png" alt="image-20240530203344205"></p>
+<p>&#x7ED8;&#x5236;&#x7684;&#x5185;&#x5BB9;&#x672C;&#x8EAB;&#x6CA1;&#x6709;&#x53D1;&#x751F;&#x53D8;&#x5316;, &#x95EE;&#x9898;&#x4E3B;&#x8981;&#x51FA;&#x5728;&#x4E8E;&#x6444;&#x50CF;&#x673A;&#x7684;&#x89C6;&#x89D2;, &#x7528;&#x9519;&#x8BEF;&#x7684;&#x89C6;&#x89D2;&#x7ED8;&#x5236;&#x5185;&#x5BB9;, &#x90A3;&#x4E48;&#x5F97;&#x5230;&#x7684;&#x5185;&#x5BB9;&#x4E5F;&#x662F;&#x9519;&#x8BEF;&#x7684;, &#x9664;&#x975E;&#x6444;&#x50CF;&#x673A;&#x4E0D;&#x8FDB;&#x884C;&#x79FB;&#x52A8;, &#x5426;&#x5219;&#x7ED8;&#x753B;&#x4E4B;&#x524D;&#x5148;&#x628A;&#x6444;&#x50CF;&#x673A;&#x89C6;&#x89D2;&#x6446;&#x6B63;</p>
+<h2 id="&#x52A8;&#x753B;&#x6A21;&#x5F0F;"><a href="#&#x52A8;&#x753B;&#x6A21;&#x5F0F;" class="headerlink" title="&#x52A8;&#x753B;&#x6A21;&#x5F0F;"></a>&#x52A8;&#x753B;&#x6A21;&#x5F0F;</h2><p>&#x5728;Blender&#x52A8;&#x753B;&#x6444;&#x5F71;&#x8868;&#x4E2D;, &#x5206;&#x4E3A;&#x597D;&#x51E0;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x52A8;&#x753B;&#x6A21;&#x5F0F;, &#x6709;&#x52A8;&#x4F5C;&#x3001;&#x5F62;&#x6001;&#x3001;&#x8721;&#x7B14;&#x3001;&#x906E;&#x7F69;&#x7B49;&#x7B49;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602102605799.png" alt="image-20240602102605799"></p>
+<p>&#x5176;&#x4E2D;&#x8721;&#x7B14;&#x52A8;&#x753B;, &#x662F;&#x771F;&#x6B63;&#x610F;&#x4E49;&#x4E0A;&#x7684;&#x5E27;&#x52A8;&#x753B;</p>
+<p>&#x800C;&#x5176;&#x4ED6;&#x8BF8;&#x5982;&#x52A8;&#x4F5C;&#x6A21;&#x5F0F;, &#x5219;&#x662F;&#x5C5E;&#x6027;&#x52A8;&#x753B;, &#x901A;&#x8FC7;&#x7269;&#x54C1;&#x67D0;&#x4E2A;&#x5C5E;&#x6027;&#x503C;&#x7684;&#x53D8;&#x5316;&#x6765;&#x5B9E;&#x73B0;&#x52A8;&#x753B;&#x6548;&#x679C;, &#x5B83;&#x5F80;&#x5F80;&#x9700;&#x8981;&#x914D;&#x5408;&#x66F2;&#x7EBF;&#x7F16;&#x8F91;&#x5668;&#x6765;&#x5B9E;&#x73B0;&#x4E0D;&#x540C;&#x901F;&#x7387;&#x7684;&#x5C5E;&#x6027;&#x503C;&#x53D8;&#x5316;</p>
+<p>&#x6211;&#x4EEC;&#x5728;blender&#x4E2D;&#x4E5F;&#x80FD;&#x770B;&#x5230;, &#x5B83;&#x4EEC;&#x5360;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x65F6;&#x95F4;&#x7EBF;&#x7A97;&#x53E3;, &#x4E24;&#x8005;&#x5E76;&#x6CA1;&#x6709;&#x5171;&#x7528;&#x540C;&#x4E00;&#x4E2A;&#x5173;&#x952E;&#x5E27;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602103337927.png" alt="image-20240602103337927"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240602103405285.png" alt="image-20240602103405285"></p>
+<p>&#x6211;&#x4EEC;&#x5728;&#x5236;&#x4F5C;&#x52A8;&#x753B;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E00;&#x5B9A;&#x8981;&#x6CE8;&#x610F;&#x533A;&#x5206;, &#x907F;&#x514D;&#x4E08;&#x4E8C;&#x6478;&#x4E0D;&#x7740;&#x5934;&#x8111;</p>
+<h2 id="&#x76F8;&#x5173;&#x95EE;&#x9898;"><a href="#&#x76F8;&#x5173;&#x95EE;&#x9898;" class="headerlink" title="&#x76F8;&#x5173;&#x95EE;&#x9898;"></a>&#x76F8;&#x5173;&#x95EE;&#x9898;</h2><h3 id="&#x7269;&#x4F53;&#x62C6;&#x5206;&#x540E;&#x91CD;&#x65B0;&#x7ED9;&#x5B50;&#x7269;&#x4F53;&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x5E27;-&#x51FA;&#x73B0;&#x52A8;&#x753B;&#x9519;&#x4E71;&#x7684;&#x60C5;&#x51B5;"><a href="#&#x7269;&#x4F53;&#x62C6;&#x5206;&#x540E;&#x91CD;&#x65B0;&#x7ED9;&#x5B50;&#x7269;&#x4F53;&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x5E27;-&#x51FA;&#x73B0;&#x52A8;&#x753B;&#x9519;&#x4E71;&#x7684;&#x60C5;&#x51B5;" class="headerlink" title="&#x7269;&#x4F53;&#x62C6;&#x5206;&#x540E;&#x91CD;&#x65B0;&#x7ED9;&#x5B50;&#x7269;&#x4F53;&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x5E27; &#x51FA;&#x73B0;&#x52A8;&#x753B;&#x9519;&#x4E71;&#x7684;&#x60C5;&#x51B5;"></a>&#x7269;&#x4F53;&#x62C6;&#x5206;&#x540E;&#x91CD;&#x65B0;&#x7ED9;&#x5B50;&#x7269;&#x4F53;&#x4F7F;&#x7528;&#x81EA;&#x52A8;&#x63D2;&#x5E27; &#x51FA;&#x73B0;&#x52A8;&#x753B;&#x9519;&#x4E71;&#x7684;&#x60C5;&#x51B5;</h3><p>&#x6211;&#x4EEC;&#x53EF;&#x80FD;&#x4F1A;&#x5BF9;&#x5DF2;&#x7ECF;&#x7ED8;&#x753B;&#x597D;&#x7684;&#x5185;&#x5BB9;&#x8FDB;&#x884C;&#x62C6;&#x5206;&#x6210;&#x5355;&#x72EC;&#x7684;&#x4E00;&#x4E2A;&#x7269;&#x4F53;, &#x65B9;&#x4FBF;&#x540E;&#x671F;&#x7684;&#x52A8;&#x753B;&#x5904;&#x7406;, &#x6BD4;&#x5982;&#x5C06;&#x4EBA;&#x7269;&#x7684;&#x624B;&#x81C2;&#x6216;&#x8005;&#x5634;&#x5DF4;&#x7B49;&#x5355;&#x72EC;&#x62C6;&#x5206;&#x51FA;&#x6765;</p>
+<p>&#x62C6;&#x5206;&#x7684;&#x65B9;&#x5F0F;&#x6709;&#x4E24;&#x79CD;, &#x4E00;&#x79CD;&#x662F;&#x4F7F;&#x7528;&#x590D;&#x5236;&#x7684;&#x65B9;&#x5F0F;, &#x4E5F;&#x5C31;&#x662F;&#x590D;&#x5236;&#x4E00;&#x4EFD;&#x7269;&#x4F53;, &#x7136;&#x540E;&#x5C06;&#x4E0D;&#x9700;&#x8981;&#x7684;&#x90E8;&#x5206;&#x8FDB;&#x884C;&#x64E6;&#x9664;, &#x53E6;&#x4E00;&#x79CD;&#x662F;&#x4F7F;&#x7528;Blender&#x81EA;&#x5E26;&#x7684;&#x7269;&#x4F53;&#x62C6;&#x5206;&#x529F;&#x80FD;</p>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528;&#x590D;&#x5236;&#x7684;&#x65B9;&#x5F0F;, &#x90A3;&#x4E48;&#x8FDE;&#x5E26;&#x4E4B;&#x524D;&#x7684;&#x52A8;&#x753B;&#x4E5F;&#x4F1A;&#x4E00;&#x5E76;&#x590D;&#x5236;&#x8FC7;&#x6765;, &#x6B64;&#x65F6;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x5220;&#x9664;&#x8FC7;&#x6E21;&#x5E27;&#x91CD;&#x65B0;&#x8BA1;&#x7B97;&#x5E76;&#x63D2;&#x5165;&#x987A;&#x5E8F;&#x5E27;, &#x5219;&#x4F1A;&#x51FA;&#x73B0;&#x52A8;&#x753B;&#x9519;&#x4E71;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529123815110.png" alt="image-20240529123815110"></p>
+<p>&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x662F;, &#x5220;&#x9664;&#x5F53;&#x524D;&#x7269;&#x4F53;&#x4E0B;&#x7684;&#x52A8;&#x753B;&#x6570;&#x636E;, &#x7136;&#x540E;&#x518D;&#x8FDB;&#x884C;&#x81EA;&#x52A8;&#x63D2;&#x5E27;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529123936739.png" alt="image-20240529123936739"></p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240529124044139.png" alt="image-20240529124044139"></p>
+<h2 id="&#x89E3;&#x51B3;&#x52A8;&#x753B;&#x64AD;&#x653E;&#x901F;&#x5EA6;&#x548C;&#x5B9E;&#x9645;&#x6E32;&#x67D3;&#x51FA;&#x6765;&#x7684;&#x901F;&#x5EA6;&#x4E0D;&#x4E00;&#x81F4;&#x7684;&#x95EE;&#x9898;"><a href="#&#x89E3;&#x51B3;&#x52A8;&#x753B;&#x64AD;&#x653E;&#x901F;&#x5EA6;&#x548C;&#x5B9E;&#x9645;&#x6E32;&#x67D3;&#x51FA;&#x6765;&#x7684;&#x901F;&#x5EA6;&#x4E0D;&#x4E00;&#x81F4;&#x7684;&#x95EE;&#x9898;" class="headerlink" title="&#x89E3;&#x51B3;&#x52A8;&#x753B;&#x64AD;&#x653E;&#x901F;&#x5EA6;&#x548C;&#x5B9E;&#x9645;&#x6E32;&#x67D3;&#x51FA;&#x6765;&#x7684;&#x901F;&#x5EA6;&#x4E0D;&#x4E00;&#x81F4;&#x7684;&#x95EE;&#x9898;"></a>&#x89E3;&#x51B3;&#x52A8;&#x753B;&#x64AD;&#x653E;&#x901F;&#x5EA6;&#x548C;&#x5B9E;&#x9645;&#x6E32;&#x67D3;&#x51FA;&#x6765;&#x7684;&#x901F;&#x5EA6;&#x4E0D;&#x4E00;&#x81F4;&#x7684;&#x95EE;&#x9898;</h2><p>blender&#x9ED8;&#x8BA4;&#x662F;&#x6309;&#x7167;&#x9010;&#x5E27;&#x8FDB;&#x884C;&#x64AD;&#x653E;&#x7684;, &#x800C;&#x4E0D;&#x662F;&#x6309;&#x7167;&#x6211;&#x4EEC;&#x8BBE;&#x7F6E;&#x7684;24/&#x79D2;, &#x6240;&#x4EE5;&#x5728;&#x64AD;&#x653E;&#x52A8;&#x753B;&#x65F6;&#x4F1A;&#x51FA;&#x73B0;&#x4E0D;&#x90A3;&#x4E48;&#x6D41;&#x7545;&#x7684;&#x60C5;&#x51B5;, &#x548C;&#x5BFC;&#x51FA;&#x7684;&#x52A8;&#x753B;&#x901F;&#x5EA6;&#x4E0D;&#x4E00;&#x81F4;, &#x89E3;&#x51B3;&#x529E;&#x6CD5;&#x5C31;&#x662F;&#x5C06;&#x52A8;&#x753B;&#x64AD;&#x653E;&#x8BBE;&#x7F6E;&#x4E3A;&#x9010;&#x79D2;&#x64AD;&#x653E;</p>
+<p>&#x6211;&#x4EEC;&#x8FDB;&#x5165;&#x5230;&#x65F6;&#x95F4;&#x7EBF;&#x7A97;&#x53E3;, &#x70B9;&#x51FB;&#x56DE;&#x653E;&#x8BBE;&#x7F6E;&#x9762;&#x677F;, &#x5728;&#x540C;&#x6B65;&#x5C5E;&#x6027;&#x4E2D;&#x9009;&#x62E9;&#x5E27;&#x4F18;&#x5316;:</p>
+<p><img src="https://gitee.com/songjianzaina/site_img/raw/master/img/image-20240531224744586.png" alt="image-20240531224744586"></p>
+<p>&#x6B64;&#x65F6;&#x6211;&#x4EEC;&#x64AD;&#x653E;&#x52A8;&#x753B;&#x5C31;&#x6309;&#x7167;&#x6E32;&#x67D3;&#x8F93;&#x51FA;&#x4E2D;&#x8BBE;&#x7F6E;&#x7684;&#x5E27;&#x7387;&#x8FDB;&#x884C;&#x64AD;&#x653E;&#x4E86;</p>
+<p><strong>&#x672C;&#x6587;&#x4E3A;&#x4F5C;&#x8005;&#x539F;&#x521B; &#x8F6C;&#x8F7D;&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904; &#x8C22;&#x8C22;</strong></p>
+<p><em><a href="https://acg.newban.cn/"> ACG&#x4F5C;&#x574A;&#x2013; &#x5206;&#x4EAB;&#x52A8;&#x6F2B;&#x5236;&#x4F5C;&#x7684;&#x535A;&#x5BA2;&#x7AD9; </a></em></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="tags/blender/" rel="tag"># blender</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="69.html" rel="next" title="有关动画制作的一些基础知识">
+                <i class="fa fa-chevron-left"></i> 有关动画制作的一些基础知识
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="71.html" rel="prev" title="Blender关于3D建模的几种方式">
+                Blender关于3D建模的几种方式 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    <!-- 有瓣音频文章内嵌广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6145016388"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+  <!-- 有瓣音频信息流广告 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-6t+ed+2i-1n-4w" data-ad-client="ca-pub-2626449904708114" data-ad-slot="6455528644"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">动漫作坊</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="https://acg.newban.cn/archives/">
+              
+                  <span class="site-state-item-count">74</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">29</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#常用技巧"><span class="nav-number">1.</span> <span class="nav-text">常用技巧</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#批量修改关键帧和过渡帧内容"><span class="nav-number">1.1.</span> <span class="nav-text">批量修改关键帧和过渡帧内容</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动画循环"><span class="nav-number">2.</span> <span class="nav-text">动画循环</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#将修改器应用到多个物体"><span class="nav-number">3.</span> <span class="nav-text">将修改器应用到多个物体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#物体抖动"><span class="nav-number">4.</span> <span class="nav-text">物体抖动</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用自由线填充着色的技巧"><span class="nav-number">5.</span> <span class="nav-text">使用自由线填充着色的技巧</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#绘制深度"><span class="nav-number">6.</span> <span class="nav-text">绘制深度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#辅助绘制"><span class="nav-number">7.</span> <span class="nav-text">辅助绘制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#摄像机视角问题"><span class="nav-number">8.</span> <span class="nav-text">摄像机视角问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动画模式"><span class="nav-number">9.</span> <span class="nav-text">动画模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相关问题"><span class="nav-number">10.</span> <span class="nav-text">相关问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#物体拆分后重新给子物体使用自动插帧-出现动画错乱的情况"><span class="nav-number">10.1.</span> <span class="nav-text">物体拆分后重新给子物体使用自动插帧 出现动画错乱的情况</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#解决动画播放速度和实际渲染出来的速度不一致的问题"><span class="nav-number">11.</span> <span class="nav-text">解决动画播放速度和实际渲染出来的速度不一致的问题</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2024</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">动漫作坊</span>
+  <div>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+  </div>
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+  <script type="text/javascript" async src="js/src/mermaid.min.js"></script>
+  <script>
+  if (window.mermaid) {
+        var mermaid_config = {
+            startOnLoad: true,
+            theme: 'default',
+            flowchart:{
+                useMaxWidth: false,
+                htmlLabels: true
+            }                
+        }
+        mermaid.initialize(mermaid_config);
+  }
+  </script>
+  
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
