@@ -2,19 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://acg.newban.cn/10.html</loc>
-    <lastmod>2024-04-08T14:16:19.055Z</lastmod>
+    <lastmod>2026-06-05T08:12:36.501Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/11.html</loc>
-    <lastmod>2024-05-04T06:49:52.088Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/14.html</loc>
-    <lastmod>2024-04-08T14:16:19.019Z</lastmod>
+    <loc>https://acg.newban.cn/13.html</loc>
+    <lastmod>2026-06-05T07:59:01.669Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -25,8 +19,20 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/13.html</loc>
-    <lastmod>2024-04-08T14:16:19.055Z</lastmod>
+    <loc>https://acg.newban.cn/16.html</loc>
+    <lastmod>2026-06-05T08:12:36.484Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/11.html</loc>
+    <lastmod>2026-06-05T08:12:36.508Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/14.html</loc>
+    <lastmod>2024-04-08T14:16:19.019Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -37,32 +43,26 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/16.html</loc>
-    <lastmod>2024-04-08T14:16:19.080Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/18.html</loc>
-    <lastmod>2024-05-07T09:09:46.030Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://acg.newban.cn/19.html</loc>
     <lastmod>2022-09-08T09:51:47.942Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/17.html</loc>
-    <lastmod>2024-04-25T03:47:43.669Z</lastmod>
+    <loc>https://acg.newban.cn/20.html</loc>
+    <lastmod>2026-06-05T07:58:26.964Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://acg.newban.cn/21.html</loc>
-    <lastmod>2024-04-08T14:16:19.025Z</lastmod>
+    <lastmod>2026-06-05T08:12:36.506Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/23.html</loc>
+    <lastmod>2026-06-05T08:12:36.498Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -73,32 +73,32 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/23.html</loc>
-    <lastmod>2024-04-08T14:16:18.481Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://acg.newban.cn/25.html</loc>
-    <lastmod>2024-04-08T14:16:19.024Z</lastmod>
+    <lastmod>2026-06-05T07:57:32.470Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://acg.newban.cn/24.html</loc>
-    <lastmod>2024-04-08T14:16:19.055Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/20.html</loc>
-    <lastmod>2022-09-09T03:22:16.185Z</lastmod>
+    <lastmod>2026-06-05T08:12:36.500Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://acg.newban.cn/26.html</loc>
-    <lastmod>2024-04-09T14:38:17.835Z</lastmod>
+    <lastmod>2026-06-05T08:12:36.487Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/17.html</loc>
+    <lastmod>2026-06-05T08:03:19.124Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/18.html</loc>
+    <lastmod>2024-05-07T09:09:46.030Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
