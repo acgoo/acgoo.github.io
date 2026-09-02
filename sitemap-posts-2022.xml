@@ -7,6 +7,18 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://acg.newban.cn/14.html</loc>
+    <lastmod>2024-04-08T14:16:19.019Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/11.html</loc>
+    <lastmod>2026-06-05T08:12:36.508Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://acg.newban.cn/13.html</loc>
     <lastmod>2026-06-05T07:59:01.669Z</lastmod>
     <changefreq>weekly</changefreq>
@@ -19,26 +31,32 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://acg.newban.cn/15.html</loc>
+    <lastmod>2024-04-08T14:16:19.055Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://acg.newban.cn/16.html</loc>
     <lastmod>2026-06-05T08:12:36.484Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/11.html</loc>
-    <lastmod>2026-06-05T08:12:36.508Z</lastmod>
+    <loc>https://acg.newban.cn/17.html</loc>
+    <lastmod>2026-06-05T08:03:19.124Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/14.html</loc>
-    <lastmod>2024-04-08T14:16:19.019Z</lastmod>
+    <loc>https://acg.newban.cn/18.html</loc>
+    <lastmod>2024-05-07T09:09:46.030Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://acg.newban.cn/15.html</loc>
-    <lastmod>2024-04-08T14:16:19.055Z</lastmod>
+    <loc>https://acg.newban.cn/21.html</loc>
+    <lastmod>2026-06-05T08:12:36.506Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -51,12 +69,6 @@
   <url>
     <loc>https://acg.newban.cn/20.html</loc>
     <lastmod>2026-06-05T07:58:26.964Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/21.html</loc>
-    <lastmod>2026-06-05T08:12:36.506Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -87,18 +99,6 @@
   <url>
     <loc>https://acg.newban.cn/26.html</loc>
     <lastmod>2026-06-05T08:12:36.487Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/17.html</loc>
-    <lastmod>2026-06-05T08:03:19.124Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/18.html</loc>
-    <lastmod>2024-05-07T09:09:46.030Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
