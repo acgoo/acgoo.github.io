@@ -20,7 +20,13 @@
   </url>
   <url>
     <loc>https://acg.newban.cn/80.html</loc>
-    <lastmod>2026-09-07T00:41:43.766Z</lastmod>
+    <lastmod>2026-09-07T09:23:53.444Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://acg.newban.cn/83.html</loc>
+    <lastmod>2026-09-07T09:48:24.768Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -32,13 +38,7 @@
   </url>
   <url>
     <loc>https://acg.newban.cn/82.html</loc>
-    <lastmod>2026-09-07T00:43:25.372Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://acg.newban.cn/83.html</loc>
-    <lastmod>2026-09-07T00:43:14.663Z</lastmod>
+    <lastmod>2026-09-07T09:17:48.586Z</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
